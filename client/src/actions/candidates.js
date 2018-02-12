@@ -17,6 +17,12 @@ export const fetchCandidatesError = error => ({
   error
 });
 
+export const SEARCH_CANDIDATES = 'SEARCH_CANDIDATES';
+export const searchCandidates = searchString => ({
+	type: SEARCH_CANDIDATES,
+	searchString
+})
+
 export const fetchCandidates = () => dispatch => {
 	dispatch(fetchCandidatesRequest());
 	return fetch(`${API_BASE_URL}/candidates`)

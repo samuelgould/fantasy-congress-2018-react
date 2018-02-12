@@ -10,8 +10,7 @@ mongoose.connect(DATABASE_URL)
     mongoose.connection.db.dropDatabase();
 
     return Candidate.create([
-      {'firstName': 'Paul',
-        'lastName': 'Ryan',
+      {'name': 'Paul Ryan',
         'chamber': 'House',
         'state': 'Wisconsin',
         'district': '1',
@@ -21,8 +20,7 @@ mongoose.connect(DATABASE_URL)
         'price': 26
       },
   
-      {'firstName': 'Randy',
-        'lastName': 'Bryce',
+      {'name': 'Randy Bryce',
         'chamber': 'House',
         'state': 'Wisconsin',
         'district': '1',
@@ -32,8 +30,7 @@ mongoose.connect(DATABASE_URL)
         'price': 12
       },
           
-      {'firstName': 'Mark',
-        'lastName': 'Pocan',
+      {'name': 'Mark Pocan',
         'chamber': 'House',
         'state': 'Wisconsin',
         'district': '2',
@@ -43,8 +40,7 @@ mongoose.connect(DATABASE_URL)
         'price': 27
       },
       
-      {'firstName': 'Tammy',
-        'lastName': 'Baldwin',
+      {'name': 'Tammy Baldwin',
         'chamber': 'Senate',
         'state': 'Wisconsin',
         'party': 'D',

@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 const candidateSchema = new mongoose.Schema({
-  firstName: { type: String, required: true },
-  lastName: { type: String, required: true },
+  name: { type: String, required: true },
   chamber: { type: String, required: true },
   state: { type: String, required: true },
   district: Number,

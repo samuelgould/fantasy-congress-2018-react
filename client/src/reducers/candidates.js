@@ -1,9 +1,10 @@
-import { FETCH_CANDIDATES_REQUEST, FETCH_CANDIDATES_SUCCESS, FETCH_CANDIDATES_ERROR } from '../actions/candidates';
+import { FETCH_CANDIDATES_REQUEST, FETCH_CANDIDATES_SUCCESS, FETCH_CANDIDATES_ERROR, SEARCH_CANDIDATES  } from '../actions/candidates';
 
 const initialState = {
   candidates: [],
   loading: false,
-  error: null
+  error: null,
+  searchString: ''
 }
 
 export const reducer = (state = initialState, action) => {
@@ -27,6 +28,13 @@ export const reducer = (state = initialState, action) => {
 			error: action.error
 		})
 	}
+	
+	else if (action.type === SEARCH_CANDIDATES) {
+		return Object.assign({}, state, {
+			searchString: action.searchString
+		})
+	}
+
 	else {
 		return state;
 	}

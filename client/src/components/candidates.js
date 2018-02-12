@@ -8,15 +8,21 @@ export class Candidates extends React.Component {
 		this.props.dispatch(fetchCandidates());
 	}
 
+	filterCandidates() {
+		return this.props.candidates.filter(candidate => 
+			(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1))
+	}
+
 	render() {
-		const candidates = this.props.candidates.map( candidate => {
+		const filteredCandidates = this.filterCandidates();
+		const candidates = filteredCandidates.map( candidate => {
 			return (
 				<li className="js-candidate-id-element" key={candidate._id}>
 					<div className="candidate-container">
 						<div className="candidate-information">
 							<img className="candidate-headshot" src={candidate.image} alt="candidate headshot" />
 							<div className="candidate-stats">
-								<div className="candidate-name">{candidate.firstName} {candidate.lastName} ({candidate.party})</div>
+								<div className="candidate-name">{candidate.name} ({candidate.party})</div>
 								<div className="candidate-congress-info">{candidate.chamber}: {candidate.state} {candidate.district}</div>
 							</div>
 						</div>
@@ -35,7 +41,8 @@ export class Candidates extends React.Component {
 };
 
 const mapStateToProps = state => ({
-	candidates: state.candidates
+	candidates: state.candidates,
+	searchString: state.searchString
 })
 
 export default connect(mapStateToProps)(Candidates);

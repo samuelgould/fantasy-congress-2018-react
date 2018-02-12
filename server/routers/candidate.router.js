@@ -2,47 +2,32 @@
 
 const express = require('express');
 
+const { Candidate } = require('../models');
+
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  const list = [
-    {'id': '0001',
-      'firstName': 'Paul',
-      'lastName': 'Ryan',
-      'chamber': 'House',
-      'state': 'Wisconsin',
-      'district': '1',
-      'party': 'R',
-      'incumbent': 'incumbent'},
+// GET all the candidates
 
-    {'id': '0002',
-      'firstName': 'Randy',
-      'lastName': 'Bryce',
-      'chamber': 'House',
-      'state': 'Wisconsin',
-      'district': '1',
-      'party': 'D',
-      'incumbent': 'challenger'},
-		
-    {'id': '0003',
-      'firstName': 'Mark',
-      'lastName': 'Pocan',
-      'chamber': 'House',
-      'state': 'Wisconsin',
-      'district': '2',
-      'party': 'D',
-      'incumbent': 'incumbent'},
-	
-    {'id': '0004',
-      'firstName': 'Tammy',
-      'lastName': 'Baldwin',
-      'chamber': 'Senate',
-      'state': 'Wisconsin',
-      'district': '',
-      'party': 'D',
-      'incumbent': 'incumbent'}
-  ];
-  res.json(list);
+router.get('/', (req, res) => {
+  Candidate
+    .find()
+    .then(candidates => res.json(candidates))
+    .catch(err => {
+      console.error(err);
+      res.status(500).json({ message: 'Internal Server Error' });
+    });
+});
+
+// GET a specific candidate
+
+router.get('/:id', (req, res) => {
+  Candidate
+    .findById(req.params.id)
+    .then(candidate => res.json(candidate))
+    .catch(err => {
+      console.error(err);
+      res.status(500).json({ message: 'Internal Server Error' });
+    });
 });
 
 module.exports = router;

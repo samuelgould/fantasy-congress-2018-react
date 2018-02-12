@@ -5,17 +5,19 @@
     "district": "1",
     "party": "R",
     "image": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Paul_Ryan.jpg",
-    "incumbent": true
+    "incumbent": true,
+    "price": 26
 }
   
 {"firstName": "Randy",
-    "chamber": "House",
     "lastName": "Bryce",
+    "chamber": "House",
     "state": "Wisconsin",
     "district": "1",
     "party": "D",
     "image": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Randy_bryce_0.jpg",
-    "incumbent": false
+    "incumbent": false,
+    "price": 12
 }
           
 {"firstName": "Mark",
@@ -25,7 +27,8 @@
     "district": "2",
     "party": "D",
     "image": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Pocan_mark.jpg",
-    "incumbent": true
+    "incumbent": true,
+    "price": 27
 }
       
 {"firstName": "Tammy",
@@ -34,5 +37,6 @@
     "state": "Wisconsin",
     "party": "D",
     "image": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Tammy_Baldwin.jpeg",
-    "incumbent": true
+    "incumbent": true,
+    "price": 25
 }

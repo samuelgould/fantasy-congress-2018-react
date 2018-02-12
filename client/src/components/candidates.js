@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchCandidates } from '../actions/candidates';
+import './candidates.css';
 
 export class Candidates extends React.Component {
 	componentDidMount() {
@@ -8,9 +9,22 @@ export class Candidates extends React.Component {
 	}
 
 	render() {
-		const candidates = this.props.candidates.map( (candidate, index) => 
-			<li key={index}>{candidate.firstName} {candidate.lastName}</li>
-		)
+		const candidates = this.props.candidates.map( candidate => {
+			return (
+				<li className="js-candidate-id-element" key={candidate._id}>
+					<div className="candidate-container">
+						<div className="candidate-information">
+							<img className="candidate-headshot" src={candidate.image} alt="candidate headshot" />
+							<div className="candidate-stats">
+								<div className="candidate-name">{candidate.firstName} {candidate.lastName} ({candidate.party})</div>
+								<div className="candidate-congress-info">{candidate.chamber}: {candidate.state} {candidate.district}</div>
+							</div>
+						</div>
+						<div className="candidate-price">${candidate.price}</div>
+					</div>
+			  </li>
+			)
+		})
 		
 		return (
 			<ul>

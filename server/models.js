@@ -8,10 +8,11 @@ const candidateSchema = new mongoose.Schema({
   lastName: { type: String, required: true },
   chamber: { type: String, required: true },
   state: { type: String, required: true },
-  district: { type: Number },
+  district: Number,
   party: { type: String, required: true },
   incumbent: { type: Boolean, required: true },
-  image: { type: String, required: true }
+  image: { type: String, required: true },
+  price: { type: Number, required: true }
 });
 
 const Candidate = mongoose.model('Candidate', candidateSchema);

@@ -17,8 +17,10 @@ mongoose.connect(DATABASE_URL)
         'district': '1',
         'party': 'R',
         'image': 'https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Paul_Ryan.jpg',
-        'incumbent': true},
-    
+        'incumbent': true,
+        'price': 26
+      },
+  
       {'firstName': 'Randy',
         'lastName': 'Bryce',
         'chamber': 'House',
@@ -26,8 +28,10 @@ mongoose.connect(DATABASE_URL)
         'district': '1',
         'party': 'D',
         'image': 'https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Randy_bryce_0.jpg',
-        'incumbent': false},
-            
+        'incumbent': false,
+        'price': 12
+      },
+          
       {'firstName': 'Mark',
         'lastName': 'Pocan',
         'chamber': 'House',
@@ -35,15 +39,19 @@ mongoose.connect(DATABASE_URL)
         'district': '2',
         'party': 'D',
         'image': 'https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Pocan_mark.jpg',
-        'incumbent': true},
-        
+        'incumbent': true,
+        'price': 27
+      },
+      
       {'firstName': 'Tammy',
         'lastName': 'Baldwin',
         'chamber': 'Senate',
         'state': 'Wisconsin',
         'party': 'D',
         'image': 'https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Tammy_Baldwin.jpeg',
-        'incumbent': true}
+        'incumbent': true,
+        'price': 25
+      }
     ]).then(result => console.log(result))
       .catch(err => {
         console.log(err);

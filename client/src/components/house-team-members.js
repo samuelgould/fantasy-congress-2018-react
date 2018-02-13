@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchUser } from '../actions/user';
 import './house-team-member.css';
 
 export class HouseTeamMembers extends React.Component {

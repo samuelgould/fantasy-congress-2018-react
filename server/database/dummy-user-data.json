@@ -1,0 +1,8 @@
+{"username": "sammy",
+    "teamName": "Joe Biden my time...",
+    "firstName": "Sam",
+    "lastName": "Gould",
+    "email": "sam.gould.dev@gmail.com",
+    "senate": [{"candidate_id":"5a8340a7f630e47d63527678"}],
+    "house": [{"candidate_id":"5a8340a7f630e47d63527679"}, {"candidate_id":"5a8340a7f630e47d6352767a"}]
+  }

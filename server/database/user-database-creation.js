@@ -7,8 +7,6 @@ const { User } = require('../models');
 
 mongoose.connect(DATABASE_URL)
   .then(function () {
-    mongoose.connection.db.dropDatabase();
-
     return User.create([
       {username: 'sammy',
         firstName: 'Sam',

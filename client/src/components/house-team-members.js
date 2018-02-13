@@ -23,7 +23,7 @@ export class HouseTeamMembers extends React.Component {
             })
             if (this.props.house.length < 8) {
                 for (let i=1; i<(9 - this.props.house.length); i++) {
-                    houseTeamMembers = [...houseTeamMembers, <li>{i}.</li>]
+                    houseTeamMembers = [...houseTeamMembers, <li key={i} className="empty-roster-spot">{i}. House Candidate</li>]
                 }
             }
     return (

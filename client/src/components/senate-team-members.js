@@ -13,7 +13,7 @@ export class SenateTeamMembers extends React.Component {
                                     <img className="member-headshot" src={member.candidate_id.image} alt="member headshot" />
                                     <div className="member-stats">
                                         <div className="member-name">{member.candidate_id.name} ({member.candidate_id.party})</div>
-                                        <div className="member-congress-info">{member.candidate_id.state} {member.candidate_id.district}</div>
+                                        <div className="member-congress-info">{member.candidate_id.state}</div>
                                     </div>
                                 </div>
                                 <div className="member-price">${member.candidate_id.price}</div>
@@ -23,7 +23,7 @@ export class SenateTeamMembers extends React.Component {
             })
             if (this.props.senate.length < 4) {
                 for (let i=1; i<(5- this.props.senate.length); i++) {
-                    senateTeamMembers = [...senateTeamMembers, <li>{i}.</li>]
+                    senateTeamMembers = [...senateTeamMembers, <li key={i} className="empty-roster-spot">{i}. Senate Candidate</li>]
                 }
             }
     return (

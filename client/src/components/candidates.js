@@ -9,8 +9,25 @@ export class Candidates extends React.Component {
 	}
 
 	filterCandidates() {
-		return this.props.candidates.filter(candidate => 
-			(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1))
+		if (this.props.chamber === 'both' && this.props.party === 'all') {
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1))
+		} else if (this.props.chamber === 'both'){
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+				(candidate.party === this.props.party)
+			)
+		} else if (this.props.party === 'all'){
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+				(candidate.chamber.toLowerCase() === this.props.chamber)
+			)
+		} else {
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+				(candidate.chamber.toLowerCase() === this.props.chamber) &&
+				(candidate.party === this.props.party)
+			)}
 	}
 
 	render() {
@@ -42,7 +59,9 @@ export class Candidates extends React.Component {
 
 const mapStateToProps = state => ({
 	candidates: state.candidates,
-	searchString: state.searchString
+	searchString: state.searchString,
+	chamber: state.chamber,
+	party: state.party
 })
 
 export default connect(mapStateToProps)(Candidates);

@@ -21,7 +21,19 @@ export const SEARCH_CANDIDATES = 'SEARCH_CANDIDATES';
 export const searchCandidates = searchString => ({
 	type: SEARCH_CANDIDATES,
 	searchString
-})
+});
+
+export const FILTER_CANDIDATES_BY_CHAMBER = 'FILTER_CANDIDATES_BY_CHAMBER';
+export const filterCandidatesByChamber = chamber => ({
+	type: FILTER_CANDIDATES_BY_CHAMBER,
+	chamber
+});
+
+export const FILTER_CANDIDATES_BY_PARTY = 'FILTER_CANDIDATES_BY_PARTY';
+export const filterCandidatesByParty = party => ({
+	type: FILTER_CANDIDATES_BY_PARTY,
+	party
+});
 
 export const fetchCandidates = () => dispatch => {
 	dispatch(fetchCandidatesRequest());
@@ -38,4 +50,4 @@ export const fetchCandidates = () => dispatch => {
 		.catch(err => 
 			dispatch(fetchCandidatesError(err))
 		)
-}
+	}

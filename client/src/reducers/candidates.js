@@ -1,10 +1,12 @@
-import { FETCH_CANDIDATES_REQUEST, FETCH_CANDIDATES_SUCCESS, FETCH_CANDIDATES_ERROR, SEARCH_CANDIDATES  } from '../actions/candidates';
+import { FETCH_CANDIDATES_REQUEST, FETCH_CANDIDATES_SUCCESS, FETCH_CANDIDATES_ERROR, SEARCH_CANDIDATES, FILTER_CANDIDATES_BY_CHAMBER, FILTER_CANDIDATES_BY_PARTY } from '../actions/candidates';
 
 const initialState = {
   candidates: [],
   loading: false,
   error: null,
-  searchString: ''
+  searchString: '',
+  chamber: 'both',
+  party: 'all'
 }
 
 export const reducer = (state = initialState, action) => {
@@ -32,6 +34,18 @@ export const reducer = (state = initialState, action) => {
 	else if (action.type === SEARCH_CANDIDATES) {
 		return Object.assign({}, state, {
 			searchString: action.searchString
+		})
+	}
+
+	else if (action.type === FILTER_CANDIDATES_BY_CHAMBER) {
+		return Object.assign({}, state, {
+			chamber: action.chamber
+		})
+	}
+
+	else if (action.type === FILTER_CANDIDATES_BY_PARTY) {
+		return Object.assign({}, state, {
+			party: action.party
 		})
 	}
 

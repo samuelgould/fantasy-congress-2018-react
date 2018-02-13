@@ -21,7 +21,10 @@ const userSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
   email: { type: String, required: true },
-  team: [{
+  senate: [{
+    candidate_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Candidate' }
+  }],
+  house: [{
     candidate_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Candidate' }
   }]
 });

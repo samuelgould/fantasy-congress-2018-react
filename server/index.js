@@ -8,6 +8,7 @@ const bodyParser = require('body-parser');
 const {PORT, CLIENT_ORIGIN} = require('./config');
 const {dbConnect} = require('./db-mongoose');
 const candidateRouter = require('./routers/candidate.router');
+const userRouter = require('./routers/user.router');
 
 const app = express();
 
@@ -31,6 +32,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/candidates', candidateRouter);
+app.use('/user', userRouter);
 
 function runServer(port = PORT) {
   const server = app

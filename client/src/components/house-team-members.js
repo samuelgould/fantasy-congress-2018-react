@@ -5,7 +5,7 @@ import './house-team-member.css';
 export class HouseTeamMembers extends React.Component {
     
     render() {
-            const houseTeamMembers = this.props.house.map(member => {
+            let houseTeamMembers = this.props.house.map(member => {
                 return (
                     <li className="js-member-id-element" key={member.candidate_id._id}>
                             <div className="member-container">
@@ -21,6 +21,11 @@ export class HouseTeamMembers extends React.Component {
                       </li>
                 )
             })
+            if (this.props.house.length < 8) {
+                for (let i=1; i<(9 - this.props.house.length); i++) {
+                    houseTeamMembers = [...houseTeamMembers, <li>{i}.</li>]
+                }
+            }
     return (
         <ul>
             {houseTeamMembers}

@@ -5,7 +5,7 @@ import './senate-team-member.css';
 export class SenateTeamMembers extends React.Component {
     
     render() {
-            const senateTeamMembers = this.props.senate.map(member => {
+            let senateTeamMembers = this.props.senate.map(member => {
                 return (
                     <li className="js-member-id-element" key={member.candidate_id._id}>
                             <div className="member-container">
@@ -21,6 +21,11 @@ export class SenateTeamMembers extends React.Component {
                       </li>
                 )
             })
+            if (this.props.senate.length < 4) {
+                for (let i=1; i<(5- this.props.senate.length); i++) {
+                    senateTeamMembers = [...senateTeamMembers, <li>{i}.</li>]
+                }
+            }
     return (
         <ul>
             {senateTeamMembers}

@@ -8,7 +8,7 @@ const initialState = {
   chamber: 'both',
   party: 'all',
   state: 'all',
-  incumbent: false
+  incumbent: false,
 }
 
 export const reducer = (state = initialState, action) => {

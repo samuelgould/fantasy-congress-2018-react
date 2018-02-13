@@ -48,12 +48,12 @@ export class Candidates extends React.Component {
 };
 
 const mapStateToProps = state => ({
-	candidates: state.candidates,
-	searchString: state.searchString,
-	chamber: state.chamber,
-	party: state.party,
-	state: state.state,
-	incumbent: state.incumbent
+	candidates: state.candidates.candidates,
+	searchString: state.candidates.searchString,
+	chamber: state.candidates.chamber,
+	party: state.candidates.party,
+	state: state.candidates.state,
+	incumbent: state.candidates.incumbent
 })
 
 export default connect(mapStateToProps)(Candidates);

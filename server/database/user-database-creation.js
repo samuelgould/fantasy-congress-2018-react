@@ -9,6 +9,7 @@ mongoose.connect(DATABASE_URL)
   .then(function () {
     return User.create([
       {username: 'sammy',
+        teamName: 'Joe Biden my time...',
         firstName: 'Sam',
         lastName: 'Gould',
         email: 'sam.gould.dev@gmail.com',

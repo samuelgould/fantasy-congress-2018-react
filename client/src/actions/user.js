@@ -19,7 +19,7 @@ export const fetchUserError = error => ({
 
 export const fetchUser = () => dispatch => {
 	dispatch(fetchUserRequest());
-	return fetch(`${API_BASE_URL}/user/5a8312b6676f53443f943b03`)
+	return fetch(`${API_BASE_URL}/user/5a832661d7623546cbf4bcca`)
 		.then(res => {
 			if (!res.ok) {
 				return Promise.reject('Something has gone wrong');
@@ -27,7 +27,8 @@ export const fetchUser = () => dispatch => {
 			return res.json()
 		})
 		.then(user => {
-			dispatch(fetchUserSuccess(user))
+            console.log(user);
+			dispatch(fetchUserSuccess(user));
 		})
 		.catch(err => 
 			dispatch(fetchUserError(err))

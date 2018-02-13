@@ -1,9 +1,9 @@
 import { FETCH_USER_REQUEST, FETCH_USER_SUCCESS, FETCH_USER_ERROR } from '../actions/user';
 
 const initialState = {
-  candidates: [],
   loading: false,
-  user: null
+  user: {},
+  error: null
 }
 
 export const reducer = (state = initialState, action) => {

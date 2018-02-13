@@ -4,23 +4,22 @@ import { fetchUser } from '../actions/user';
 
 export class TeamPage extends React.Component {
 	componentDidMount() {
-		this.props.dispatch(fetchUser());
+        this.props.dispatch(fetchUser());
 	}
 
 	render() {
-        const user = 'Hello World';
-        console.log(this.props);
-		
+        const user = this.props.user;
+
 		return (
 			<div>
-                {user}
+                {user.teamName} managed by: {user.username}
             </div>
 		)
 	}
 };
 
 const mapStateToProps = state => ({
-	user: state.user,
+	user: state.user.user,
 })
 
 export default connect(mapStateToProps)(TeamPage);

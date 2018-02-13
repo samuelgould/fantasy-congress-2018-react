@@ -18,6 +18,7 @@ const Candidate = mongoose.model('Candidate', candidateSchema);
 
 const userSchema = new mongoose.Schema({
   username: { type: String, required: true },
+  teamName: { type: String, required: true },
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
   email: { type: String, required: true },

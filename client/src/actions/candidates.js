@@ -35,6 +35,12 @@ export const filterCandidatesByParty = party => ({
 	party
 });
 
+export const FILTER_CANDIDATES_BY_STATE = 'FILTER_CANDIDATES_BY_STATE';
+export const filterCandidatesByState = state => ({
+	type: FILTER_CANDIDATES_BY_STATE,
+	state
+});
+
 export const fetchCandidates = () => dispatch => {
 	dispatch(fetchCandidatesRequest());
 	return fetch(`${API_BASE_URL}/candidates`)

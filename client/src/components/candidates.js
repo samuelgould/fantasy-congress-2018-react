@@ -9,24 +9,48 @@ export class Candidates extends React.Component {
 	}
 
 	filterCandidates() {
-		if (this.props.chamber === 'both' && this.props.party === 'all') {
+		if (this.props.chamber === 'both' && this.props.party === 'all' && this.props.state === 'all') {
 			return this.props.candidates.filter(candidate => 
 				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1))
-		} else if (this.props.chamber === 'both'){
+		} else if (this.props.chamber === 'both' && this.props.state === 'all') {
 			return this.props.candidates.filter(candidate => 
 				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
 				(candidate.party === this.props.party)
 			)
-		} else if (this.props.party === 'all'){
+		} else if (this.props.party === 'all' && this.props.state === 'all') {
 			return this.props.candidates.filter(candidate => 
 				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
 				(candidate.chamber.toLowerCase() === this.props.chamber)
+			)
+		} else if (this.props.chamber === 'both' && this.props.party === 'all') {
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+				(candidate.state === this.props.state)
+			)
+		} else if (this.props.state === 'all') {
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+				(candidate.chamber.toLowerCase() === this.props.chamber) &&
+				(candidate.party === this.props.party)
+			)
+		} else if (this.props.party === 'all') {
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+				(candidate.chamber.toLowerCase() === this.props.chamber) &&
+				(candidate.state === this.props.state)
+			)
+		} else if (this.props.chamber === 'both') {
+			return this.props.candidates.filter(candidate => 
+				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+				(candidate.state === this.props.state) &&
+				(candidate.party === this.props.party)
 			)
 		} else {
 			return this.props.candidates.filter(candidate => 
 				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
 				(candidate.chamber.toLowerCase() === this.props.chamber) &&
-				(candidate.party === this.props.party)
+				(candidate.party === this.props.party) &&
+				(candidate.state === this.props.state)
 			)}
 	}
 
@@ -61,7 +85,8 @@ const mapStateToProps = state => ({
 	candidates: state.candidates,
 	searchString: state.searchString,
 	chamber: state.chamber,
-	party: state.party
+	party: state.party,
+	state: state.state
 })
 
 export default connect(mapStateToProps)(Candidates);

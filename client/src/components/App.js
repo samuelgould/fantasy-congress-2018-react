@@ -4,6 +4,7 @@ import Candidates from './candidates';
 import SearchBar from './search-bar';
 import ChamberOption from './chamber-option';
 import PartyOption from './party-option';
+import StateOption from './state-option';
 
 export default class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends React.Component {
         <SearchBar />
         <ChamberOption />
         <PartyOption />
+        <StateOption />
         <Candidates />
       </div>
     );

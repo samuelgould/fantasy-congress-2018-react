@@ -11,7 +11,8 @@ const router = express.Router();
 router.get('/:id', (req, res) => {
   User
     .findById(req.params.id)
-    .populate()
+    .populate('house.candidate_id')
+    .populate('senate.candidate_id')
     .then(user => res.json(user))
     .catch(err => {
       console.error(err);

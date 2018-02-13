@@ -13,8 +13,8 @@ mongoose.connect(DATABASE_URL)
         firstName: 'Sam',
         lastName: 'Gould',
         email: 'sam.gould.dev@gmail.com',
-        senate: [],
-        house: []
+        senate: [{candidate_id:'5a833c500aac3d497af74dfa'}],
+        house: [{candidate_id:'5a833c500aac3d497af74df8'}, {candidate_id:'5a833c500aac3d497af74df7'}]
       }
     ]).then(result => console.log(result))
       .catch(err => {

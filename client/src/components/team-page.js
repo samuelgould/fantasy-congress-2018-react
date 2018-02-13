@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchUser } from '../actions/user';
+import SenateTeamMembers from './senate-team-members';
+import HouseTeamMembers from './house-team-members';
 
 export class TeamPage extends React.Component {
 	componentDidMount() {
@@ -13,6 +15,8 @@ export class TeamPage extends React.Component {
 		return (
 			<div>
                 {user.teamName} managed by: {user.username}
+                <SenateTeamMembers />
+                <HouseTeamMembers />
             </div>
 		)
 	}

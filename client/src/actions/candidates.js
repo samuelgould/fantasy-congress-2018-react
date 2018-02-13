@@ -41,6 +41,12 @@ export const filterCandidatesByState = state => ({
 	state
 });
 
+export const FILTER_ONLY_SHOW_INCUMBENTS = 'FILTER_ONLY_SHOW_INCUMBENTS';
+export const filterOnlyShowIncumbents = incumbent => ({
+	type: FILTER_ONLY_SHOW_INCUMBENTS,
+	incumbent
+});
+
 export const fetchCandidates = () => dispatch => {
 	dispatch(fetchCandidatesRequest());
 	return fetch(`${API_BASE_URL}/candidates`)

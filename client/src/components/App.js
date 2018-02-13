@@ -5,6 +5,7 @@ import SearchBar from './search-bar';
 import ChamberOption from './chamber-option';
 import PartyOption from './party-option';
 import StateOption from './state-option';
+import IncumbentOnly from './incumbent-checkbox';
 
 export default class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class App extends React.Component {
         <ChamberOption />
         <PartyOption />
         <StateOption />
+        <IncumbentOnly />
         <Candidates />
       </div>
     );

@@ -9,49 +9,104 @@ export class Candidates extends React.Component {
 	}
 
 	filterCandidates() {
-		if (this.props.chamber === 'both' && this.props.party === 'all' && this.props.state === 'all') {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1))
-		} else if (this.props.chamber === 'both' && this.props.state === 'all') {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
-				(candidate.party === this.props.party)
-			)
-		} else if (this.props.party === 'all' && this.props.state === 'all') {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
-				(candidate.chamber.toLowerCase() === this.props.chamber)
-			)
-		} else if (this.props.chamber === 'both' && this.props.party === 'all') {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
-				(candidate.state === this.props.state)
-			)
-		} else if (this.props.state === 'all') {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
-				(candidate.chamber.toLowerCase() === this.props.chamber) &&
-				(candidate.party === this.props.party)
-			)
-		} else if (this.props.party === 'all') {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
-				(candidate.chamber.toLowerCase() === this.props.chamber) &&
-				(candidate.state === this.props.state)
-			)
-		} else if (this.props.chamber === 'both') {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
-				(candidate.state === this.props.state) &&
-				(candidate.party === this.props.party)
-			)
+		if (!this.props.incumbent) {
+			if (this.props.chamber === 'both' && this.props.party === 'all' && this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1))
+			} else if (this.props.chamber === 'both' && this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.party === this.props.party)
+				)
+			} else if (this.props.party === 'all' && this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber)
+				)
+			} else if (this.props.chamber === 'both' && this.props.party === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.state === this.props.state)
+				)
+			} else if (this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber) &&
+					(candidate.party === this.props.party)
+				)
+			} else if (this.props.party === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber) &&
+					(candidate.state === this.props.state)
+				)
+			} else if (this.props.chamber === 'both') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.state === this.props.state) &&
+					(candidate.party === this.props.party)
+				)
+			} else {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber) &&
+					(candidate.party === this.props.party) &&
+					(candidate.state === this.props.state)
+				)}
 		} else {
-			return this.props.candidates.filter(candidate => 
-				(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
-				(candidate.chamber.toLowerCase() === this.props.chamber) &&
-				(candidate.party === this.props.party) &&
-				(candidate.state === this.props.state)
-			)}
+			if (this.props.chamber === 'both' && this.props.party === 'all' && this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.incumbent === true)
+				)
+			} else if (this.props.chamber === 'both' && this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.party === this.props.party) &&
+					(candidate.incumbent === true)
+				)
+			} else if (this.props.party === 'all' && this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber) &&
+					(candidate.incumbent === true)
+				)
+			} else if (this.props.chamber === 'both' && this.props.party === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.state === this.props.state) &&
+					(candidate.incumbent === true)
+				)
+			} else if (this.props.state === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber) &&
+					(candidate.party === this.props.party) &&
+					(candidate.incumbent === true)
+				)
+			} else if (this.props.party === 'all') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber) &&
+					(candidate.state === this.props.state) &&
+					(candidate.incumbent === true)
+				)
+			} else if (this.props.chamber === 'both') {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.state === this.props.state) &&
+					(candidate.party === this.props.party) &&
+					(candidate.incumbent === true)
+				)
+			} else {
+				return this.props.candidates.filter(candidate => 
+					(candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1) &&
+					(candidate.chamber.toLowerCase() === this.props.chamber) &&
+					(candidate.party === this.props.party) &&
+					(candidate.state === this.props.state) &&
+					(candidate.incumbent === true)
+				)}
+			}
 	}
 
 	render() {
@@ -86,7 +141,8 @@ const mapStateToProps = state => ({
 	searchString: state.searchString,
 	chamber: state.chamber,
 	party: state.party,
-	state: state.state
+	state: state.state,
+	incumbent: state.incumbent
 })
 
 export default connect(mapStateToProps)(Candidates);

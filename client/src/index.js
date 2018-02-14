@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
+import {BrowserRouter as Router} from 'react-router-dom';
 import { reducer as candidatesReducer } from './reducers/candidates';
 import { reducer as userReducer } from './reducers/user';
 
@@ -18,8 +19,10 @@ export const store = createStore(
   applyMiddleware(thunk));
 
 ReactDOM.render(
-  <Provider store={store}>  
-		<App />
+  <Provider store={store}>
+    <Router>
+		  <App />
+    </Router>
 	</Provider>, 
   document.getElementById('root')
 );

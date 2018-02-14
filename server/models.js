@@ -1,5 +1,6 @@
 'use strict';
 
+const bcrypt = require('bcryptjs');
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
@@ -18,10 +19,11 @@ const Candidate = mongoose.model('Candidate', candidateSchema);
 
 const userSchema = new mongoose.Schema({
   username: { type: String, required: true },
-  teamName: { type: String, required: true },
-  firstName: { type: String, required: true },
-  lastName: { type: String, required: true },
   email: { type: String, required: true },
+  password: { type: String, required: true },
+  firstName: {type: String, default: ''},
+  lastName: {type: String, default: ''},
+  teamName: { type: String, required: true },
   senate: [{
     candidate_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Candidate' }
   }],
@@ -29,6 +31,26 @@ const userSchema = new mongoose.Schema({
     candidate_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Candidate' }
   }]
 });
+
+userSchema.methods.serialize = function() {
+  return {
+    username: this.username,
+    email: this.email,
+    firstName: this.firstName || '',
+    lastName: this.lastName || '',
+    teamName: this.teamName,
+    senate: this.senate,
+    house: this.house
+  };
+};
+
+userSchema.methods.validatePassword = function(password) {
+  return bcrypt.compare(password, this.password);
+};
+
+userSchema.statics.hashPassword = function(password) {
+  return bcrypt.hash(password, 10);
+};
 
 const User = mongoose.model('User', userSchema);
 

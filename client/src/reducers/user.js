@@ -35,18 +35,17 @@ export const reducer = (state = initialState, action) => {
 	}
 
 	else if (action.type === ADD_HOUSE_CANDIDATE_SUCCESS) {
-		return {
-			...state,
+		return Object.assign({}, state, {
 			loading: false,
 			error: null,
 			user: {
 				...state.user, 
 				user: {
 					...state.user.user,
-					house: [...state.user.user.house, {candidate_id: action.candidate_id}]
+					house: [...state.user.user.house, {candidate_id: {_id : action.candidate_id}}]
 				}	
 			}
-		}
+		})	
 	}
 
 	else if (action.type === ADD_HOUSE_CANDIDATE_ERROR) {

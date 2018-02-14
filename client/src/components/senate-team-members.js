@@ -16,7 +16,10 @@ export class SenateTeamMembers extends React.Component {
                                         <div className="member-congress-info">{member.candidate_id.state}</div>
                                     </div>
                                 </div>
-                                <div className="member-price">${member.candidate_id.price}</div>
+                                <div className="adding-member">
+							        <div className="member-price">${member.candidate_id.price}</div>
+							        <button value={member._id} onClick={ event => console.log(event.currentTarget.value) }>Remove from Team</button>
+						        </div>
                             </div>
                       </li>
                 )

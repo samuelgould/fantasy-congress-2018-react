@@ -56,26 +56,14 @@ export const reducer = (state = initialState, action) => {
 	}
 
 	else if (action.type === REMOVE_TEAM_MEMBER_SUCCESS) {
-		if (action.chamber === 'house') {
 			return Object.assign({}, state, {
 				loading: false,
 				error: null,
 				user: {
 					...state.user,
-					house: state.user.house.filter(member => member._id !== action.member_id)
+					[action.chamber]: state.user[action.chamber].filter(member => member._id !== action.member_id)
 				}
 			})
-		} else if (action.chamber === 'senate') {
-			return Object.assign({}, state, {
-				loading: false,
-				error: null,
-				user: {
-					...state.user,
-					senate: state.user.senate.filter(member => member._id !== action.member_id)
-				}
-			})
-		}
-		return state;
 	}
 
 	else if (action.type === REMOVE_TEAM_MEMBER_ERROR) {

@@ -10,6 +10,17 @@ export class Candidates extends React.Component {
 
 	render() {
 		let candidates = this.props.candidates;
+		let senate = this.props.senate;
+		let house = this.props.house;
+		
+		for (let i=0; i<senate.length; i++){
+			candidates = candidates.filter(candidate => candidate._id !== senate[i].candidate_id._id);
+		}
+
+		for (let i=0; i<house.length; i++){
+			candidates = candidates.filter(candidate => candidate._id !== house[i].candidate_id._id);
+		}
+
 		if (this.props.incumbent) {
 			candidates = candidates.filter(candidate => candidate.incumbent === true)
 		} if (this.props.chamber !== 'both') {
@@ -24,7 +35,7 @@ export class Candidates extends React.Component {
 
 		candidates = candidates.map( candidate => {
 			return (
-				<li className="js-candidate-id-element" key={candidate._id}>
+				<li key={candidate._id}>
 					<div className="candidate-container">
 						<div className="candidate-information">
 							<img className="candidate-headshot" src={candidate.image} alt="candidate headshot" />
@@ -53,7 +64,9 @@ const mapStateToProps = state => ({
 	chamber: state.candidates.chamber,
 	party: state.candidates.party,
 	state: state.candidates.state,
-	incumbent: state.candidates.incumbent
+	incumbent: state.candidates.incumbent,
+	senate: state.user.user.senate || [],
+	house: state.user.user.house || []
 })
 
 export default connect(mapStateToProps)(Candidates);

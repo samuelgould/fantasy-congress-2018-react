@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { removeHouseCandidate } from '../actions/user';
+import { removeTeamMember } from '../actions/user';
 import './house-team-member.css';
 
 export class HouseTeamMembers extends React.Component {
@@ -19,7 +19,7 @@ export class HouseTeamMembers extends React.Component {
                                 </div>
                                 <div className="adding-member">
 							        <div className="member-price">${member.candidate_id.price}</div>
-							        <button value={member._id} onClick={ event => this.props.dispatch(removeHouseCandidate(event.currentTarget.value)) }>Remove from Team</button>
+							        <button value={member._id} onClick={ event => this.props.dispatch(removeTeamMember(event.currentTarget.value, 'house')) }>Remove from Team</button>
 						        </div>
                             </div>
                       </li>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchCandidates } from '../actions/candidates';
-import { addHouseCandidate } from '../actions/user';
+import { addCandidate } from '../actions/user';
 import './candidates.css';
 
 export class Candidates extends React.Component {
@@ -35,8 +35,10 @@ export class Candidates extends React.Component {
 		}
 
 		candidates = candidates.map( candidate => {
+			let chamber = candidate.chamber.toLowerCase();
+			
 			return (
-				<li key={candidate._id}>
+				<li id={candidate.chamber} key={candidate._id}>
 					<div className="candidate-container">
 						<div className="candidate-information">
 							<img className="candidate-headshot" src={candidate.image} alt="candidate headshot" />
@@ -47,13 +49,13 @@ export class Candidates extends React.Component {
 						</div>
 						<div className="adding-candidate">
 							<div className="candidate-price">${candidate.price}</div>
-							<button value={candidate._id} onClick={ event => this.props.dispatch(addHouseCandidate(event.currentTarget.value)) }>Add to Team</button>
+							<button value={candidate._id} onClick={ event => this.props.dispatch(addCandidate(event.currentTarget.value, chamber)) }>Add to Team</button>
 						</div>
 					</div>
 			  </li>
 			)
 		})
-		
+
 		return (
 			<ul>
 				{candidates}

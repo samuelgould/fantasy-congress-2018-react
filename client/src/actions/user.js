@@ -34,26 +34,26 @@ export const fetchUser = () => dispatch => {
 		)
 }
 
-export const ADD_HOUSE_CANDIDATE_REQUEST = 'ADD_HOUSE_CANDIDATE_REQUEST';
-export const addHouseCandidateRequest = () => ({
-  type: ADD_HOUSE_CANDIDATE_REQUEST
+export const ADD_CANDIDATE_REQUEST = 'ADD_CANDIDATE_REQUEST';
+export const addCandidateRequest = () => ({
+  type: ADD_CANDIDATE_REQUEST
 });
 
-export const ADD_HOUSE_CANDIDATE_SUCCESS = 'ADD_HOUSE_CANDIDATE_SUCCESS';
-export const addHouseCandidateSuccess = user => ({
-	type: ADD_HOUSE_CANDIDATE_SUCCESS,
+export const ADD_CANDIDATE_SUCCESS = 'ADD_CANDIDATE_SUCCESS';
+export const addCandidateSuccess = user => ({
+	type: ADD_CANDIDATE_SUCCESS,
 	user
 });
 
-export const ADD_HOUSE_CANDIDATE_ERROR = 'ADD_HOUSE_CANDIDATE_ERROR';
-export const addHouseCandidateError = error => ({
-  type: ADD_HOUSE_CANDIDATE_ERROR,
+export const ADD_CANDIDATE_ERROR = 'ADD_CANDIDATE_ERROR';
+export const addCandidateError = error => ({
+  type: ADD_CANDIDATE_ERROR,
   error
 });
 
-export const addHouseCandidate = (candidate_id) => dispatch => {
-	dispatch(addHouseCandidateRequest());
-	return fetch(`${API_BASE_URL}/user/5a833ccc272541499cb27e52/house/${candidate_id}`, 
+export const addCandidate = (candidate_id, chamber) => dispatch => {
+	dispatch(addCandidateRequest());
+	return fetch(`${API_BASE_URL}/user/5a833ccc272541499cb27e52/${chamber}/${candidate_id}`, 
 		{
       method: 'PUT',
       headers: {
@@ -67,33 +67,34 @@ export const addHouseCandidate = (candidate_id) => dispatch => {
 			return res.json()
 		})
 		.then(user => {
-			dispatch(addHouseCandidateSuccess(user));
+			dispatch(addCandidateSuccess(user));
 		})
 		.catch(err => 
-			dispatch(addHouseCandidateError(err))
+			dispatch(addCandidateError(err))
 		)
 }
 
-export const REMOVE_HOUSE_CANDIDATE_REQUEST = 'REMOVE_HOUSE_CANDIDATE_REQUEST';
-export const removeHouseCandidateRequest = () => ({
-  type: REMOVE_HOUSE_CANDIDATE_REQUEST
+export const REMOVE_TEAM_MEMBER_REQUEST = 'REMOVE_TEAM_MEMBER_REQUEST';
+export const removeTeamMemberRequest = () => ({
+  type: REMOVE_TEAM_MEMBER_REQUEST
 });
 
-export const REMOVE_HOUSE_CANDIDATE_SUCCESS = 'REMOVE_HOUSE_CANDIDATE_SUCCESS';
-export const removeHouseCandidateSuccess = member_id => ({
-	type: REMOVE_HOUSE_CANDIDATE_SUCCESS,
-	member_id
+export const REMOVE_TEAM_MEMBER_SUCCESS = 'REMOVE_TEAM_MEMBER_SUCCESS';
+export const removeTeamMemberSuccess = (member_id, chamber) => ({
+	type: REMOVE_TEAM_MEMBER_SUCCESS,
+	member_id,
+	chamber
 });
 
-export const REMOVE_HOUSE_CANDIDATE_ERROR = 'REMOVE_HOUSE_CANDIDATE_ERROR';
-export const removeHouseCandidateError = error => ({
-  type: REMOVE_HOUSE_CANDIDATE_ERROR,
+export const REMOVE_TEAM_MEMBER_ERROR = 'REMOVE_TEAM_MEMBER_ERROR';
+export const removeTeamMemberError = error => ({
+  type: REMOVE_TEAM_MEMBER_ERROR,
   error
 });
 
-export const removeHouseCandidate = (member_id) => dispatch => {
-	dispatch(removeHouseCandidateRequest());
-	return fetch(`${API_BASE_URL}/user/5a833ccc272541499cb27e52/house/${member_id}`, 
+export const removeTeamMember = (member_id, chamber) => dispatch => {
+	dispatch(removeTeamMemberRequest());
+	return fetch(`${API_BASE_URL}/user/5a833ccc272541499cb27e52/${chamber}/${member_id}`, 
 		{
       method: 'DELETE',
       headers: {
@@ -106,9 +107,9 @@ export const removeHouseCandidate = (member_id) => dispatch => {
 			return res.text()
 		})
 		.then(() => {
-			dispatch(removeHouseCandidateSuccess(member_id));
+			dispatch(removeTeamMemberSuccess(member_id, chamber));
 		})
 		.catch(err =>
-			dispatch(removeHouseCandidateError(err))
+			dispatch(removeTeamMemberError(err))
 		)
 }

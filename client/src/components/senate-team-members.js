@@ -31,7 +31,7 @@ export class SenateTeamMembers extends React.Component {
                 }
             }
     return (
-        <ul>
+        <ul className="senate-team-list">
             {senateTeamMembers}
         </ul>
     )}

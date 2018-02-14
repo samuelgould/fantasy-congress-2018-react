@@ -57,7 +57,7 @@ export class Candidates extends React.Component {
 		})
 
 		return (
-			<ul>
+			<ul className="candidate-list">
 				{candidates}
 			</ul>
 		)

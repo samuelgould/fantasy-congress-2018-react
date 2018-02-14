@@ -4,11 +4,13 @@ import { loadAuthToken } from './local-storage';
 import {reducer as formReducer} from 'redux-form';
 import { reducer as candidatesReducer } from './reducers/candidates';
 import { reducer as userReducer } from './reducers/user';
+import { reducer as authReducer } from './reducers/auth';
 import { setAuthToken, refreshAuthToken } from './actions/auth';
 
 export default store = createStore(
     combineReducers({
       form: formReducer,
+      auth: authReducer,
       candidates: candidatesReducer,
       user: userReducer
     }),

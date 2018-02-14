@@ -47,9 +47,16 @@ export const filterOnlyShowIncumbents = incumbent => ({
 	incumbent
 });
 
-export const fetchCandidates = () => dispatch => {
+export const fetchCandidates = () => (dispatch, getState) => {
 	dispatch(fetchCandidatesRequest());
-	return fetch(`${API_BASE_URL}/candidates`)
+	const authToken = getState().auth.authToken;
+	return fetch(`${API_BASE_URL}/candidates`, 
+		{
+  		method: 'GET',
+  		headers: {
+			'Authorization': `Bearer ${authToken}`
+		}
+	})
 		.then(res => {
 			if (!res.ok) {
 				return Promise.reject('Something has gone wrong');

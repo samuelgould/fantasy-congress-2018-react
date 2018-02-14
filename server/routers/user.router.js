@@ -2,12 +2,19 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const passport = require('passport');
 
 const { User } = require('../models');
+const { localStrategy, jwtStrategy } = require('../strategies');
 
 const router = express.Router();
 
 const jsonParser = bodyParser.json();
+
+passport.use(localStrategy);
+passport.use(jwtStrategy);
+
+const jwtAuth = passport.authenticate('jwt', { session: false });
 
 router.post('/', jsonParser, (req, res) => {
   const requiredFields = ['username', 'password', 'email', 'teamName'];
@@ -133,9 +140,13 @@ router.post('/', jsonParser, (req, res) => {
 
 // GET a specific user's information
 
-router.get('/:id', (req, res) => {
+router.get('/:id', jwtAuth, (req, res) => {
+  let id = req.params.id;
+  if (req.params.id === 'self'){
+    id = req.user._id;
+  }
   User
-    .findById(req.params.id)
+    .findById(id)
     .populate('house.candidate_id')
     .populate('senate.candidate_id')
     .then(user => res.json(user.serialize()))
@@ -145,10 +156,14 @@ router.get('/:id', (req, res) => {
     });
 });
 
-router.put('/:user_id/house/:candidate_id', (req, res) => {
+router.put('/:user_id/house/:candidate_id', jwtAuth, (req, res) => {
+  let id = req.params.user_id;
+  if (req.params.user_id === 'self'){
+    id = req.user._id;
+  }
   User
     .findByIdAndUpdate(
-      req.params.user_id,
+      id,
       {
         $push: {
           house: {
@@ -166,10 +181,14 @@ router.put('/:user_id/house/:candidate_id', (req, res) => {
     });
 });
 
-router.put('/:user_id/senate/:candidate_id', (req, res) => {
+router.put('/:user_id/senate/:candidate_id', jwtAuth, (req, res) => {
+  let id = req.params.user_id;
+  if (req.params.user_id === 'self'){
+    id = req.user._id;
+  }
   User
     .findByIdAndUpdate(
-      req.params.user_id,
+      id,
       {
         $push: {
           senate: {
@@ -187,10 +206,14 @@ router.put('/:user_id/senate/:candidate_id', (req, res) => {
     });
 });
 
-router.delete('/:user_id/house/:member_id', (req, res) => {
+router.delete('/:user_id/house/:member_id', jwtAuth, (req, res) => {
+  let id = req.params.user_id;
+  if (req.params.user_id === 'self'){
+    id = req.user._id;
+  }
   User
     .findByIdAndUpdate(
-      req.params.user_id, 
+      id,
       { 
         $pull: { 
           'house': { 
@@ -208,10 +231,14 @@ router.delete('/:user_id/house/:member_id', (req, res) => {
     });
 });
 
-router.delete('/:user_id/senate/:member_id', (req, res) => {
+router.delete('/:user_id/senate/:member_id', jwtAuth, (req, res) => {
+  let id = req.params.user_id;
+  if (req.params.user_id === 'self'){
+    id = req.user._id;
+  }
   User
     .findByIdAndUpdate(
-      req.params.user_id, 
+      id,
       { 
         $pull: { 
           'senate': { 
@@ -227,14 +254,6 @@ router.delete('/:user_id/senate/:member_id', (req, res) => {
       console.error(err);
       res.status(500).json({ message: 'Internal Server Error' });
     });
-});
-
-// FOR TESTING REMOVE FROM FINAL BUILD
-
-router.get('/', (req, res) => {
-  return User.find()
-    .then(users => res.json(users.map(user => user.serialize())))
-    .catch(err => res.status(500).json({message: 'Internal server error'}));
 });
 
 module.exports = router;

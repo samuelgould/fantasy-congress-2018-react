@@ -40,9 +40,15 @@ export const fetchUserError = error => ({
   error
 });
 
-export const fetchUser = () => dispatch => {
+export const fetchUser = () => (dispatch, getState) => {
 	dispatch(fetchUserRequest());
-	return fetch(`${API_BASE_URL}/user/5a84889ba6a01a64494fc753`)
+	const authToken = getState().auth.authToken;
+	return fetch(`${API_BASE_URL}/user/self`, {
+		method: 'GET',
+		headers: {
+				'Authorization': `Bearer ${authToken}`
+		}
+	})
 		.then(res => {
 			if (!res.ok) {
 				return Promise.reject('Something has gone wrong');
@@ -74,14 +80,16 @@ export const addCandidateError = error => ({
   error
 });
 
-export const addCandidate = (candidate_id, chamber) => dispatch => {
+export const addCandidate = (candidate_id, chamber) => (dispatch, getState) => {
 	dispatch(addCandidateRequest());
-	return fetch(`${API_BASE_URL}/user/5a84889ba6a01a64494fc753/${chamber}/${candidate_id}`, 
+	const authToken = getState().auth.authToken;
+	return fetch(`${API_BASE_URL}/user/self/${chamber}/${candidate_id}`, 
 		{
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': 'application/json'
+				'Accept': 'application/json',
+				'Authorization': `Bearer ${authToken}`
 			}
 		}).then(res => {
 			if (!res.ok) {
@@ -115,13 +123,15 @@ export const removeTeamMemberError = error => ({
   error
 });
 
-export const removeTeamMember = (member_id, chamber) => dispatch => {
+export const removeTeamMember = (member_id, chamber) => (dispatch, getState) => {
 	dispatch(removeTeamMemberRequest());
-	return fetch(`${API_BASE_URL}/user/5a84889ba6a01a64494fc753/${chamber}/${member_id}`, 
+	const authToken = getState().auth.authToken;
+	return fetch(`${API_BASE_URL}/user/self/${chamber}/${member_id}`, 
 		{
       method: 'DELETE',
       headers: {
-        'Accept': 'application/json'
+				'Accept': 'application/json',
+				'Authorization': `Bearer ${authToken}`
 			}
 		}).then(res => {
 			if (!res.ok) {

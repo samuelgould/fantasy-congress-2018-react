@@ -9,6 +9,7 @@ const {PORT, CLIENT_ORIGIN} = require('./config');
 const {dbConnect} = require('./db-mongoose');
 const candidateRouter = require('./routers/candidate.router');
 const userRouter = require('./routers/user.router');
+const authRouter = require('./routers/auth.router');
 
 const app = express();
 

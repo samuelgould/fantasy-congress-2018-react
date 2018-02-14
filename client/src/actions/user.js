@@ -40,9 +40,9 @@ export const addHouseCandidateRequest = () => ({
 });
 
 export const ADD_HOUSE_CANDIDATE_SUCCESS = 'ADD_HOUSE_CANDIDATE_SUCCESS';
-export const addHouseCandidateSuccess = candidate_id => ({
+export const addHouseCandidateSuccess = user => ({
 	type: ADD_HOUSE_CANDIDATE_SUCCESS,
-	candidate_id
+	user
 });
 
 export const ADD_HOUSE_CANDIDATE_ERROR = 'ADD_HOUSE_CANDIDATE_ERROR';
@@ -103,12 +103,12 @@ export const removeHouseCandidate = (member_id) => dispatch => {
 			if (!res.ok) {
 				return Promise.reject('Something has gone wrong');
 			}
-			return res.json()
+			return res.text()
 		})
-		.then(user => {
-			dispatch(removeHouseCandidateSuccess(user));
+		.then(() => {
+			dispatch(removeHouseCandidateSuccess(member_id));
 		})
-		.catch(err => 
+		.catch(err =>
 			dispatch(removeHouseCandidateError(err))
 		)
 }

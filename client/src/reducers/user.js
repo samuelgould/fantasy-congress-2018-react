@@ -28,7 +28,7 @@ export const reducer = (state = initialState, action) => {
 		})
 	}
 
-	if (action.type === ADD_HOUSE_CANDIDATE_REQUEST) {
+	else if (action.type === ADD_HOUSE_CANDIDATE_REQUEST) {
 		return Object.assign({}, state, {
 			loading: true,
 		})
@@ -38,10 +38,7 @@ export const reducer = (state = initialState, action) => {
 		return Object.assign({}, state, {
 			loading: false,
 			error: null,
-			user: {
-				...state.user,
-				house: [...state.user.house, {candidate_id: {_id : action.candidate_id}}]
-			}
+			user: action.user
 		})	
 	}
 
@@ -52,7 +49,7 @@ export const reducer = (state = initialState, action) => {
 		})
 	}
 
-	if (action.type === REMOVE_HOUSE_CANDIDATE_REQUEST) {
+	else if (action.type === REMOVE_HOUSE_CANDIDATE_REQUEST) {
 		return Object.assign({}, state, {
 			loading: true,
 		})
@@ -75,8 +72,6 @@ export const reducer = (state = initialState, action) => {
 			error: action.error
 		})
 	}
-
-	else {
-		return state;
-	}
+	
+	return state;
 }

@@ -1,17 +1,19 @@
 import React from 'react';
-import './App.css';
-import FilterOptions from './filter-options';
-import Candidates from './candidates';
-import TeamPage from './team-page';
 import { Route } from 'react-router-dom';
+import Header from './header';
+import LandingPage from './landing-page';
+import Dashboard from './dashboard';
+import RegistrationPage from './registration-page';
 
 export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Route exact path='/candidates-list' component={FilterOptions} />
-        <Route exact path='/candidates-list' component={Candidates} />
-        <Route path='/' component={TeamPage} />
+        <Route component={Header} />
+
+        <Route exact path='/' component={LandingPage} />
+        <Route exact path='/dashboard' component={Dashboard} />
+        <Route exact path='/register' component={RegistrationPage} />
       </div>
     );
   }

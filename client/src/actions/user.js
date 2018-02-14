@@ -19,7 +19,7 @@ export const fetchUserError = error => ({
 
 export const fetchUser = () => dispatch => {
 	dispatch(fetchUserRequest());
-	return fetch(`${API_BASE_URL}/user/5a833ccc272541499cb27e52`)
+	return fetch(`${API_BASE_URL}/user/5a84889ba6a01a64494fc753`)
 		.then(res => {
 			if (!res.ok) {
 				return Promise.reject('Something has gone wrong');
@@ -53,7 +53,7 @@ export const addCandidateError = error => ({
 
 export const addCandidate = (candidate_id, chamber) => dispatch => {
 	dispatch(addCandidateRequest());
-	return fetch(`${API_BASE_URL}/user/5a833ccc272541499cb27e52/${chamber}/${candidate_id}`, 
+	return fetch(`${API_BASE_URL}/user/5a84889ba6a01a64494fc753/${chamber}/${candidate_id}`, 
 		{
       method: 'PUT',
       headers: {
@@ -94,7 +94,7 @@ export const removeTeamMemberError = error => ({
 
 export const removeTeamMember = (member_id, chamber) => dispatch => {
 	dispatch(removeTeamMemberRequest());
-	return fetch(`${API_BASE_URL}/user/5a833ccc272541499cb27e52/${chamber}/${member_id}`, 
+	return fetch(`${API_BASE_URL}/user/5a84889ba6a01a64494fc753/${chamber}/${member_id}`, 
 		{
       method: 'DELETE',
       headers: {

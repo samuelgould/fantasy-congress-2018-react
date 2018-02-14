@@ -60,7 +60,7 @@ router.post('/', jsonParser, (req, res) => {
     },
     teamName: {
       min: 1,
-      max: 30
+      max: 36
     }
   };
   const tooSmallField = Object.keys(sizedFields).find(
@@ -227,6 +227,14 @@ router.delete('/:user_id/senate/:member_id', (req, res) => {
       console.error(err);
       res.status(500).json({ message: 'Internal Server Error' });
     });
+});
+
+// FOR TESTING REMOVE FROM FINAL BUILD
+
+router.get('/', (req, res) => {
+  return User.find()
+    .then(users => res.json(users.map(user => user.serialize())))
+    .catch(err => res.status(500).json({message: 'Internal server error'}));
 });
 
 module.exports = router;

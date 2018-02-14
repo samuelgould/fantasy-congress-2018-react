@@ -45,3 +45,7 @@ li {
 .empty-roster-spot {
     background-color: lightgray;
 }
+
+.adding-member {
+    text-align: center;
+}

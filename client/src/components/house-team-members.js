@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { removeHouseCandidate } from '../actions/user';
 import './house-team-member.css';
 
 export class HouseTeamMembers extends React.Component {
@@ -16,7 +17,10 @@ export class HouseTeamMembers extends React.Component {
                                         <div className="member-congress-info">{member.candidate_id.state} {member.candidate_id.district}</div>
                                     </div>
                                 </div>
-                                <div className="member-price">${member.candidate_id.price}</div>
+                                <div className="adding-member">
+							        <div className="member-price">${member.candidate_id.price}</div>
+							        <button value={member._id} onClick={ event => this.props.dispatch(removeHouseCandidate(event.currentTarget.value)) }>Remove from Team</button>
+						        </div>
                             </div>
                       </li>
                 )

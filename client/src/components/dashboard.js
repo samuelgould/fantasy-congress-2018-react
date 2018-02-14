@@ -4,14 +4,17 @@ import requiresLogin from './requires-login';
 import FilterOptions from './filter-options';
 import Candidates from './candidates';
 import TeamPage from './team-page';
+import './dashboard.css';
 
 export class Dashboard extends React.Component {
 
     render() {
         return (
             <div className="dashboard">
-                <FilterOptions />
-                <Candidates />
+                <div className="search">
+                    <FilterOptions />
+                    <Candidates />
+                </div>
                 <TeamPage />
             </div>
         );

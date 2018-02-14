@@ -11,7 +11,7 @@ export class SenateTeamMembers extends React.Component {
                     <li key={member.candidate_id._id}>
                             <div className="member-container">
                                 <div className="member-information">
-                                    <img className="member-headshot" src={member.candidate_id.image} alt="member headshot" />
+                                    <img className="member-headshot verbose" src={member.candidate_id.image} alt="member headshot" />
                                     <div className="member-stats">
                                         <div className="member-name">{member.candidate_id.name} ({member.candidate_id.party})</div>
                                         <div className="member-congress-info">{member.candidate_id.state}</div>

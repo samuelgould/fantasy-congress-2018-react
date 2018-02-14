@@ -1,8 +1,8 @@
 .team-page {
-    position: fixed;
-    top: 0;
-    right: 2.5%;
+    float: left;
+    height: 100%;
     width: 40%;
+    overflow-y: auto;
 }
 
 .header {

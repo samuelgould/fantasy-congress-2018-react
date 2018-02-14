@@ -2,10 +2,6 @@ ul {
     list-style-type: none;
 }
 
-.candidate-list {
-    width: 55%;
-}
-
 li {
     border: solid 1px gray;
     padding: 10px;

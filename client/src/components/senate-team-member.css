@@ -1,4 +1,4 @@
-li {
+/* li {
     border: solid 1px gray;
     padding: 10px;
     line-height: 1.35;
@@ -45,3 +45,23 @@ li {
 .adding-member {
     text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+    .verbose {
+        display: none;
+    }
+
+    .member-name {
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    .member-congress-info {
+        font-size: 16px;
+    }
+
+    .member-price {
+        font-size: 24px;
+        font-weight: bold;
+    }
+} */

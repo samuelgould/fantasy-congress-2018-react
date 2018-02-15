@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { searchCandidates } from '../actions/candidates';
+import './search-bar.css';
 
 export function SearchBar(props) {
     
@@ -9,8 +10,8 @@ export function SearchBar(props) {
     };
     
     return (
-        <form>
-            <label htmlFor="search-bar">Search:</label>
+        <form className="search-bar">
+            <label htmlFor="search-bar">Search: </label>
             <input id="search-bar" type="text" placeholder="e.g. Randy Bryce" onChange={e => onChange(e.target.value)}></input>
         </form>
     )

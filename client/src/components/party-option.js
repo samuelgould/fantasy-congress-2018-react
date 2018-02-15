@@ -10,7 +10,7 @@ export function PartyOption(props) {
     
     return (
         <select name="party" onChange={e => onChange(e.target.value)}>
-            <option value="all">All</option>
+            <option value="all">Party: All</option>
             <option value="D">Democrat</option>
             <option value="R">Republican</option>
             <option value="I">Independent</option>

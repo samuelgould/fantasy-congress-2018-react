@@ -10,7 +10,7 @@ export function StateOption(props) {
     
     return (
         <select name="state" onChange={e => onChange(e.target.value)}>
-            <option value="all">All</option>
+            <option value="all">State: All</option>
             <option value="Alabama">Alabama</option>
             <option value="Alaska">Alaska</option>
             <option value="Arizona">Arizona</option>

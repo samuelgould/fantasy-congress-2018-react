@@ -10,7 +10,7 @@ export function ChamberOption(props) {
     
     return (
         <select name="chamber" onChange={e => onChange(e.target.value)}>
-            <option value="both">Both</option>
+            <option value="both">Chamber: Both</option>
             <option value="senate">Senate</option>
             <option value="house">House</option>
         </select>

@@ -42,6 +42,21 @@ export class Candidates extends React.Component {
 			} if (house.length < 8 && candidate.chamber === 'House') {
 				button = <button value={candidate._id} onClick={ event => this.props.dispatch(addCandidate(event.currentTarget.value, 'house')) }>Add</button>
 			}
+
+			let affordibility = 'price-affordable';
+			let budget = this.props.budget;
+
+			for (let i=0; i<senate.length; i++) {
+				budget = budget - senate[i].candidate_id.price;
+			}
+
+			for (let i=0; i<house.length; i++) {
+				budget = budget - house[i].candidate_id.price;
+			}
+
+			if (candidate.price > budget) {
+				affordibility = 'price-too-expensive';
+			}
 			
 			return (
 				<li className={candidate.party} key={candidate._id}>
@@ -54,7 +69,7 @@ export class Candidates extends React.Component {
 							</div>
 						</div>
 						<div className="adding-candidate">
-							<div className="candidate-price">${candidate.price}</div>
+							<div className={affordibility}>${candidate.price}</div>
 							{button}
 						</div>
 					</div>
@@ -78,7 +93,8 @@ const mapStateToProps = state => ({
 	state: state.candidates.state,
 	incumbent: state.candidates.incumbent,
 	senate: state.user.user.senate || [],
-	house: state.user.user.house || []
+	house: state.user.user.house || [],
+	budget: state.user.user.budget
 })
 
 export default connect(mapStateToProps)(Candidates);

@@ -30,7 +30,8 @@ const userSchema = new mongoose.Schema({
   }],
   house: [{
     candidate_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Candidate' }
-  }]
+  }],
+  budget: { type: Number, default: 200 }
 });
 
 userSchema.methods.serialize = function() {
@@ -42,7 +43,8 @@ userSchema.methods.serialize = function() {
     lastName: this.lastName || '',
     teamName: this.teamName,
     senate: this.senate,
-    house: this.house
+    house: this.house,
+    budget: this.budget
   };
 };
 

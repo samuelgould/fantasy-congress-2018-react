@@ -14,16 +14,14 @@ export class TeamPage extends React.Component {
 				const user = this.props.user;
 				const senate = this.props.senate;
 				const house = this.props.house;
+				let budget = this.props.budget;
 				
-				let budget = 200;
-				if (senate[0]){
-					for (let i=0; i<senate.length; i++) {
-						budget = budget - senate[i].candidate_id.price;
-					}
-				} if (house[0]){
-					for (let i=0; i<house.length; i++) {
-						budget = budget - house[i].candidate_id.price;
-					}
+				for (let i=0; i<senate.length; i++) {
+					budget = budget - senate[i].candidate_id.price;
+				}
+
+				for (let i=0; i<house.length; i++) {
+					budget = budget - house[i].candidate_id.price;
 				}
 
 				let budgetValue = 'exact';
@@ -67,7 +65,8 @@ export class TeamPage extends React.Component {
 const mapStateToProps = state => ({
 	user: state.user.user,
 	senate: state.user.user.senate || [],
-	house: state.user.user.house || []
+	house: state.user.user.house || [],
+	budget: state.user.user.budget || 200
 })
 
 export default connect(mapStateToProps)(TeamPage);

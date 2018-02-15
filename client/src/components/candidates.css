@@ -64,9 +64,15 @@ button:active {
     margin: 10px;
 }
 
-.candidate-price {
+.price-affordable {
     font-size: 36px;
     font-weight: bold;
+}
+
+.price-too-expensive {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
 }
 
 .adding-candidate {

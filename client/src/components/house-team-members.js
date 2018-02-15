@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { removeTeamMember } from '../actions/user';
-import './house-team-member.css';
+import './team-member.css';
 
 export class HouseTeamMembers extends React.Component {
     

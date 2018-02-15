@@ -9,10 +9,27 @@
     padding-left: 40px;
 }
 
+.submit-button-container {
+    width: 100%;
+    text-align: center;
+}
+
+.submit-button {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
 .budget {
     padding-left: 40px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.overbudget {
+    color: red;
+}
+
+.underbudget {
     color: green;
 }
 

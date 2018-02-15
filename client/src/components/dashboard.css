@@ -4,3 +4,11 @@
     height: 100%;
     overflow-y: auto;
 }
+
+.D {
+    background: linear-gradient(to right,#3b5ea0,#E7E6E1)
+}
+
+.R {
+    background: linear-gradient(to right,#dd5349,#E7E6E1);
+}

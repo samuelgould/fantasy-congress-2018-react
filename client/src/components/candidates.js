@@ -35,10 +35,16 @@ export class Candidates extends React.Component {
 		}
 
 		candidates = candidates.map( candidate => {
-			let chamber = candidate.chamber.toLowerCase();
+			let button;
+
+			if (senate.length < 4 && candidate.chamber === 'Senate') {
+				button = <button value={candidate._id} onClick={ event => this.props.dispatch(addCandidate(event.currentTarget.value, 'senate')) }>Add</button>
+			} if (house.length < 8 && candidate.chamber === 'House') {
+				button = <button value={candidate._id} onClick={ event => this.props.dispatch(addCandidate(event.currentTarget.value, 'house')) }>Add</button>
+			}
 			
 			return (
-				<li id={candidate.chamber} key={candidate._id}>
+				<li className={candidate.party} key={candidate._id}>
 					<div className="candidate-container">
 						<div className="candidate-information">
 							{/* <img className="candidate-headshot" src={candidate.image} alt="candidate headshot" /> */}
@@ -49,7 +55,7 @@ export class Candidates extends React.Component {
 						</div>
 						<div className="adding-candidate">
 							<div className="candidate-price">${candidate.price}</div>
-							<button value={candidate._id} onClick={ event => this.props.dispatch(addCandidate(event.currentTarget.value, chamber)) }>Add</button>
+							{button}
 						</div>
 					</div>
 			  </li>

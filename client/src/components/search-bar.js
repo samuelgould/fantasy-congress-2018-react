@@ -11,7 +11,7 @@ export function SearchBar(props) {
     
     return (
         <form className="search-bar">
-            <label htmlFor="search-bar">Search: </label>
+            <label className="search-bar-label" htmlFor="search-bar">Search: </label>
             <input id="search-bar" type="text" placeholder="e.g. Randy Bryce" onChange={e => onChange(e.target.value)}></input>
         </form>
     )

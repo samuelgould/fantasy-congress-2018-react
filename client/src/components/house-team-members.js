@@ -8,7 +8,7 @@ export class HouseTeamMembers extends React.Component {
     render() {
             let houseTeamMembers = this.props.house.map(member => {
                 return (
-                    <li key={member.candidate_id._id}>
+                    <li key={member.candidate_id._id} className={member.candidate_id.party}>
                             <div className="member-container">
                                 <div className="member-information">
                                     {/* <img className="member-headshot verbose" src={member.candidate_id.image} alt="member headshot" /> */}

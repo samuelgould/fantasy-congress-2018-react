@@ -26,14 +26,31 @@ export class TeamPage extends React.Component {
 					}
 				}
 
+				let budgetValue = 'exact';
+				if (budget < 0) {
+					budgetValue = 'overbudget'
+				} if (budget > 0) {
+					budgetValue = 'underbudget'
+				}
+
+				let button;
+				if (senate.length === 4 && house.length === 8 && budget >= 0) {
+					button = <button className="submit-button" onClick={ event => console.log('Team Submitted') }>Submit Roster</button>
+				}
+
 		return (
 			<div className="team-page">
 				<h2 className="team header">
-					<div className="team-name">{user.teamName}</div> <div className="manager">managed by: {user.username}</div>
+					<div className="team-name">{user.teamName}</div> 
+					<div className="manager">managed by: {user.username}</div>
+					<div className="submit-button-container">
+						{button}
+					</div>
 				</h2>
 				<div className="budget">
-					Remaining Budget: ${budget}
+					Remaining Budget: <span className={budgetValue}>${budget}</span>
 				</div>
+				
 				<h3 className="chamber header">
 					SENATE
 				</h3>

@@ -16,11 +16,18 @@
     background-color: #FFF;
 }
 
+.search-bar-label {
+    background-color: #FFF;
+}
+
 #search-bar {
+    background-color: #FFF;
     border: none;
     width: 275px;
     font-size: 16px;
 }
+
+
 
 #search-bar:focus {
     outline: none;

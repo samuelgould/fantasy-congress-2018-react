@@ -4,6 +4,7 @@ import Header from './header';
 import LandingPage from './landing-page';
 import Dashboard from './dashboard';
 import RegistrationPage from './registration-page';
+import './App.css';
 
 export default class App extends React.Component {
   render() {

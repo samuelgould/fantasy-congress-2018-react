@@ -41,8 +41,8 @@ export class TeamPage extends React.Component {
 				<h3 className="chamber header">
 					HOUSE OF REPRESENTATIVES
 				</h3>
-    		<HouseTeamMembers />
-      </div>
+    			<HouseTeamMembers />
+      		</div>
 		)
 	}
 };

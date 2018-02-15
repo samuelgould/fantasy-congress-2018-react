@@ -2,6 +2,11 @@ ul {
     list-style-type: none;
 }
 
+.candidate-list {
+    height: 800px;
+    overflow-y: auto;
+}
+
 li {
     border: solid 1px gray;
     padding: 10px;

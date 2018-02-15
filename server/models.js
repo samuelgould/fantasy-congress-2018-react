@@ -8,6 +8,7 @@ const candidateSchema = new mongoose.Schema({
   name: { type: String, required: true },
   chamber: { type: String, required: true },
   state: { type: String, required: true },
+  stateAbbr: { type: String, required: true },
   district: Number,
   party: { type: String, required: true },
   incumbent: { type: Boolean, required: true },

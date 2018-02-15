@@ -11,7 +11,7 @@ const candidateSchema = new mongoose.Schema({
   district: Number,
   party: { type: String, required: true },
   incumbent: { type: Boolean, required: true },
-  image: { type: String, required: true },
+  image: String,
   price: { type: Number, required: true }
 });
 

@@ -5,6 +5,7 @@ ul {
 .candidate-list {
     height: 800px;
     overflow-y: auto;
+    padding: 0 2.5%;
 }
 
 li {

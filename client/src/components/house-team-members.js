@@ -19,7 +19,7 @@ export class HouseTeamMembers extends React.Component {
                                 </div>
                                 <div className="adding-member">
 							        <div className="member-price">${member.candidate_id.price}</div>
-							        <button value={member._id} onClick={ event => this.props.dispatch(removeTeamMember(event.currentTarget.value, 'house')) }>Remove from Team</button>
+							        <button value={member._id} onClick={ event => this.props.dispatch(removeTeamMember(event.currentTarget.value, 'house')) }>Remove</button>
 						        </div>
                             </div>
                       </li>

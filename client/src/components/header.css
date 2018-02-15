@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+.header-box {
+    position: relative;
+}
+
+#logout-button {
+    position: absolute;
+    top: 0px;
+    right: 21.44px;
+}

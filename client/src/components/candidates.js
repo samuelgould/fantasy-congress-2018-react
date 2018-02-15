@@ -49,7 +49,7 @@ export class Candidates extends React.Component {
 						</div>
 						<div className="adding-candidate">
 							<div className="candidate-price">${candidate.price}</div>
-							<button value={candidate._id} onClick={ event => this.props.dispatch(addCandidate(event.currentTarget.value, chamber)) }>Add to Team</button>
+							<button value={candidate._id} onClick={ event => this.props.dispatch(addCandidate(event.currentTarget.value, chamber)) }>Add</button>
 						</div>
 					</div>
 			  </li>

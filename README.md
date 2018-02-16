@@ -10,7 +10,7 @@ Live Site: https://zen-pike-0242a9.netlify.com/
 
 ## Screenshots
 
-![LandingPage] (screenshots/fc18-landing-page.png "LandingPage")
+![LandingPage](screenshots/fc18-landing-page.png "LandingPage")
 
 ## Components Rundown
 

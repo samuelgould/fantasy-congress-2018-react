@@ -1,0 +1,15 @@
+.log-in-button-container {
+    text-align: center;
+}
+
+.log-in-button {
+    padding: 10px 20px;
+    font-size: 24px;
+    width: 50%;
+}
+
+.form-input input {
+    background-color: #F5F5F5;
+    border: none;
+    width: 70%;
+}

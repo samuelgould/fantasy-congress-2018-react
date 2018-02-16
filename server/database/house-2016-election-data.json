@@ -1,5 +1,4 @@
-[
-  {
+{
     "district": 1,
     "geo_name": "1st District Election",
     "party": "R",
@@ -14,7 +13,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -30,7 +29,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -46,7 +45,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -62,7 +61,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -78,7 +77,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -94,7 +93,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -110,7 +109,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -126,7 +125,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -142,7 +141,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -158,7 +157,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -174,7 +173,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "AL"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -190,7 +189,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "AK"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -206,7 +205,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "AK"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -222,7 +221,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "AK"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -238,7 +237,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -254,7 +253,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -270,7 +269,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -286,7 +285,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -302,7 +301,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -318,7 +317,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -334,7 +333,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -350,7 +349,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -366,7 +365,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -382,7 +381,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -398,7 +397,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -414,7 +413,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -430,7 +429,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -446,7 +445,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -462,7 +461,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -478,7 +477,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -494,7 +493,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -510,7 +509,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -526,7 +525,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -542,7 +541,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -558,7 +557,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -574,7 +573,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -590,7 +589,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -606,7 +605,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -622,7 +621,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -638,7 +637,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "AR"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -654,7 +653,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -670,7 +669,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -686,7 +685,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -702,7 +701,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -718,7 +717,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -734,7 +733,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -750,7 +749,7 @@
     "chamber": "House",
     "price": 23,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -766,7 +765,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -782,7 +781,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -798,7 +797,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -814,7 +813,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -830,7 +829,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -846,7 +845,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -862,7 +861,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -878,7 +877,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -894,7 +893,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -910,7 +909,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -926,7 +925,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -942,7 +941,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -958,7 +957,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -974,7 +973,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -990,7 +989,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -1006,7 +1005,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -1022,7 +1021,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -1038,7 +1037,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -1054,7 +1053,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -1070,7 +1069,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -1086,7 +1085,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -1102,7 +1101,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -1118,7 +1117,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 24,
     "geo_name": "24th District Election",
@@ -1134,7 +1133,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 24,
     "geo_name": "24th District Election",
@@ -1150,7 +1149,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -1166,7 +1165,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -1182,7 +1181,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -1198,7 +1197,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -1214,7 +1213,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -1230,7 +1229,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -1246,7 +1245,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 28,
     "geo_name": "28th District Election",
@@ -1262,7 +1261,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 28,
     "geo_name": "28th District Election",
@@ -1278,7 +1277,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 29,
     "geo_name": "29th District Election",
@@ -1294,7 +1293,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 29,
     "geo_name": "29th District Election",
@@ -1310,7 +1309,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -1326,7 +1325,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -1342,7 +1341,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 30,
     "geo_name": "30th District Election",
@@ -1358,7 +1357,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 30,
     "geo_name": "30th District Election",
@@ -1374,7 +1373,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 31,
     "geo_name": "31st District Election",
@@ -1390,7 +1389,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 31,
     "geo_name": "31st District Election",
@@ -1406,7 +1405,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 32,
     "geo_name": "32nd District Election",
@@ -1422,7 +1421,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 32,
     "geo_name": "32nd District Election",
@@ -1438,7 +1437,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 33,
     "geo_name": "33rd District Election",
@@ -1454,7 +1453,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 33,
     "geo_name": "33rd District Election",
@@ -1470,7 +1469,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 34,
     "geo_name": "34th District Election",
@@ -1486,7 +1485,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 34,
     "geo_name": "34th District Election",
@@ -1502,7 +1501,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 35,
     "geo_name": "35th District Election",
@@ -1518,7 +1517,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 35,
     "geo_name": "35th District Election",
@@ -1534,7 +1533,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 36,
     "geo_name": "36th District Election",
@@ -1550,7 +1549,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 36,
     "geo_name": "36th District Election",
@@ -1566,7 +1565,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 37,
     "geo_name": "37th District Election",
@@ -1582,7 +1581,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 37,
     "geo_name": "37th District Election",
@@ -1598,7 +1597,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 38,
     "geo_name": "38th District Election",
@@ -1614,7 +1613,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 38,
     "geo_name": "38th District Election",
@@ -1630,7 +1629,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 39,
     "geo_name": "39th District Election",
@@ -1646,7 +1645,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 39,
     "geo_name": "39th District Election",
@@ -1662,7 +1661,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -1678,7 +1677,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -1694,7 +1693,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 40,
     "geo_name": "40th District Election",
@@ -1710,7 +1709,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 40,
     "geo_name": "40th District Election",
@@ -1726,7 +1725,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 41,
     "geo_name": "41st District Election",
@@ -1742,7 +1741,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 41,
     "geo_name": "41st District Election",
@@ -1758,7 +1757,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 42,
     "geo_name": "42nd District Election",
@@ -1774,7 +1773,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 42,
     "geo_name": "42nd District Election",
@@ -1790,7 +1789,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 43,
     "geo_name": "43rd District Election",
@@ -1806,7 +1805,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 43,
     "geo_name": "43rd District Election",
@@ -1822,7 +1821,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 44,
     "geo_name": "44th District Election",
@@ -1838,7 +1837,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 44,
     "geo_name": "44th District Election",
@@ -1854,7 +1853,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 45,
     "geo_name": "45th District Election",
@@ -1870,7 +1869,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 45,
     "geo_name": "45th District Election",
@@ -1886,7 +1885,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 46,
     "geo_name": "46th District Election",
@@ -1902,7 +1901,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 46,
     "geo_name": "46th District Election",
@@ -1918,7 +1917,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 47,
     "geo_name": "47th District Election",
@@ -1934,7 +1933,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 47,
     "geo_name": "47th District Election",
@@ -1950,7 +1949,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 48,
     "geo_name": "48th District Election",
@@ -1966,7 +1965,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 48,
     "geo_name": "48th District Election",
@@ -1982,7 +1981,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 49,
     "geo_name": "49th District Election",
@@ -1998,7 +1997,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 49,
     "geo_name": "49th District Election",
@@ -2014,7 +2013,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -2030,7 +2029,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -2046,7 +2045,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 50,
     "geo_name": "50th District Election",
@@ -2062,7 +2061,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 50,
     "geo_name": "50th District Election",
@@ -2078,7 +2077,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 51,
     "geo_name": "51st District Election",
@@ -2094,7 +2093,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 51,
     "geo_name": "51st District Election",
@@ -2110,7 +2109,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 52,
     "geo_name": "52nd District Election",
@@ -2126,7 +2125,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 52,
     "geo_name": "52nd District Election",
@@ -2142,7 +2141,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 53,
     "geo_name": "53rd District Election",
@@ -2158,7 +2157,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 53,
     "geo_name": "53rd District Election",
@@ -2174,7 +2173,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -2190,7 +2189,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -2206,7 +2205,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -2222,7 +2221,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -2238,7 +2237,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -2254,7 +2253,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -2270,7 +2269,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -2286,7 +2285,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -2302,7 +2301,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -2318,7 +2317,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -2334,7 +2333,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -2350,7 +2349,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -2366,7 +2365,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -2382,7 +2381,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -2398,7 +2397,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -2414,7 +2413,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -2430,7 +2429,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -2446,7 +2445,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -2462,7 +2461,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -2478,7 +2477,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -2494,7 +2493,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -2510,7 +2509,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -2526,7 +2525,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -2542,7 +2541,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -2558,7 +2557,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -2574,7 +2573,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -2590,7 +2589,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CO"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -2606,7 +2605,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -2622,7 +2621,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -2638,7 +2637,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -2654,7 +2653,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -2670,7 +2669,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -2686,7 +2685,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -2702,7 +2701,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -2718,7 +2717,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -2734,7 +2733,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -2750,7 +2749,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "CT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -2766,7 +2765,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "DE"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -2782,7 +2781,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "DE"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -2798,7 +2797,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -2814,7 +2813,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -2830,7 +2829,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -2846,7 +2845,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -2862,7 +2861,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -2878,7 +2877,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -2894,7 +2893,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -2910,7 +2909,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -2926,7 +2925,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -2942,7 +2941,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -2958,7 +2957,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -2974,7 +2973,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -2990,7 +2989,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -3006,7 +3005,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -3022,7 +3021,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -3038,7 +3037,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -3054,7 +3053,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -3070,7 +3069,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -3086,7 +3085,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -3102,7 +3101,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -3118,7 +3117,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -3134,7 +3133,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -3150,7 +3149,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -3166,7 +3165,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -3182,7 +3181,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -3198,7 +3197,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -3214,7 +3213,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -3230,7 +3229,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -3246,7 +3245,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -3262,7 +3261,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 24,
     "geo_name": "24th District Election",
@@ -3278,7 +3277,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -3294,7 +3293,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -3310,7 +3309,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -3326,7 +3325,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -3342,7 +3341,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -3358,7 +3357,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -3374,7 +3373,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -3390,7 +3389,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -3406,7 +3405,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -3422,7 +3421,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -3438,7 +3437,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -3454,7 +3453,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -3470,7 +3469,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -3486,7 +3485,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -3502,7 +3501,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -3518,7 +3517,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -3534,7 +3533,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -3550,7 +3549,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -3566,7 +3565,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -3582,7 +3581,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -3598,7 +3597,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -3614,7 +3613,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -3630,7 +3629,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -3646,7 +3645,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "FL"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -3662,7 +3661,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -3678,7 +3677,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -3694,7 +3693,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -3710,7 +3709,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -3726,7 +3725,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -3742,7 +3741,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -3758,7 +3757,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -3774,7 +3773,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -3790,7 +3789,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -3806,7 +3805,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -3822,7 +3821,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -3838,7 +3837,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -3854,7 +3853,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -3870,7 +3869,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -3886,7 +3885,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -3902,7 +3901,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -3918,7 +3917,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -3934,7 +3933,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -3950,7 +3949,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -3966,7 +3965,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -3982,7 +3981,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -3998,7 +3997,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -4014,7 +4013,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "GA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4030,7 +4029,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "HI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4046,7 +4045,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "HI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4062,7 +4061,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "HI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4078,7 +4077,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "HI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4094,7 +4093,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "ID"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4110,7 +4109,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "ID"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4126,7 +4125,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "ID"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4142,7 +4141,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "ID"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4158,7 +4157,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "ID"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -4174,7 +4173,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -4190,7 +4189,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -4206,7 +4205,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -4222,7 +4221,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -4238,7 +4237,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -4254,7 +4253,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -4270,7 +4269,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -4286,7 +4285,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -4302,7 +4301,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -4318,7 +4317,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -4334,7 +4333,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -4350,7 +4349,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -4366,7 +4365,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -4382,7 +4381,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -4398,7 +4397,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -4414,7 +4413,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -4430,7 +4429,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4446,7 +4445,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4462,7 +4461,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4478,7 +4477,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4494,7 +4493,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -4510,7 +4509,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -4526,7 +4525,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -4542,7 +4541,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -4558,7 +4557,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -4574,7 +4573,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -4590,7 +4589,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -4606,7 +4605,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -4622,7 +4621,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -4638,7 +4637,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -4654,7 +4653,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -4670,7 +4669,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -4686,7 +4685,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "IL"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4702,7 +4701,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -4718,7 +4717,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4734,7 +4733,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -4750,7 +4749,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -4766,7 +4765,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -4782,7 +4781,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -4798,7 +4797,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -4814,7 +4813,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -4830,7 +4829,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -4846,7 +4845,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -4862,7 +4861,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -4878,7 +4877,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -4894,7 +4893,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -4910,7 +4909,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -4926,7 +4925,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -4942,7 +4941,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -4958,7 +4957,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -4974,7 +4973,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -4990,7 +4989,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -5006,7 +5005,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "IN"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5022,7 +5021,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5038,7 +5037,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5054,7 +5053,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5070,7 +5069,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5086,7 +5085,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5102,7 +5101,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5118,7 +5117,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5134,7 +5133,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "IA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5150,7 +5149,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5166,7 +5165,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5182,7 +5181,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5198,7 +5197,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5214,7 +5213,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5230,7 +5229,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5246,7 +5245,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5262,7 +5261,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5278,7 +5277,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5294,7 +5293,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5310,7 +5309,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5326,7 +5325,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "KS"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5342,7 +5341,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5358,7 +5357,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5374,7 +5373,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5390,7 +5389,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5406,7 +5405,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5422,7 +5421,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5438,7 +5437,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -5454,7 +5453,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -5470,7 +5469,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -5486,7 +5485,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "KY"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5502,7 +5501,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5518,7 +5517,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5534,7 +5533,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5550,7 +5549,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5566,7 +5565,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5582,7 +5581,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5598,7 +5597,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5614,7 +5613,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5630,7 +5629,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5646,7 +5645,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5662,7 +5661,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5678,7 +5677,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5694,7 +5693,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5710,7 +5709,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5726,7 +5725,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5742,7 +5741,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -5758,7 +5757,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -5774,7 +5773,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -5790,7 +5789,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -5806,7 +5805,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -5822,7 +5821,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -5838,7 +5837,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -5854,7 +5853,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "LA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5870,7 +5869,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "ME"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5886,7 +5885,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "ME"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5902,7 +5901,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "ME"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5918,7 +5917,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "ME"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5934,7 +5933,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -5950,7 +5949,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5966,7 +5965,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -5982,7 +5981,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -5998,7 +5997,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -6014,7 +6013,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -6030,7 +6029,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -6046,7 +6045,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -6062,7 +6061,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -6078,7 +6077,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -6094,7 +6093,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -6110,7 +6109,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -6126,7 +6125,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -6142,7 +6141,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -6158,7 +6157,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -6174,7 +6173,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MD"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -6190,7 +6189,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -6206,7 +6205,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -6222,7 +6221,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -6238,7 +6237,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -6254,7 +6253,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -6270,7 +6269,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -6286,7 +6285,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -6302,7 +6301,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -6318,7 +6317,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -6334,7 +6333,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -6350,7 +6349,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -6366,7 +6365,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -6382,7 +6381,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -6398,7 +6397,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -6414,7 +6413,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -6430,7 +6429,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "MA"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -6446,7 +6445,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -6462,7 +6461,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -6478,7 +6477,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -6494,7 +6493,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -6510,7 +6509,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -6526,7 +6525,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -6542,7 +6541,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -6558,7 +6557,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -6574,7 +6573,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -6590,7 +6589,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -6606,7 +6605,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -6622,7 +6621,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -6638,7 +6637,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -6654,7 +6653,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -6670,7 +6669,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -6686,7 +6685,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -6702,7 +6701,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -6718,7 +6717,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -6734,7 +6733,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -6750,7 +6749,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -6766,7 +6765,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -6782,7 +6781,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -6798,7 +6797,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -6814,7 +6813,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -6830,7 +6829,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -6846,7 +6845,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -6862,7 +6861,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -6878,7 +6877,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -6894,7 +6893,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -6910,7 +6909,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -6926,7 +6925,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -6942,7 +6941,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -6958,7 +6957,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -6974,7 +6973,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -6990,7 +6989,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7006,7 +7005,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7022,7 +7021,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7038,7 +7037,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -7054,7 +7053,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -7070,7 +7069,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -7086,7 +7085,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -7102,7 +7101,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -7118,7 +7117,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -7134,7 +7133,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -7150,7 +7149,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -7166,7 +7165,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -7182,7 +7181,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "MN"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7198,7 +7197,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7214,7 +7213,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7230,7 +7229,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7246,7 +7245,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -7262,7 +7261,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -7278,7 +7277,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7294,7 +7293,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7310,7 +7309,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7326,7 +7325,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "MS"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7342,7 +7341,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7358,7 +7357,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7374,7 +7373,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7390,7 +7389,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -7406,7 +7405,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -7422,7 +7421,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7438,7 +7437,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7454,7 +7453,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -7470,7 +7469,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -7486,7 +7485,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -7502,7 +7501,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -7518,7 +7517,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -7534,7 +7533,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -7550,7 +7549,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -7566,7 +7565,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -7582,7 +7581,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -7598,7 +7597,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "MO"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7614,7 +7613,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "MT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7630,7 +7629,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "MT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7646,7 +7645,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NE"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7662,7 +7661,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NE"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7678,7 +7677,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NE"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7694,7 +7693,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NE"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -7710,7 +7709,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "NE"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7726,7 +7725,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7742,7 +7741,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7758,7 +7757,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7774,7 +7773,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7790,7 +7789,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -7806,7 +7805,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -7822,7 +7821,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7838,7 +7837,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -7854,7 +7853,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NV"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7870,7 +7869,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NH"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7886,7 +7885,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NH"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -7902,7 +7901,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "NH"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7918,7 +7917,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NH"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -7934,7 +7933,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NH"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -7950,7 +7949,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -7966,7 +7965,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -7982,7 +7981,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -7998,7 +7997,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -8014,7 +8013,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -8030,7 +8029,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -8046,7 +8045,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -8062,7 +8061,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -8078,7 +8077,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -8094,7 +8093,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -8110,7 +8109,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -8126,7 +8125,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -8142,7 +8141,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -8158,7 +8157,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -8174,7 +8173,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -8190,7 +8189,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -8206,7 +8205,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -8222,7 +8221,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -8238,7 +8237,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -8254,7 +8253,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -8270,7 +8269,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -8286,7 +8285,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -8302,7 +8301,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -8318,7 +8317,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "NJ"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -8334,7 +8333,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NM"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -8350,7 +8349,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NM"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -8366,7 +8365,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NM"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -8382,7 +8381,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NM"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -8398,7 +8397,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NM"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -8414,7 +8413,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NM"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -8430,7 +8429,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -8446,7 +8445,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -8462,7 +8461,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -8478,7 +8477,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -8494,7 +8493,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -8510,7 +8509,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -8526,7 +8525,7 @@
     "chamber": "House",
     "price": 22,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -8542,7 +8541,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -8558,7 +8557,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -8574,7 +8573,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -8590,7 +8589,7 @@
     "chamber": "House",
     "price": 24,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -8606,7 +8605,7 @@
     "chamber": "House",
     "price": 24,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -8622,7 +8621,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -8638,7 +8637,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -8654,7 +8653,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -8670,7 +8669,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -8686,7 +8685,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -8702,7 +8701,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -8718,7 +8717,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -8734,7 +8733,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -8750,7 +8749,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -8766,7 +8765,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -8782,7 +8781,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -8798,7 +8797,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -8814,7 +8813,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -8830,7 +8829,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -8846,7 +8845,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -8862,7 +8861,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -8878,7 +8877,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 24,
     "geo_name": "24th District Election",
@@ -8894,7 +8893,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 24,
     "geo_name": "24th District Election",
@@ -8910,7 +8909,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -8926,7 +8925,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -8942,7 +8941,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -8958,7 +8957,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -8974,7 +8973,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -8990,7 +8989,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -9006,7 +9005,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -9022,7 +9021,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -9038,7 +9037,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -9054,7 +9053,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -9070,7 +9069,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -9086,7 +9085,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -9102,7 +9101,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -9118,7 +9117,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -9134,7 +9133,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -9150,7 +9149,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -9166,7 +9165,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -9182,7 +9181,7 @@
     "chamber": "House",
     "price": 23,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -9198,7 +9197,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -9214,7 +9213,7 @@
     "chamber": "House",
     "price": 23,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -9230,7 +9229,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -9246,7 +9245,7 @@
     "chamber": "House",
     "price": 23,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -9262,7 +9261,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "NY"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -9278,7 +9277,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -9294,7 +9293,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -9310,7 +9309,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -9326,7 +9325,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -9342,7 +9341,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -9358,7 +9357,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -9374,7 +9373,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -9390,7 +9389,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -9406,7 +9405,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -9422,7 +9421,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -9438,7 +9437,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -9454,7 +9453,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -9470,7 +9469,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -9486,7 +9485,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -9502,7 +9501,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -9518,7 +9517,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -9534,7 +9533,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -9550,7 +9549,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -9566,7 +9565,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -9582,7 +9581,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -9598,7 +9597,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -9614,7 +9613,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -9630,7 +9629,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -9646,7 +9645,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -9662,7 +9661,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -9678,7 +9677,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "NC"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -9694,7 +9693,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "ND"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -9710,7 +9709,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "ND"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -9726,7 +9725,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "ND"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -9742,7 +9741,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -9758,7 +9757,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -9774,7 +9773,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -9790,7 +9789,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -9806,7 +9805,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -9822,7 +9821,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -9838,7 +9837,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -9854,7 +9853,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -9870,7 +9869,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -9886,7 +9885,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -9902,7 +9901,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -9918,7 +9917,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -9934,7 +9933,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -9950,7 +9949,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -9966,7 +9965,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -9982,7 +9981,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -9998,7 +9997,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10014,7 +10013,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10030,7 +10029,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10046,7 +10045,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10062,7 +10061,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10078,7 +10077,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10094,7 +10093,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10110,7 +10109,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -10126,7 +10125,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -10142,7 +10141,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -10158,7 +10157,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -10174,7 +10173,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -10190,7 +10189,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -10206,7 +10205,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -10222,7 +10221,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -10238,7 +10237,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -10254,7 +10253,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "OH"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -10270,7 +10269,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10286,7 +10285,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10302,7 +10301,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10318,7 +10317,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10334,7 +10333,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10350,7 +10349,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10366,7 +10365,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10382,7 +10381,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10398,7 +10397,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10414,7 +10413,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10430,7 +10429,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "OK"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -10446,7 +10445,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -10462,7 +10461,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10478,7 +10477,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10494,7 +10493,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10510,7 +10509,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10526,7 +10525,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10542,7 +10541,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10558,7 +10557,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10574,7 +10573,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10590,7 +10589,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10606,7 +10605,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "OR"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -10622,7 +10621,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -10638,7 +10637,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -10654,7 +10653,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -10670,7 +10669,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -10686,7 +10685,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -10702,7 +10701,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -10718,7 +10717,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -10734,7 +10733,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -10750,7 +10749,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -10766,7 +10765,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -10782,7 +10781,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -10798,7 +10797,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -10814,7 +10813,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -10830,7 +10829,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -10846,7 +10845,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -10862,7 +10861,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -10878,7 +10877,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -10894,7 +10893,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10910,7 +10909,7 @@
     "chamber": "House",
     "price": 23,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -10926,7 +10925,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -10942,7 +10941,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10958,7 +10957,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -10974,7 +10973,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -10990,7 +10989,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -11006,7 +11005,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -11022,7 +11021,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -11038,7 +11037,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -11054,7 +11053,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -11070,7 +11069,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -11086,7 +11085,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -11102,7 +11101,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -11118,7 +11117,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -11134,7 +11133,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "PA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11150,7 +11149,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "RI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11166,7 +11165,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "RI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -11182,7 +11181,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "RI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -11198,7 +11197,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "RI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -11214,7 +11213,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "RI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11230,7 +11229,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11246,7 +11245,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -11262,7 +11261,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -11278,7 +11277,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -11294,7 +11293,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -11310,7 +11309,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -11326,7 +11325,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -11342,7 +11341,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -11358,7 +11357,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -11374,7 +11373,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -11390,7 +11389,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -11406,7 +11405,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -11422,7 +11421,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -11438,7 +11437,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "SC"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11454,7 +11453,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "SD"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11470,7 +11469,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "SD"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11486,7 +11485,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11502,7 +11501,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -11518,7 +11517,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -11534,7 +11533,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -11550,7 +11549,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -11566,7 +11565,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -11582,7 +11581,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -11598,7 +11597,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -11614,7 +11613,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -11630,7 +11629,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -11646,7 +11645,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -11662,7 +11661,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -11678,7 +11677,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -11694,7 +11693,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -11710,7 +11709,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -11726,7 +11725,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -11742,7 +11741,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -11758,7 +11757,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -11774,7 +11773,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -11790,7 +11789,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "TN"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -11806,7 +11805,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -11822,7 +11821,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -11838,7 +11837,7 @@
     "chamber": "House",
     "price": 22,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -11854,7 +11853,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -11870,7 +11869,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 12,
     "geo_name": "12th District Election",
@@ -11886,7 +11885,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -11902,7 +11901,7 @@
     "chamber": "House",
     "price": 23,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 13,
     "geo_name": "13th District Election",
@@ -11918,7 +11917,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -11934,7 +11933,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 14,
     "geo_name": "14th District Election",
@@ -11950,7 +11949,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -11966,7 +11965,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 15,
     "geo_name": "15th District Election",
@@ -11982,7 +11981,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -11998,7 +11997,7 @@
     "chamber": "House",
     "price": 21,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 16,
     "geo_name": "16th District Election",
@@ -12014,7 +12013,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -12030,7 +12029,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 17,
     "geo_name": "17th District Election",
@@ -12046,7 +12045,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -12062,7 +12061,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 18,
     "geo_name": "18th District Election",
@@ -12078,7 +12077,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -12094,7 +12093,7 @@
     "chamber": "House",
     "price": 22,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 19,
     "geo_name": "19th District Election",
@@ -12110,7 +12109,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -12126,7 +12125,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -12142,7 +12141,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -12158,7 +12157,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 20,
     "geo_name": "20th District Election",
@@ -12174,7 +12173,7 @@
     "chamber": "House",
     "price": 4,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -12190,7 +12189,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 21,
     "geo_name": "21st District Election",
@@ -12206,7 +12205,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -12222,7 +12221,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 22,
     "geo_name": "22nd District Election",
@@ -12238,7 +12237,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -12254,7 +12253,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 23,
     "geo_name": "23rd District Election",
@@ -12270,7 +12269,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 24,
     "geo_name": "24th District Election",
@@ -12286,7 +12285,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 24,
     "geo_name": "24th District Election",
@@ -12302,7 +12301,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -12318,7 +12317,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 25,
     "geo_name": "25th District Election",
@@ -12334,7 +12333,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -12350,7 +12349,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 26,
     "geo_name": "26th District Election",
@@ -12366,7 +12365,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -12382,7 +12381,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 27,
     "geo_name": "27th District Election",
@@ -12398,7 +12397,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 28,
     "geo_name": "28th District Election",
@@ -12414,7 +12413,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 28,
     "geo_name": "28th District Election",
@@ -12430,7 +12429,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 29,
     "geo_name": "29th District Election",
@@ -12446,7 +12445,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 29,
     "geo_name": "29th District Election",
@@ -12462,7 +12461,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -12478,7 +12477,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -12494,7 +12493,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 30,
     "geo_name": "30th District Election",
@@ -12510,7 +12509,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 30,
     "geo_name": "30th District Election",
@@ -12526,7 +12525,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 31,
     "geo_name": "31st District Election",
@@ -12542,7 +12541,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 31,
     "geo_name": "31st District Election",
@@ -12558,7 +12557,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 31,
     "geo_name": "31st District Election",
@@ -12574,7 +12573,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 32,
     "geo_name": "32nd District Election",
@@ -12590,7 +12589,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 32,
     "geo_name": "32nd District Election",
@@ -12606,7 +12605,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 32,
     "geo_name": "32nd District Election",
@@ -12622,7 +12621,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 33,
     "geo_name": "33rd District Election",
@@ -12638,7 +12637,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 33,
     "geo_name": "33rd District Election",
@@ -12654,7 +12653,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 34,
     "geo_name": "34th District Election",
@@ -12670,7 +12669,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 34,
     "geo_name": "34th District Election",
@@ -12686,7 +12685,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 35,
     "geo_name": "35th District Election",
@@ -12702,7 +12701,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 35,
     "geo_name": "35th District Election",
@@ -12718,7 +12717,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 36,
     "geo_name": "36th District Election",
@@ -12734,7 +12733,7 @@
     "chamber": "House",
     "price": 22,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 36,
     "geo_name": "36th District Election",
@@ -12750,7 +12749,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -12766,7 +12765,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -12782,7 +12781,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -12798,7 +12797,7 @@
     "chamber": "House",
     "price": 22,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -12814,7 +12813,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -12830,7 +12829,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -12846,7 +12845,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -12862,7 +12861,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -12878,7 +12877,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -12894,7 +12893,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -12910,7 +12909,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -12926,7 +12925,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -12942,7 +12941,7 @@
     "chamber": "House",
     "price": 20,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -12958,7 +12957,7 @@
     "chamber": "House",
     "price": 5,
     "stateAbbr": "TX"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -12974,7 +12973,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -12990,7 +12989,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13006,7 +13005,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13022,7 +13021,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13038,7 +13037,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13054,7 +13053,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13070,7 +13069,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -13086,7 +13085,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -13102,7 +13101,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "UT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13118,7 +13117,7 @@
     "chamber": "House",
     "price": 23,
     "stateAbbr": "VT"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13134,7 +13133,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "VT"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -13150,7 +13149,7 @@
     "chamber": "House",
     "price": 13,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -13166,7 +13165,7 @@
     "chamber": "House",
     "price": 12,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 11,
     "geo_name": "11th District Election",
@@ -13182,7 +13181,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13198,7 +13197,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13214,7 +13213,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13230,7 +13229,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13246,7 +13245,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13262,7 +13261,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13278,7 +13277,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -13294,7 +13293,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -13310,7 +13309,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -13326,7 +13325,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -13342,7 +13341,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -13358,7 +13357,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -13374,7 +13373,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -13390,7 +13389,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -13406,7 +13405,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -13422,7 +13421,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -13438,7 +13437,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -13454,7 +13453,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -13470,7 +13469,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "VA"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -13486,7 +13485,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 10,
     "geo_name": "10th District Election",
@@ -13502,7 +13501,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13518,7 +13517,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13534,7 +13533,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13550,7 +13549,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13566,7 +13565,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13582,7 +13581,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13598,7 +13597,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -13614,7 +13613,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -13630,7 +13629,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -13646,7 +13645,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -13662,7 +13661,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -13678,7 +13677,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -13694,7 +13693,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -13710,7 +13709,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -13726,7 +13725,7 @@
     "chamber": "House",
     "price": 11,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -13742,7 +13741,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -13758,7 +13757,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -13774,7 +13773,7 @@
     "chamber": "House",
     "price": 18,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 9,
     "geo_name": "9th District Election",
@@ -13790,7 +13789,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "WA"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13806,7 +13805,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "WV"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13822,7 +13821,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "WV"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13838,7 +13837,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "WV"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13854,7 +13853,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "WV"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13870,7 +13869,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "WV"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13886,7 +13885,7 @@
     "chamber": "House",
     "price": 6,
     "stateAbbr": "WV"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13902,7 +13901,7 @@
     "chamber": "House",
     "price": 2,
     "stateAbbr": "WV"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13918,7 +13917,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -13934,7 +13933,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13950,7 +13949,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 2,
     "geo_name": "2nd District Election",
@@ -13966,7 +13965,7 @@
     "chamber": "House",
     "price": 8,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 3,
     "geo_name": "3rd District Election",
@@ -13982,7 +13981,7 @@
     "chamber": "House",
     "price": 25,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -13998,7 +13997,7 @@
     "chamber": "House",
     "price": 19,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -14014,7 +14013,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 4,
     "geo_name": "4th District Election",
@@ -14030,7 +14029,7 @@
     "chamber": "House",
     "price": 3,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -14046,7 +14045,7 @@
     "chamber": "House",
     "price": 17,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 5,
     "geo_name": "5th District Election",
@@ -14062,7 +14061,7 @@
     "chamber": "House",
     "price": 7,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -14078,7 +14077,7 @@
     "chamber": "House",
     "price": 14,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -14094,7 +14093,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 6,
     "geo_name": "6th District Election",
@@ -14110,7 +14109,7 @@
     "chamber": "House",
     "price": 1,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -14126,7 +14125,7 @@
     "chamber": "House",
     "price": 15,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 7,
     "geo_name": "7th District Election",
@@ -14142,7 +14141,7 @@
     "chamber": "House",
     "price": 10,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -14158,7 +14157,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 8,
     "geo_name": "8th District Election",
@@ -14174,7 +14173,7 @@
     "chamber": "House",
     "price": 9,
     "stateAbbr": "WI"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -14190,7 +14189,7 @@
     "chamber": "House",
     "price": 16,
     "stateAbbr": "WY"
-  },
+  }
   {
     "district": 1,
     "geo_name": "1st District Election",
@@ -14207,4 +14206,3 @@
     "price": 8,
     "stateAbbr": "WY"
   }
-]

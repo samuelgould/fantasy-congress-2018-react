@@ -1,5 +1,4 @@
-[
-  {
+{
     "party": "R",
     "incumbent": true,
     "is_winner": true,
@@ -12,7 +11,7 @@
     "chamber": "Senate",
     "price": 16,
     "stateAbbr": "AL"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -26,7 +25,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "AL"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -40,7 +39,7 @@
     "chamber": "Senate",
     "price": 13,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -54,7 +53,7 @@
     "chamber": "Senate",
     "price": 10,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "party": "I",
     "incumbent": false,
@@ -68,7 +67,7 @@
     "chamber": "Senate",
     "price": 1,
     "stateAbbr": "AZ"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -82,7 +81,7 @@
     "chamber": "Senate",
     "price": 15,
     "stateAbbr": "AR"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -96,7 +95,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "AR"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -110,7 +109,7 @@
     "chamber": "Senate",
     "price": 16,
     "stateAbbr": "CA"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -124,7 +123,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "CA"
-  },
+  }
   {
     "party": "D",
     "incumbent": true,
@@ -138,7 +137,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "CO"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -152,7 +151,7 @@
     "chamber": "Senate",
     "price": 11,
     "stateAbbr": "CO"
-  },
+  }
   {
     "party": "D",
     "incumbent": true,
@@ -166,7 +165,7 @@
     "chamber": "Senate",
     "price": 16,
     "stateAbbr": "CT"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -180,7 +179,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "CT"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -194,7 +193,7 @@
     "chamber": "Senate",
     "price": 13,
     "stateAbbr": "FL"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -208,7 +207,7 @@
     "chamber": "Senate",
     "price": 11,
     "stateAbbr": "FL"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -222,7 +221,7 @@
     "chamber": "Senate",
     "price": 14,
     "stateAbbr": "GA"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -236,7 +235,7 @@
     "chamber": "Senate",
     "price": 10,
     "stateAbbr": "GA"
-  },
+  }
   {
     "party": "D",
     "incumbent": true,
@@ -250,7 +249,7 @@
     "chamber": "Senate",
     "price": 18,
     "stateAbbr": "HI"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -264,7 +263,7 @@
     "chamber": "Senate",
     "price": 6,
     "stateAbbr": "HI"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -278,7 +277,7 @@
     "chamber": "Senate",
     "price": 17,
     "stateAbbr": "ID"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -292,7 +291,7 @@
     "chamber": "Senate",
     "price": 7,
     "stateAbbr": "ID"
-  },
+  }
   {
     "party": "I",
     "incumbent": false,
@@ -306,7 +305,7 @@
     "chamber": "Senate",
     "price": 2,
     "stateAbbr": "ID"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -320,7 +319,7 @@
     "chamber": "Senate",
     "price": 14,
     "stateAbbr": "IL"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -334,7 +333,7 @@
     "chamber": "Senate",
     "price": 10,
     "stateAbbr": "IL"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -348,7 +347,7 @@
     "chamber": "Senate",
     "price": 13,
     "stateAbbr": "IN"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -362,7 +361,7 @@
     "chamber": "Senate",
     "price": 11,
     "stateAbbr": "IN"
-  },
+  }
   {
     "party": "I",
     "incumbent": false,
@@ -376,7 +375,7 @@
     "chamber": "Senate",
     "price": 1,
     "stateAbbr": "IN"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -390,7 +389,7 @@
     "chamber": "Senate",
     "price": 15,
     "stateAbbr": "IA"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -404,7 +403,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "IA"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -418,7 +417,7 @@
     "chamber": "Senate",
     "price": 16,
     "stateAbbr": "KS"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -432,7 +431,7 @@
     "chamber": "Senate",
     "price": 8,
     "stateAbbr": "KS"
-  },
+  }
   {
     "party": "I",
     "incumbent": false,
@@ -446,7 +445,7 @@
     "chamber": "Senate",
     "price": 1,
     "stateAbbr": "KS"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -460,7 +459,7 @@
     "chamber": "Senate",
     "price": 14,
     "stateAbbr": "KY"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -474,7 +473,7 @@
     "chamber": "Senate",
     "price": 11,
     "stateAbbr": "KY"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -488,7 +487,7 @@
     "chamber": "Senate",
     "price": 6,
     "stateAbbr": "LA"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -502,7 +501,7 @@
     "chamber": "Senate",
     "price": 4,
     "stateAbbr": "LA"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -516,7 +515,7 @@
     "chamber": "Senate",
     "price": 4,
     "stateAbbr": "LA"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -530,7 +529,7 @@
     "chamber": "Senate",
     "price": 3,
     "stateAbbr": "LA"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -544,7 +543,7 @@
     "chamber": "Senate",
     "price": 3,
     "stateAbbr": "LA"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -558,7 +557,7 @@
     "chamber": "Senate",
     "price": 15,
     "stateAbbr": "MD"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -572,7 +571,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "MD"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -586,7 +585,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "MO"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -600,7 +599,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "MO"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -614,7 +613,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "NV"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -628,7 +627,7 @@
     "chamber": "Senate",
     "price": 11,
     "stateAbbr": "NV"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -642,7 +641,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "NH"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -656,7 +655,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "NH"
-  },
+  }
   {
     "party": "D",
     "incumbent": true,
@@ -670,7 +669,7 @@
     "chamber": "Senate",
     "price": 18,
     "stateAbbr": "NY"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -684,7 +683,7 @@
     "chamber": "Senate",
     "price": 7,
     "stateAbbr": "NY"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -698,7 +697,7 @@
     "chamber": "Senate",
     "price": 13,
     "stateAbbr": "NC"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -712,7 +711,7 @@
     "chamber": "Senate",
     "price": 11,
     "stateAbbr": "NC"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -726,7 +725,7 @@
     "chamber": "Senate",
     "price": 20,
     "stateAbbr": "ND"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -740,7 +739,7 @@
     "chamber": "Senate",
     "price": 4,
     "stateAbbr": "ND"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -754,7 +753,7 @@
     "chamber": "Senate",
     "price": 15,
     "stateAbbr": "OH"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -768,7 +767,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "OH"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -782,7 +781,7 @@
     "chamber": "Senate",
     "price": 17,
     "stateAbbr": "OK"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -796,7 +795,7 @@
     "chamber": "Senate",
     "price": 6,
     "stateAbbr": "OK"
-  },
+  }
   {
     "party": "D",
     "incumbent": true,
@@ -810,7 +809,7 @@
     "chamber": "Senate",
     "price": 14,
     "stateAbbr": "OR"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -824,7 +823,7 @@
     "chamber": "Senate",
     "price": 8,
     "stateAbbr": "OR"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -838,7 +837,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "PA"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -852,7 +851,7 @@
     "chamber": "Senate",
     "price": 12,
     "stateAbbr": "PA"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -866,7 +865,7 @@
     "chamber": "Senate",
     "price": 15,
     "stateAbbr": "SC"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -880,7 +879,7 @@
     "chamber": "Senate",
     "price": 9,
     "stateAbbr": "SC"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -894,7 +893,7 @@
     "chamber": "Senate",
     "price": 18,
     "stateAbbr": "SD"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -908,7 +907,7 @@
     "chamber": "Senate",
     "price": 7,
     "stateAbbr": "SD"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -922,7 +921,7 @@
     "chamber": "Senate",
     "price": 17,
     "stateAbbr": "UT"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -936,7 +935,7 @@
     "chamber": "Senate",
     "price": 7,
     "stateAbbr": "UT"
-  },
+  }
   {
     "party": "D",
     "incumbent": true,
@@ -950,7 +949,7 @@
     "chamber": "Senate",
     "price": 15,
     "stateAbbr": "VT"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -964,7 +963,7 @@
     "chamber": "Senate",
     "price": 8,
     "stateAbbr": "VT"
-  },
+  }
   {
     "party": "D",
     "incumbent": true,
@@ -978,7 +977,7 @@
     "chamber": "Senate",
     "price": 15,
     "stateAbbr": "WA"
-  },
+  }
   {
     "party": "R",
     "incumbent": false,
@@ -992,7 +991,7 @@
     "chamber": "Senate",
     "price": 10,
     "stateAbbr": "WA"
-  },
+  }
   {
     "party": "R",
     "incumbent": true,
@@ -1006,7 +1005,7 @@
     "chamber": "Senate",
     "price": 13,
     "stateAbbr": "WI"
-  },
+  }
   {
     "party": "D",
     "incumbent": false,
@@ -1021,4 +1020,3 @@
     "price": 12,
     "stateAbbr": "WI"
   }
-]

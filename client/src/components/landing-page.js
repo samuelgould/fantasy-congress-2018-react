@@ -1,8 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Link, Redirect} from 'react-router-dom';
-
 import LoginForm from './login-form';
+import './landing-page.css';
 
 export function LandingPage(props) {
     if (props.loggedIn) {
@@ -10,10 +10,12 @@ export function LandingPage(props) {
     }
 
     return (
-        <div className="home">
-            <h2>Welcome to Fantasy Congress 2018</h2>
+        <div className="landing-page-container">
             <LoginForm />
-            <Link to="/register">Register</Link>
+            
+            <p>
+                Don't have an account? <Link to="/register">Register today</Link>.
+            </p>
         </div>
     );
 }

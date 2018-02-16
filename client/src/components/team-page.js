@@ -38,17 +38,18 @@ export class TeamPage extends React.Component {
 
 		return (
 			<div className="team-page">
-				<h2 className="team header">
-					<div className="team-name">{user.teamName}</div> 
-					<div className="manager">managed by: {user.username}</div>
-					<div className="submit-button-container">
-						{button}
+				<div className="team-information-container">
+					<h2 className="team-header">
+						<div className="team-name">{user.teamName}</div> 
+						<div className="manager">managed by: {user.username}</div>
+						<div className="submit-button-container">
+							{button}
+						</div>
+					</h2>
+					<div className="budget">
+						Remaining Budget: <span className={budgetValue}>${budget}</span>
 					</div>
-				</h2>
-				<div className="budget">
-					Remaining Budget: <span className={budgetValue}>${budget}</span>
 				</div>
-				
 				<h3 className="chamber header">
 					SENATE
 				</h3>

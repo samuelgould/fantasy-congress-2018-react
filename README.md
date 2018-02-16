@@ -10,7 +10,17 @@ Live Site: https://zen-pike-0242a9.netlify.com/
 
 ## Screenshots
 
+Landing Page:
 ![LandingPage](screenshots/fc18-landing-page.png "LandingPage")
+
+Candidates Search:
+![CandidatesSearch](screenshots/fc18-candidates-search.png "CandidatesSearch")
+
+Filter Options:
+![FilterOptions](screenshots/fc18-filter-options.png "FilterOptions")
+
+Team Page:
+![TeamPage](screenshots/fc18-team-page.png "TeamPage")
 
 ## Components Rundown
 

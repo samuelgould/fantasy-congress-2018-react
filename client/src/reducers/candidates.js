@@ -6,7 +6,8 @@ import {
 	FILTER_CANDIDATES_BY_CHAMBER, 
 	FILTER_CANDIDATES_BY_PARTY, 
 	FILTER_CANDIDATES_BY_STATE, 
-	FILTER_ONLY_SHOW_INCUMBENTS 
+	FILTER_ONLY_SHOW_INCUMBENTS, 
+    FILTER_ONLY_AFFORDABLE
 } from '../actions/candidates';
 
 const initialState = {
@@ -69,6 +70,12 @@ export const reducer = (state = initialState, action) => {
 	else if (action.type === FILTER_ONLY_SHOW_INCUMBENTS) {
 		return Object.assign({}, state, {
 			incumbent: action.incumbent
+		})
+	}
+
+	else if (action.type === FILTER_ONLY_AFFORDABLE) {
+		return Object.assign({}, state, {
+			affordable: action.affordable
 		})
 	}
 

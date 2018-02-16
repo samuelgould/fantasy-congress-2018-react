@@ -22,6 +22,16 @@ export class Candidates extends React.Component {
 			candidates = candidates.filter(candidate => candidate._id !== house[i].candidate_id._id);
 		}
 
+		let budget = this.props.budget;
+
+		for (let i=0; i<senate.length; i++) {
+			budget = budget - senate[i].candidate_id.price;
+		}
+
+		for (let i=0; i<house.length; i++) {
+			budget = budget - house[i].candidate_id.price;
+		}
+
 		if (this.props.incumbent) {
 			candidates = candidates.filter(candidate => candidate.incumbent === true)
 		} if (this.props.chamber !== 'both') {
@@ -32,6 +42,8 @@ export class Candidates extends React.Component {
 			candidates = candidates.filter(candidate => candidate.party === this.props.party)
 		} if (this.props.searchString !== '') {
 			candidates = candidates.filter(candidate => candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1)
+		} if (this.props.affordable) {
+			candidates = candidates.filter(candidate => candidate.price < budget)
 		}
 
 		candidates = candidates.map( candidate => {
@@ -44,15 +56,6 @@ export class Candidates extends React.Component {
 			}
 
 			let affordibility = 'price-affordable';
-			let budget = this.props.budget;
-
-			for (let i=0; i<senate.length; i++) {
-				budget = budget - senate[i].candidate_id.price;
-			}
-
-			for (let i=0; i<house.length; i++) {
-				budget = budget - house[i].candidate_id.price;
-			}
 
 			if (candidate.price > budget) {
 				affordibility = 'price-too-expensive';
@@ -92,6 +95,7 @@ const mapStateToProps = state => ({
 	party: state.candidates.party,
 	state: state.candidates.state,
 	incumbent: state.candidates.incumbent,
+	affordable: state.candidates.affordable,
 	senate: state.user.user.senate || [],
 	house: state.user.user.house || [],
 	budget: state.user.user.budget

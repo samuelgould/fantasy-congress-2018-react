@@ -5,24 +5,14 @@
     width: 350px;
     line-height: 42px;
     padding: 0 16px;
-    /* background-color: rgba(255, 255, 255, 0.8); */
     background-color: #F5F5F5;
     color: #212121;
     border: 0;
     border-radius: 4px 0 0 4px;
     margin: 10px;
 }
-/*   
-.search-bar:hover {
-    background-color: #FFF;
-}
-
-#search-bar:hover {
-    background-color: #FFF;
-} */
 
 #search-bar {
-    /* background-color: rgba(255, 255, 255, 0.8); */
     background-color: #F5F5F5;
     border: none;
     width: 275px;

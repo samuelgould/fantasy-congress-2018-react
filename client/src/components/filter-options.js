@@ -4,6 +4,7 @@ import ChamberOption from './chamber-option';
 import PartyOption from './party-option';
 import StateOption from './state-option';
 import IncumbentOnly from './incumbent-checkbox';
+import AffordableOnly from './affordable-checkbox';
 import './filter-options.css';
 
 export default function FilterOptions() {
@@ -11,16 +12,15 @@ export default function FilterOptions() {
         <div className="sorting-options">
             <SearchBar />
             <div className="filters">
-                <div>
+                <div className="dropdown-container">
                     <PartyOption />
-                </div>
-                <div>  
                     <ChamberOption />                   
-                </div> 
-                <div>
                     <StateOption />
                 </div>
-                <IncumbentOnly />
+                <div className="checkbox-container">
+                    <IncumbentOnly />
+                    <AffordableOnly />
+                </div>
             </div>
         </div>
     )

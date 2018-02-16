@@ -47,6 +47,12 @@ export const filterOnlyShowIncumbents = incumbent => ({
 	incumbent
 });
 
+export const FILTER_ONLY_AFFORDABLE = 'FILTER_ONLY_AFFORDABLE';
+export const filterOnlyAffordable = affordable => ({
+	type: FILTER_ONLY_AFFORDABLE,
+	affordable
+})
+
 export const fetchCandidates = () => (dispatch, getState) => {
 	dispatch(fetchCandidatesRequest());
 	const authToken = getState().auth.authToken;

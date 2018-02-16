@@ -41,6 +41,12 @@ export const filterCandidatesByState = state => ({
 	state
 });
 
+export const FILTER_CANDIDATES_BY_PRICE = 'FILTER_CANDIDATES_BY_PRICE';
+export const filterCandidatesByPrice = price => ({
+	type: FILTER_CANDIDATES_BY_PRICE,
+	price: parseInt(price, 10) || 'any'
+});
+
 export const FILTER_ONLY_SHOW_INCUMBENTS = 'FILTER_ONLY_SHOW_INCUMBENTS';
 export const filterOnlyShowIncumbents = incumbent => ({
 	type: FILTER_ONLY_SHOW_INCUMBENTS,

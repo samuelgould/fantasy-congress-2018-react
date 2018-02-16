@@ -5,7 +5,8 @@ import {
 	SEARCH_CANDIDATES, 
 	FILTER_CANDIDATES_BY_CHAMBER, 
 	FILTER_CANDIDATES_BY_PARTY, 
-	FILTER_CANDIDATES_BY_STATE, 
+	FILTER_CANDIDATES_BY_STATE,
+	FILTER_CANDIDATES_BY_PRICE, 
 	FILTER_ONLY_SHOW_INCUMBENTS, 
     FILTER_ONLY_AFFORDABLE
 } from '../actions/candidates';
@@ -18,6 +19,7 @@ const initialState = {
   chamber: 'both',
   party: 'all',
   state: 'all',
+  price: 'any',
   incumbent: false,
 }
 
@@ -64,6 +66,12 @@ export const reducer = (state = initialState, action) => {
 	else if (action.type === FILTER_CANDIDATES_BY_STATE) {
 		return Object.assign({}, state, {
 			state: action.state
+		})
+	}
+
+	else if (action.type === FILTER_CANDIDATES_BY_PRICE) {
+		return Object.assign({}, state, {
+			price: action.price
 		})
 	}
 

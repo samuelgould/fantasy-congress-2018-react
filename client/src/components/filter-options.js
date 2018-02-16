@@ -5,6 +5,7 @@ import PartyOption from './party-option';
 import StateOption from './state-option';
 import IncumbentOnly from './incumbent-checkbox';
 import AffordableOnly from './affordable-checkbox';
+import PriceOption from './price-option';
 import './filter-options.css';
 
 export default function FilterOptions() {
@@ -16,6 +17,7 @@ export default function FilterOptions() {
                     <PartyOption />
                     <ChamberOption />                   
                     <StateOption />
+                    <PriceOption />
                 </div>
                 <div className="checkbox-container">
                     <IncumbentOnly />

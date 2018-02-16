@@ -40,6 +40,8 @@ export class Candidates extends React.Component {
 			candidates = candidates.filter(candidate => candidate.state === this.props.state)
 		} if (this.props.party !== 'all') {
 			candidates = candidates.filter(candidate => candidate.party === this.props.party)
+		} if (this.props.price !== 'any') {
+			candidates = candidates.filter(candidate => candidate.price < this.props.price)
 		} if (this.props.searchString !== '') {
 			candidates = candidates.filter(candidate => candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1)
 		} if (this.props.affordable) {
@@ -94,6 +96,7 @@ const mapStateToProps = state => ({
 	chamber: state.candidates.chamber,
 	party: state.candidates.party,
 	state: state.candidates.state,
+	price: state.candidates.price,
 	incumbent: state.candidates.incumbent,
 	affordable: state.candidates.affordable,
 	senate: state.user.user.senate || [],

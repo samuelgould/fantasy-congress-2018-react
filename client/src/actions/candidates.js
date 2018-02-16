@@ -23,6 +23,11 @@ export const searchCandidates = searchString => ({
 	searchString
 });
 
+export const TOGGLE_FILTERS = 'TOGGLE_FILTERS';
+export const toggleFilters = () => ({
+	type: TOGGLE_FILTERS
+});
+
 export const FILTER_CANDIDATES_BY_CHAMBER = 'FILTER_CANDIDATES_BY_CHAMBER';
 export const filterCandidatesByChamber = chamber => ({
 	type: FILTER_CANDIDATES_BY_CHAMBER,

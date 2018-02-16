@@ -14,6 +14,7 @@ export class Dashboard extends React.Component {
                 <div className="search">
                     <FilterOptions />
                     <Candidates />
+                    <a className="icon-credit" href="https://icons8.com">Icon pack by Icons8</a>
                 </div>
                 <TeamPage />
             </div>

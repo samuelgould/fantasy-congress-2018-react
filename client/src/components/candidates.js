@@ -32,20 +32,24 @@ export class Candidates extends React.Component {
 			budget = budget - house[i].candidate_id.price;
 		}
 
-		if (this.props.incumbent) {
-			candidates = candidates.filter(candidate => candidate.incumbent === true)
-		} if (this.props.chamber !== 'both') {
-			candidates = candidates.filter(candidate => candidate.chamber.toLowerCase() === this.props.chamber)
-		} if (this.props.state !== 'all') {
-			candidates = candidates.filter(candidate => candidate.state === this.props.state)
-		} if (this.props.party !== 'all') {
-			candidates = candidates.filter(candidate => candidate.party === this.props.party)
-		} if (this.props.price !== 'any') {
-			candidates = candidates.filter(candidate => candidate.price < this.props.price)
-		} if (this.props.searchString !== '') {
+		if(this.props.filters){
+			if (this.props.incumbent) {
+				candidates = candidates.filter(candidate => candidate.incumbent === true)
+			} if (this.props.chamber !== 'both') {
+				candidates = candidates.filter(candidate => candidate.chamber.toLowerCase() === this.props.chamber)
+			} if (this.props.state !== 'all') {
+				candidates = candidates.filter(candidate => candidate.state === this.props.state)
+			} if (this.props.party !== 'all') {
+				candidates = candidates.filter(candidate => candidate.party === this.props.party)
+			} if (this.props.price !== 'any') {
+				candidates = candidates.filter(candidate => candidate.price < this.props.price)
+			} if (this.props.affordable) {
+				candidates = candidates.filter(candidate => candidate.price < budget)
+			}
+		}
+
+		if (this.props.searchString !== '') {
 			candidates = candidates.filter(candidate => candidate.name.toLowerCase().indexOf(this.props.searchString.toLowerCase()) > -1)
-		} if (this.props.affordable) {
-			candidates = candidates.filter(candidate => candidate.price < budget)
 		}
 
 		candidates = candidates.map( candidate => {
@@ -93,6 +97,7 @@ export class Candidates extends React.Component {
 const mapStateToProps = state => ({
 	candidates: state.candidates.candidates,
 	searchString: state.candidates.searchString,
+	filters: state.candidates.filters,
 	chamber: state.candidates.chamber,
 	party: state.candidates.party,
 	state: state.candidates.state,

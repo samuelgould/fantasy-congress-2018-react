@@ -2,7 +2,8 @@ import {
 	FETCH_CANDIDATES_REQUEST, 
 	FETCH_CANDIDATES_SUCCESS, 
 	FETCH_CANDIDATES_ERROR, 
-	SEARCH_CANDIDATES, 
+	SEARCH_CANDIDATES,
+	TOGGLE_FILTERS,
 	FILTER_CANDIDATES_BY_CHAMBER, 
 	FILTER_CANDIDATES_BY_PARTY, 
 	FILTER_CANDIDATES_BY_STATE,
@@ -16,6 +17,7 @@ const initialState = {
   loading: false,
   error: null,
   searchString: '',
+  filters: false,
   chamber: 'both',
   party: 'all',
   state: 'all',
@@ -48,6 +50,12 @@ export const reducer = (state = initialState, action) => {
 	else if (action.type === SEARCH_CANDIDATES) {
 		return Object.assign({}, state, {
 			searchString: action.searchString
+		})
+	}
+
+	else if (action.type === TOGGLE_FILTERS) {
+		return Object.assign({}, state, {
+			filters: !state.filters
 		})
 	}
 

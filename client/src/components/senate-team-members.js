@@ -1,5 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { fetchCandidate } from '../actions/candidates';
 import { removeTeamMember } from '../actions/user';
 import './team-member.css';
 
@@ -12,7 +14,7 @@ export class SenateTeamMembers extends React.Component {
                             <div className="member-container">
                                 <div className="member-information">
                                     {/* <img className="member-headshot verbose" src={member.candidate_id.image} alt="member headshot" /> */}
-                                    <div className="member-name">{member.candidate_id.name} ({member.candidate_id.party}-{member.candidate_id.stateAbbr})</div>
+                                    <Link to='/candidate' className="member-name" onClick={() => this.props.dispatch(fetchCandidate(member.candidate_id._id))}>{member.candidate_id.name} ({member.candidate_id.party}-{member.candidate_id.stateAbbr})</Link>
                                     <div className="member-price">${member.candidate_id.price}</div>
                                 </div>
                                 <div className="removing-member">

@@ -12,8 +12,14 @@
 }
 
 .member-name {
+    color: black;
+    text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+}
+
+.member-name:hover, .member-name:focus {
+    text-decoration: underline;
 }
 
 .member-headshot {

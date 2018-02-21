@@ -1,3 +1,19 @@
-.candidate-view {
-    background-color: fuchsia;
+.individual-candidate-container {
+    width: 55%;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.individual-candidate-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.individual-candidate-information {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }

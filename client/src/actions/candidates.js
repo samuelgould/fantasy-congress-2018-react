@@ -17,6 +17,23 @@ export const fetchCandidatesError = error => ({
   error
 });
 
+export const FETCH_CANDIDATE_REQUEST = 'FETCH_CANDIDATE_REQUEST';
+export const fetchCandidateRequest = () => ({
+  type: FETCH_CANDIDATE_REQUEST
+});
+
+export const FETCH_CANDIDATE_SUCCESS = 'FETCH_CANDIDATE_SUCCESS';
+export const fetchCandidateSuccess = candidate => ({
+  type: FETCH_CANDIDATE_SUCCESS,
+  candidate
+});
+
+export const FETCH_CANDIDATE_ERROR = 'FETCH_CANDIDATE_ERROR';
+export const fetchCandidateError = error => ({
+  type: FETCH_CANDIDATE_ERROR,
+  error
+});
+
 export const SEARCH_CANDIDATES = 'SEARCH_CANDIDATES';
 export const searchCandidates = searchString => ({
 	type: SEARCH_CANDIDATES,
@@ -86,4 +103,28 @@ export const fetchCandidates = () => (dispatch, getState) => {
 		.catch(err => 
 			dispatch(fetchCandidatesError(err))
 		)
-	}
+}
+
+export const fetchCandidate = (candidateId) => (dispatch, getState) => {
+		dispatch(fetchCandidateRequest());
+		const authToken = getState().auth.authToken;
+		return fetch(`${API_BASE_URL}/candidates/${candidateId}`, 
+			{
+			  method: 'GET',
+			  headers: {
+				'Authorization': `Bearer ${authToken}`
+			}
+		})
+			.then(res => {
+				if (!res.ok) {
+					return Promise.reject('Something has gone wrong');
+				}
+				return res.json()
+			})
+			.then(candidate => {
+				dispatch(fetchCandidateSuccess(candidate))
+			})
+			.catch(err => 
+				dispatch(fetchCandidateError(err))
+			)
+		}

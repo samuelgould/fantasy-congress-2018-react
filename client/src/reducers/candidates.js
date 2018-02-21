@@ -1,7 +1,10 @@
 import { 
 	FETCH_CANDIDATES_REQUEST, 
 	FETCH_CANDIDATES_SUCCESS, 
-	FETCH_CANDIDATES_ERROR, 
+	FETCH_CANDIDATES_ERROR,
+	FETCH_CANDIDATE_REQUEST,
+	FETCH_CANDIDATE_SUCCESS,
+	FETCH_CANDIDATE_ERROR, 
 	SEARCH_CANDIDATES,
 	TOGGLE_FILTERS,
 	FILTER_CANDIDATES_BY_CHAMBER, 
@@ -22,7 +25,8 @@ const initialState = {
   party: 'all',
   state: 'all',
   price: 'any',
-  incumbent: false
+  incumbent: false,
+  candidate: null
 }
 
 export const reducer = (state = initialState, action) => {
@@ -41,6 +45,27 @@ export const reducer = (state = initialState, action) => {
 	}
 
 	else if (action.type === FETCH_CANDIDATES_ERROR) {
+		return Object.assign({}, state, {
+			loading: false,
+			error: action.error
+		})
+	}
+
+	else if (action.type === FETCH_CANDIDATE_REQUEST) {
+		return Object.assign({}, state, {
+			loading: true,
+		})
+	}
+
+	else if (action.type === FETCH_CANDIDATE_SUCCESS) {
+		return Object.assign({}, state, {
+			candidate: action.candidate,
+			loading: false,
+			error: null
+		})
+	}
+
+	else if (action.type === FETCH_CANDIDATE_ERROR) {
 		return Object.assign({}, state, {
 			loading: false,
 			error: action.error

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchCandidates } from '../actions/candidates';
+import { fetchCandidates, fetchCandidate } from '../actions/candidates';
 import { addCandidate } from '../actions/user';
 import './candidates.css';
 
@@ -12,8 +12,8 @@ export class Candidates extends React.Component {
 
 	render() {
 		let candidates = this.props.candidates;
-		let senate = this.props.senate;
-		let house = this.props.house;
+		const senate = this.props.senate;
+		const house = this.props.house;
 		
 		for (let i=0; i<senate.length; i++){
 			candidates = candidates.filter(candidate => candidate._id !== senate[i].candidate_id._id);
@@ -74,7 +74,7 @@ export class Candidates extends React.Component {
 						<div className="candidate-information">
 							{/* <img className="candidate-headshot" src={candidate.image} alt="candidate headshot" /> */}
 							<div className="candidate-stats">
-								<Link to='/candidate' className="candidate-name" onClick={() => console.log(candidate._id)}>{candidate.name} ({candidate.party})</Link>
+								<Link to='/candidate' className="candidate-name" onClick={() => this.props.dispatch(fetchCandidate(candidate._id))}>{candidate.name} ({candidate.party})</Link>
 								<div className="candidate-congress-info">{candidate.chamber}: {candidate.state} {candidate.district}</div>
 							</div>
 						</div>

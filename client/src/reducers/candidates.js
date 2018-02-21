@@ -17,12 +17,12 @@ const initialState = {
   loading: false,
   error: null,
   searchString: '',
-  filters: false,
+  filters: true,
   chamber: 'both',
   party: 'all',
   state: 'all',
   price: 'any',
-  incumbent: false,
+  incumbent: false
 }
 
 export const reducer = (state = initialState, action) => {

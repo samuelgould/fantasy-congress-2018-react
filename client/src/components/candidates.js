@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { fetchCandidates } from '../actions/candidates';
 import { addCandidate } from '../actions/user';
 import './candidates.css';
@@ -73,7 +74,7 @@ export class Candidates extends React.Component {
 						<div className="candidate-information">
 							{/* <img className="candidate-headshot" src={candidate.image} alt="candidate headshot" /> */}
 							<div className="candidate-stats">
-								<div className="candidate-name">{candidate.name} ({candidate.party})</div>
+								<Link to='/candidate' className="candidate-name" onClick={() => console.log(candidate._id)}>{candidate.name} ({candidate.party})</Link>
 								<div className="candidate-congress-info">{candidate.chamber}: {candidate.state} {candidate.district}</div>
 							</div>
 						</div>

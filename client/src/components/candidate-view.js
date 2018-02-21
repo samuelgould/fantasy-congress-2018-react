@@ -1,21 +1,17 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import requiresLogin from './requires-login';
-import FilterOptions from './filter-options';
-import Candidates from './candidates';
 import TeamPage from './team-page';
-import './dashboard.css';
+import './candidate-view.css';
 
-export class Dashboard extends React.Component {
+export class CandidateView extends React.Component {
 
     
     render() {
         return (
-            <div className="dashboard">
-                <div className="search">
-                    <FilterOptions />
-                    <Candidates />
-                    <a className="icon-credit" href="https://icons8.com">Icon pack by Icons8</a>
+            <div className="candidate-view">
+                <div>
+                    Test
                 </div>
                 <TeamPage />
             </div>
@@ -31,4 +27,4 @@ const mapStateToProps = state => {
     };
 };
 
-export default requiresLogin()(connect(mapStateToProps)(Dashboard));
+export default requiresLogin()(connect(mapStateToProps)(CandidateView));

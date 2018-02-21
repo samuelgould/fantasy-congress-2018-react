@@ -49,8 +49,14 @@ button:active {
 }
 
 .candidate-name {
+    color: black;
     font-weight: bold;
     font-size: 30px;
+    text-decoration: none;
+}
+
+.candidate-name:hover, .candidate-name:focus {
+    text-decoration: underline;
 }
 
 .candidate-congress-info {

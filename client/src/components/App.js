@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import Header from './header';
 import LandingPage from './landing-page';
 import Dashboard from './dashboard';
+import CandidateView from './candidate-view';
 import RegistrationPage from './registration-page';
 import './App.css';
 
@@ -14,6 +15,7 @@ export default class App extends React.Component {
 
         <Route exact path='/' component={LandingPage} />
         <Route exact path='/dashboard' component={Dashboard} />
+        <Route exact path='/candidate' component={CandidateView} />
         <Route exact path='/register' component={RegistrationPage} />
       </div>
     );

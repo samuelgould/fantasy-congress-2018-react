@@ -10,6 +10,24 @@ export class Candidates extends React.Component {
 		this.props.dispatch(fetchCandidates());
 	}
 
+	_getFilters(budget) {
+		const candidateFilters = [];
+		if (this.props.incumbent) {
+			candidateFilters.push(candidate => candidate.incumbent === true);
+		} if (this.props.chamber !== 'both') {
+			candidateFilters.push(candidate => candidate.chamber.toLowerCase() === this.props.chamber);
+		} if (this.props.state !== 'all') {
+			candidateFilters.push(candidate => candidate.state === this.props.state);
+		} if (this.props.party !== 'all') {
+			candidateFilters.push(candidate => candidate.party === this.props.party);
+		} if (this.props.price !== 'any') {
+			candidateFilters.push(candidate => candidate.price < this.props.price);
+		} if (this.props.affordable) {
+			candidateFilters.push(candidate => candidate.price < budget);
+		}
+		return candidateFilters;
+	}
+
 	render() {
 		let candidates = this.props.candidates;
 		const senate = this.props.senate;
@@ -33,20 +51,9 @@ export class Candidates extends React.Component {
 			budget = budget - house[i].candidate_id.price;
 		}
 
-		if(this.props.filters){
-			if (this.props.incumbent) {
-				candidates = candidates.filter(candidate => candidate.incumbent === true)
-			} if (this.props.chamber !== 'both') {
-				candidates = candidates.filter(candidate => candidate.chamber.toLowerCase() === this.props.chamber)
-			} if (this.props.state !== 'all') {
-				candidates = candidates.filter(candidate => candidate.state === this.props.state)
-			} if (this.props.party !== 'all') {
-				candidates = candidates.filter(candidate => candidate.party === this.props.party)
-			} if (this.props.price !== 'any') {
-				candidates = candidates.filter(candidate => candidate.price < this.props.price)
-			} if (this.props.affordable) {
-				candidates = candidates.filter(candidate => candidate.price < budget)
-			}
+		if(this.props.filters) {
+			const candidateFilters = this._getFilters(budget);
+			candidates = candidateFilters.reduce((accumulator, filter) => accumulator.filter(filter), candidates);
 		}
 
 		if (this.props.searchString !== '') {

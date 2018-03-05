@@ -9,6 +9,9 @@
 
 .header-box {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .landing-page {
@@ -23,4 +26,46 @@
     position: absolute;
     right: 10px;
     top: 25px;
+}
+
+.hamburger {
+    width: 34px;
+    height: 24px;
+    border: 1px solid #C1C0B9;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #C1C0B9;
+    padding: 10px;
+    transition: background-color 1s ease;
+    margin: 10px;
+}
+
+.hamburger:hover {
+    background-color: #F7F6E7;
+}
+
+.hamburger-stripe {
+    background-color: #537791;
+    height: 3px;
+}
+
+.first-stripe {
+    margin-top: 3px;
+}
+
+.middle-stripe {
+    margin: 5px 0px;
+}
+
+.desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
 }

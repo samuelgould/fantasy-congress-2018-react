@@ -79,7 +79,6 @@ export class Candidates extends React.Component {
 				<li className={candidate.party} key={candidate._id}>
 					<div className="candidate-container">
 						<div className="candidate-information">
-							{/* <img className="candidate-headshot" src={candidate.image} alt="candidate headshot" /> */}
 							<div className="candidate-stats">
 								<Link to='/candidate' className="candidate-name" onClick={() => this.props.dispatch(fetchCandidate(candidate._id))}>{candidate.name} ({candidate.party})</Link>
 								<div className="candidate-congress-info">{candidate.chamber}: {candidate.state} {candidate.district}</div>

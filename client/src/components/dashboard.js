@@ -10,29 +10,37 @@ export class Dashboard extends React.Component {
 
     
     render() {
-        let candidatesSearch;
-        let teamPage;
+        let candidatesSearch = 'search desktop';
+        let teamPage = 'desktop';
+        let menu;
 
         if (this.props.candidatesVisible) {
-            candidatesSearch = (
-                <div className="search">
-                    <FilterOptions />
-                    <Candidates />
-                    <a className="icon-credit" href="https://icons8.com">Icon pack by Icons8</a>
-                </div>
-            )
+            candidatesSearch = 'search mobile-focus'
         }
 
         if (this.props.teamVisible) {
-            teamPage = (
-                <TeamPage />
+            teamPage = 'mobile-focus'
+        }
+
+        if (this.props.menuVisible) {
+            menu = (
+                <div className="menu-display">
+                    MENU
+                </div>
             )
         }
         
         return (
             <div className="dashboard">
-                {candidatesSearch}
-                {teamPage}
+                <div className={candidatesSearch}>
+                    <FilterOptions />
+                    <Candidates />
+                    <a className="icon-credit" href="https://icons8.com">Icon pack by Icons8</a>
+                </div>
+                <div className={teamPage}>
+                    <TeamPage />
+                </div>
+                {menu}
             </div>
         );
     }
@@ -44,7 +52,8 @@ const mapStateToProps = state => {
         username: state.auth.currentUser.username,
         name: `${currentUser.firstName} ${currentUser.lastName}`,
         candidatesVisible: state.user.candidatesVisible,
-        teamVisible: state.user.teamVisible
+        teamVisible: state.user.teamVisible,
+        menuVisible: state.user.menuVisible
     };
 };
 

@@ -89,7 +89,7 @@ export const reducer = (state = initialState, action) => {
 	
 	else if (action.type === TOGGLE_MENU_VISIBILITY) {
 		return Object.assign({}, state, {
-			menuVisible: !state.menuVisible
+			menuVisible: !state.menuVisible,
 		})
 	}
 

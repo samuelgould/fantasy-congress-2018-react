@@ -7,6 +7,11 @@
     border-radius: 8px;
 }
 
+.filters-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
 .sorting-header {
     display: flex;
     justify-content: space-between;
@@ -19,8 +24,9 @@
 
 .filter-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     margin: 10px 0px;
     width: 100%;
 }
@@ -36,4 +42,18 @@ select {
 
 .no-filters {
     display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .filters-holder {
+        display: block;
+    }
+    
+    .desktop-filters-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0px;
+        width: 100%;
+    }
 }

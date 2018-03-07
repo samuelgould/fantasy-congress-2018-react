@@ -29,7 +29,7 @@
 }
 
 .hamburger {
-    width: 34px;
+    width: 24px;
     height: 24px;
     border: 1px solid #C1C0B9;
     border-radius: 2px;
@@ -46,14 +46,32 @@
 .hamburger-stripe {
     background-color: #537791;
     height: 3px;
+    width: 24px;
+    transition: .5s;
 }
 
-.first-stripe {
+#hamburger-change {
+    background-color: #F7F6E7;
+}
+
+.top-stripe {
     margin-top: 3px;
 }
 
 .middle-stripe {
     margin: 5px 0px;
+}
+
+.menu-visible .top-stripe {
+    transform: rotate(-45deg) translate(-5.5px, 6px) ;
+}
+
+.menu-visible .middle-stripe {
+    opacity: 0;
+}
+
+.menu-visible .bottom-stripe {
+    transform: rotate(45deg) translate(-5px, -6px) ;
 }
 
 .desktop {

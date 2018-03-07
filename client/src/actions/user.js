@@ -145,4 +145,9 @@ export const removeTeamMember = (member_id, chamber) => (dispatch, getState) => 
 		.catch(err =>
 			dispatch(removeTeamMemberError(err))
 		)
-}
+};
+
+export const TOGGLE_MENU_VISIBILITY = 'TOGGLE_MENU_VISIBILITY';
+export const toggleMenuVisibility = () => ({
+	type: TOGGLE_MENU_VISIBILITY
+});

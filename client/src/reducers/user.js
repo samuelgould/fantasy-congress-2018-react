@@ -7,13 +7,17 @@ import {
 	ADD_CANDIDATE_ERROR, 
 	REMOVE_TEAM_MEMBER_ERROR, 
 	REMOVE_TEAM_MEMBER_REQUEST, 
-	REMOVE_TEAM_MEMBER_SUCCESS 
+	REMOVE_TEAM_MEMBER_SUCCESS,
+	TOGGLE_MENU_VISIBILITY
 } from '../actions/user';
 
 const initialState = {
   loading: false,
   user: {},
-  error: null
+  error: null,
+  candidatesVisible: true,
+  menuVisible: false,
+  teamVisible: false
 }
 
 export const reducer = (state = initialState, action) => {
@@ -83,5 +87,11 @@ export const reducer = (state = initialState, action) => {
 		})
 	}
 	
+	else if (action.type === TOGGLE_MENU_VISIBILITY) {
+		return Object.assign({}, state, {
+			menuVisible: !state.menuVisible
+		})
+	}
+
 	return state;
 }

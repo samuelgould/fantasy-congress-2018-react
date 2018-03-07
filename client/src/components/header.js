@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { clearAuth } from '../actions/auth';
 import { clearAuthToken } from '../local-storage';
+import { toggleMenuVisibility } from '../actions/user';
 import './header.css';
 
 export class Header extends React.Component {
@@ -23,11 +24,17 @@ export class Header extends React.Component {
             );
             logo = 'fantasy-congress-2018-logo-thumbnail';
             header = 'header-box logged-in';
+            let hamburgerClass = 'hamburger mobile';
+
+            if (this.props.menuVisible) {
+                hamburgerClass = 'hamburger mobile menu-visible'
+            }
+
             hamburgerIcon = (
-                <div className="hamburger mobile">
-                    <div className="hamburger-stripe first-stripe"></div>
+                <div className={hamburgerClass} onClick={() => this.props.dispatch(toggleMenuVisibility())}>
+                    <div className="hamburger-stripe top-stripe"></div>
                     <div className="hamburger-stripe middle-stripe"></div>
-                    <div className="hamburger-stripe"></div>
+                    <div className="hamburger-stripe bottom-stripe"></div>
                 </div>
             );
         }
@@ -44,7 +51,8 @@ export class Header extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    loggedIn: state.auth.currentUser !== null
+    loggedIn: state.auth.currentUser !== null,
+    menuVisible: state.user.menuVisible
 });
 
 export default connect(mapStateToProps)(Header);

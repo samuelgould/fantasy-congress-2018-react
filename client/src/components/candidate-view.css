@@ -1,8 +1,6 @@
 .individual-candidate-container {
-    width: 55%;
-    float: left;
-    height: 100%;
-    overflow-y: auto;
+    width: 95%;
+    margin: 0 2.5%;
 }
 
 .individual-candidate-name {
@@ -20,4 +18,13 @@
 
 .candidate-stats {
     font-size: 24px;
+}
+
+@media screen and (min-width: 1000px) {
+    .individual-candidate-container {
+        width: 55%;
+        float: left;
+        height: 100%;
+        overflow-y: auto;
+    }
 }

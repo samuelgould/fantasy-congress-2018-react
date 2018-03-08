@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchUser } from '../actions/user';
+import { fetchUser, displayTeamView } from '../actions/user';
 import SenateTeamMembers from './senate-team-members';
 import HouseTeamMembers from './house-team-members';
 import './team-page.css';
@@ -71,10 +71,12 @@ export class TeamPage extends React.Component {
 		}
 
 		let teamMembers = 'desktop';
+		let teamNameLinkStyling = 'mobile-preview team-name-link';
 		let managerInformation = 'manager desktop';
 		let teamHeaderStyling ='team-header mobile-preview';
 		let budgetStyling = 'budget mobile-preview';
-		let teamNameStyling = 'team-name mobile-preview';
+		let teamNameStyling = 'team-name desktop';
+		let teamPreviewStyling = 'team-preview mobile-only';
 
 		if (this.props.teamVisible) {
 			teamMembers = 'team-members-visible';
@@ -82,14 +84,17 @@ export class TeamPage extends React.Component {
 			managerInformation = 'manager';
 			budgetStyling = 'budget';
 			teamNameStyling = 'team-name';
+			teamPreviewStyling = 'desktop';
+			teamNameLinkStyling = 'desktop';
 		}
 
 		return (
 			<div className="team-page">
 				<div className="team-information-container">
 					<h2 className={teamHeaderStyling}>
+						<a className={teamNameLinkStyling} onClick={() => this.props.dispatch(displayTeamView())}>Team Name: {user.teamName}</a>
 						<div className={teamNameStyling}>{user.teamName}</div> 
-						<div className={managerInformation}>managed by: {user.username}</div>
+						<div className={managerInformation}>Manager: {user.username}</div>
 						{/* <div className="submit-button-container">
 							{button}
 						</div> */}
@@ -97,7 +102,7 @@ export class TeamPage extends React.Component {
 					<div className={budgetStyling}>
 						Remaining Budget: <span className={budgetValue}>${budget}</span>
 					</div>
-					<div className="team-preview mobile-only">
+					<div className={teamPreviewStyling}>
 						<div className="senate candidate-preview-container">
 							<p>Senate: </p>
 							<p className={senateTeamMembersStyling[0]}></p>

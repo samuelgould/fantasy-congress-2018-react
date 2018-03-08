@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { fetchUser, displayTeamView } from '../actions/user';
 import SenateTeamMembers from './senate-team-members';
 import HouseTeamMembers from './house-team-members';
@@ -77,6 +78,7 @@ export class TeamPage extends React.Component {
 		let budgetStyling = 'budget mobile-preview';
 		let teamNameStyling = 'team-name desktop';
 		let teamPreviewStyling = 'team-preview mobile-only';
+		let teamPageLinkStyling = 'team-page-link mobile-only'
 
 		if (this.props.teamVisible) {
 			teamMembers = 'team-members-visible';
@@ -84,15 +86,18 @@ export class TeamPage extends React.Component {
 			managerInformation = 'manager';
 			budgetStyling = 'budget';
 			teamNameStyling = 'team-name';
-			teamPreviewStyling = 'desktop';
-			teamNameLinkStyling = 'desktop';
+			teamPreviewStyling = 'hide-preview-info';
+			teamNameLinkStyling = 'hide-preview-info';
+			teamPageLinkStyling = 'hide-preview-info';
 		}
 
 		return (
 			<div className="team-page">
 				<div className="team-information-container">
 					<h2 className={teamHeaderStyling}>
-						<a className={teamNameLinkStyling} onClick={() => this.props.dispatch(displayTeamView())}>Team Name: {user.teamName}</a>
+						<Link to='/dashboard' className={teamPageLinkStyling}>
+							<div className={teamNameLinkStyling} onClick={() => this.props.dispatch(displayTeamView())}>Team Name: {user.teamName}</div>
+						</Link>
 						<div className={teamNameStyling}>{user.teamName}</div> 
 						<div className={managerInformation}>Manager: {user.username}</div>
 						{/* <div className="submit-button-container">

@@ -45,7 +45,39 @@ export class CandidateView extends React.Component {
                     }
                 }
             }
-            
+
+            let party;
+
+            if (candidate.party === 'D') {
+                party = 'Democrat';
+            } else if (candidate.party === 'R') {
+                party = 'Republican';
+            } else {
+                party = 'Independent';
+            }
+
+            let chamber;
+
+            if (candidate.chamber === 'Senate') {
+                chamber = 'Senate';
+            } else {
+                chamber = 'House of Representatives';
+            }
+
+            let district;
+
+            if (!candidate.district) {
+                district = '';
+            } else if (candidate.district === 1 || candidate.district === 21 || candidate.district === 31 || candidate.district === 41 || candidate.district === 51) {
+                district = candidate.district + 'st';
+            } else if (candidate.district === 2 || candidate.district === 22 || candidate.district === 32 || candidate.district === 42 || candidate.district === 52) {
+                district = candidate.district + 'nd';
+            } else if (candidate.district === 3 || candidate.district === 23 || candidate.district === 33 || candidate.district === 43 || candidate.district === 53) {
+                district = candidate.district + 'rd';
+            } else {
+                district = candidate.district + 'th';
+            }
+
             let affordibility = 'price-affordable';
     
             if (candidate.price > budget) {
@@ -55,13 +87,16 @@ export class CandidateView extends React.Component {
             individualCandidate = 
                 <div className="individual-candidate-container">
                     <div className="individual-candidate-information">
-                        {/* <img className="candidate-headshot" src={candidate.image} alt="candidate headshot" /> */}
                         <div className="candidate-stats">
-                            <div className="individual-candidate-name">{candidate.name} ({candidate.party})</div>
-                            <div className="candidate-congress-info">{candidate.chamber}: {candidate.state} {candidate.district}</div>
+                            <div className="individual-candidate-name">{candidate.name}</div>
+                            <div>{party}</div>
+                            <br />
+                            <div className="candidate-congress-info">{chamber}</div>
+                            <div>{candidate.state} {district}</div>
+                            <br />
+                            <div className={affordibility}>Price: ${candidate.price}</div>
                         </div>
                         <div className="adding-candidate">
-                            <div className={affordibility}>${candidate.price}</div>
                             {button}
                         </div>
                     </div>

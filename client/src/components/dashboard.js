@@ -11,7 +11,7 @@ export class Dashboard extends React.Component {
     
     render() {
         let candidatesSearch = 'search desktop';
-        let teamPage = 'desktop';
+        let teamPage;
         let menu;
 
         if (this.props.candidatesVisible) {

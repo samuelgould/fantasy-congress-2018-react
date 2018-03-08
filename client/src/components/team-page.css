@@ -1,8 +1,37 @@
 .team-page {
     float: left;
-    height: 100%;
-    width: 43.5%;
-    overflow-y: auto;
+    width: 95%;
+    margin: 0 2.5%;
+    margin-bottom: 15px;
+}
+
+.candidate-preview-container {
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+.empty-preview {
+    background-color: #E7E6E1;
+}
+
+.democrat-preview {
+    background-color: #3b5ea0;
+}
+
+.republican-preview {
+    background-color: #dd5349;
+}
+
+.independent-preview {
+    background-color: #C1C0B9;
+}
+
+.candidate-box {
+    width: 8px;
+    height: 8px;
+    margin: 0px 5px;
+    border: 1px solid #C1C0B9;
 }
 
 .team-information-container {
@@ -48,4 +77,25 @@
 
 .manager {
     font-size: 16px;
+}
+
+.mobile-preview {
+    font-size: 16px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 1000px) {
+    .mobile-only {
+        display: none;
+    }
+
+    .team-page {
+        float: left;
+        height: 100%;
+        width: 43.5%;
+        overflow-y: auto;
+        margin: 0;
+    }
+
+
 }

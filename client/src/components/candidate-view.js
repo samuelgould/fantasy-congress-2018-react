@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import requiresLogin from './requires-login';
 import TeamPage from './team-page';
+import TeamPreview from './team-preview';
 import { addCandidate } from '../actions/user';
 import './candidate-view.css';
 
@@ -105,6 +106,7 @@ export class CandidateView extends React.Component {
 
         return (
             <div className="candidate-view">
+                <TeamPreview />
                 {individualCandidate}
                 <TeamPage />
             </div>

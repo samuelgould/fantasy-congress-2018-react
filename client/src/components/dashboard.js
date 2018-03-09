@@ -4,6 +4,7 @@ import requiresLogin from './requires-login';
 import FilterOptions from './filter-options';
 import Candidates from './candidates';
 import TeamPage from './team-page';
+import TeamPreview from './team-preview';
 import './dashboard.css';
 
 export class Dashboard extends React.Component {
@@ -11,15 +12,23 @@ export class Dashboard extends React.Component {
     
     render() {
         let candidatesSearch = 'search desktop';
-        let teamPage;
+        let teamPage = 'team-page-container desktop';
         let menu;
+        let teamPreview = (
+            <div className='team-preview-container'>
+                <TeamPreview />
+            </div>
+        )
 
         if (this.props.candidatesVisible) {
-            candidatesSearch = 'search mobile-focus'
+            candidatesSearch = 'search mobile-focus';
         }
 
         if (this.props.teamVisible) {
-            teamPage = 'mobile-focus'
+            teamPage = 'team-page-container mobile-focus';
+            teamPreview = (
+                <div></div>
+            );
         }
 
         if (this.props.menuVisible) {
@@ -27,11 +36,12 @@ export class Dashboard extends React.Component {
                 <div className="menu-display">
                     MENU
                 </div>
-            )
+            );
         }
         
         return (
             <div className="dashboard">
+                {teamPreview}
                 <div className={candidatesSearch}>
                     <FilterOptions />
                     <Candidates />

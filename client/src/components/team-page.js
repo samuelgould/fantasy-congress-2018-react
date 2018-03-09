@@ -17,46 +17,13 @@ export class TeamPage extends React.Component {
 		const senate = this.props.senate;
 		const house = this.props.house;
 		let budget = this.props.budget;
-		
-		const senateTeamMembersStyling = [
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview'
-		];
-		const houseTeamMembersStyling = [
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview',
-			'candidate-box empty-preview'
-		];
 
 		for (let i=0; i<senate.length; i++) {
 			budget = budget - senate[i].candidate_id.price;
-			
-			if (senate[i].candidate_id.party === 'D') {
-				senateTeamMembersStyling[i] = 'candidate-box democrat-preview';
-			} else if (senate[i].candidate_id.party === 'R') {
-				senateTeamMembersStyling[i] = 'candidate-box republican-preview';
-			} else {
-				senateTeamMembersStyling[i] = 'candidate-box independent-preview';
-			}
 		}
 
 		for (let i=0; i<house.length; i++) {
 			budget = budget - house[i].candidate_id.price;
-			
-			if (house[i].candidate_id.party === 'D') {
-				houseTeamMembersStyling[i] = 'candidate-box democrat-preview';
-			} else if (house[i].candidate_id.party === 'R') {
-				houseTeamMembersStyling[i] = 'candidate-box republican-preview';
-			} else {
-				houseTeamMembersStyling[i] = 'candidate-box independent-preview';
-			}
 		}
 
 		let budgetValue = 'exact';
@@ -71,64 +38,26 @@ export class TeamPage extends React.Component {
 			button = <button className="submit-button" onClick={ event => console.log('Team Submitted') }>Submit Roster</button>
 		}
 
-		let teamMembers = 'desktop';
-		let teamNameLinkStyling = 'mobile-preview team-name-link';
-		let managerInformation = 'manager desktop';
-		let teamHeaderStyling ='team-header mobile-preview';
-		let budgetStyling = 'budget mobile-preview';
-		let teamNameStyling = 'team-name desktop';
-		let teamPreviewStyling = 'team-preview mobile-only';
-		let teamPageLinkStyling = 'team-page-link mobile-only'
-
+		let teamPageViewing = 'team-page desktop';
 		if (this.props.teamVisible) {
-			teamMembers = 'team-members-visible';
-			teamHeaderStyling = 'team-header'
-			managerInformation = 'manager';
-			budgetStyling = 'budget';
-			teamNameStyling = 'team-name';
-			teamPreviewStyling = 'hide-preview-info';
-			teamNameLinkStyling = 'hide-preview-info';
-			teamPageLinkStyling = 'hide-preview-info';
+			teamPageViewing = 'team-page'
 		}
 
 		return (
-			<div className="team-page">
+			<div className={teamPageViewing}>
 				<div className="team-information-container">
-					<h2 className={teamHeaderStyling}>
-						<Link to='/dashboard' className={teamPageLinkStyling}>
-							<div className={teamNameLinkStyling} onClick={() => this.props.dispatch(displayTeamView())}>Team Name: {user.teamName}</div>
-						</Link>
-						<div className={teamNameStyling}>{user.teamName}</div> 
-						<div className={managerInformation}>Manager: {user.username}</div>
+					<h2 className='team-header'>
+						<div className='team-name'>{user.teamName}</div> 
+						<div className='manager'>Manager: {user.username}</div>
 						{/* <div className="submit-button-container">
 							{button}
 						</div> */}
 					</h2>
-					<div className={budgetStyling}>
+					<div className='budget'>
 						Remaining Budget: <span className={budgetValue}>${budget}</span>
 					</div>
-					<div className={teamPreviewStyling}>
-						<div className="senate candidate-preview-container">
-							<p>Senate: </p>
-							<p className={senateTeamMembersStyling[0]}></p>
-							<p className={senateTeamMembersStyling[1]}></p>
-							<p className={senateTeamMembersStyling[2]}></p>
-							<p className={senateTeamMembersStyling[3]}></p>
-						</div>
-						<div className="house candidate-preview-container">
-							<p>House: </p>
-							<p className={houseTeamMembersStyling[0]}></p>
-							<p className={houseTeamMembersStyling[1]}></p>
-							<p className={houseTeamMembersStyling[2]}></p>
-							<p className={houseTeamMembersStyling[3]}></p>
-							<p className={houseTeamMembersStyling[4]}></p>
-							<p className={houseTeamMembersStyling[5]}></p>
-							<p className={houseTeamMembersStyling[6]}></p>
-							<p className={houseTeamMembersStyling[7]}></p>
-						</div> 
-					</div>
 				</div>
-				<div className={teamMembers}>
+				<div className='team-members'>
 					<h3 className="chamber header">
 						SENATE
 					</h3>

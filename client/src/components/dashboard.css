@@ -1,12 +1,16 @@
 .dashboard {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .search {
     float: left;
     height: 100%;
     overflow-y: auto;
+}
+
+.team-preview-container {
+    width: 100%;
 }
 
 .D {
@@ -37,8 +41,8 @@
     .search {
         width: 55%;
     }
-
+/* 
     .dashboard {
         display: block;
-    }
+    } */
 }

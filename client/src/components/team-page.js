@@ -40,7 +40,7 @@ export class TeamPage extends React.Component {
 
 		let teamPageViewing = 'team-page desktop';
 		if (this.props.teamVisible) {
-			teamPageViewing = 'team-page'
+			teamPageViewing = 'team-page';
 		}
 
 		return (

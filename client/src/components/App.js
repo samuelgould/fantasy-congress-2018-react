@@ -5,7 +5,9 @@ import LandingPage from './landing-page';
 import Dashboard from './dashboard';
 import CandidateView from './candidate-view';
 import RegistrationPage from './registration-page';
+import { TeamPage } from './team-page';
 import './App.css';
+
 
 export default class App extends React.Component {
   render() {
@@ -17,6 +19,7 @@ export default class App extends React.Component {
         <Route exact path='/dashboard' component={Dashboard} />
         <Route exact path='/candidate' component={CandidateView} />
         <Route exact path='/register' component={RegistrationPage} />
+        <Route exact path='/team-page' component={TeamPage} />
       </div>
     );
   }

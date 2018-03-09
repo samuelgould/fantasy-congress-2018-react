@@ -21,9 +21,14 @@
 }
 
 @media screen and (min-width: 1000px) {
+    /* .candidate-view {
+        display: block;
+    } */
+
     .individual-candidate-container {
         width: 55%;
         float: left;
         height: 100%;
+        margin: 0px;
     }
 }

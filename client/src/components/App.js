@@ -5,7 +5,7 @@ import LandingPage from './landing-page';
 import Dashboard from './dashboard';
 import CandidateView from './candidate-view';
 import RegistrationPage from './registration-page';
-import { TeamPage } from './team-page';
+import TeamPage from './team-page';
 import './App.css';
 
 

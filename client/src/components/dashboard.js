@@ -27,7 +27,7 @@ export class Dashboard extends React.Component {
         if (this.props.teamVisible) {
             teamPage = 'team-page-container mobile-focus';
             teamPreview = (
-                <div></div>
+                <div className='mobile-only'></div>
             );
         }
 

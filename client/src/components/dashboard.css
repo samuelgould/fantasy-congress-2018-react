@@ -1,6 +1,5 @@
 .dashboard {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 .search {
@@ -41,8 +40,4 @@
     .search {
         width: 55%;
     }
-/* 
-    .dashboard {
-        display: block;
-    } */
 }

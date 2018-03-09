@@ -59,9 +59,11 @@ export class TeamPage extends React.Component {
 		}
 
 		return (
-			<div className='team-preview team-information-container mobile-only'>
+			<div className='team-preview team-information-preview-container mobile-only'>
 				<Link to='/team-page' className='team-page-link'>
-					<div className='mobile-preview team-name-link' onClick={() => this.props.dispatch(displayTeamView())}>Team Name: <span className='team-name-text'>{user.teamName}</span></div>
+					<div className='mobile-preview team-name-link' onClick={() => this.props.dispatch(displayTeamView())}>
+						Team Name: <span className='team-name-text'>{user.teamName}</span>
+					</div>
 				</Link>
 				<div className='mobile-preview'>
 					Remaining Budget: <span className={budgetValue}>${budget}</span>
@@ -73,7 +75,7 @@ export class TeamPage extends React.Component {
 						<p className={senateTeamMembersStyling[1]}></p>
 						<p className={senateTeamMembersStyling[2]}></p>
 						<p className={senateTeamMembersStyling[3]}></p>
-				</div>
+					</div>
 					<div className='house candidate-preview-container'>
 						<p>House: </p>
 						<p className={houseTeamMembersStyling[0]}></p>

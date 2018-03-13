@@ -17,14 +17,13 @@ export class Menu extends React.Component {
     render() {
         return (
             <div className="menu-display">
-                <h2 className="menu-item menu-header">MENU</h2>
                 <Link to="/dashboard" className="menu-item" onClick={() => this.props.dispatch(displayCandidateSearchView())}>
                     Candidate Search
                 </Link>
                 <Link to="/team-page" className="menu-item" onClick={() => this.props.dispatch(displayTeamView())}>
                     Team Page
                 </Link>
-                <Link to="/" className="menu-item" onClick={() => this.logOut()}>
+                <Link to="/" className="menu-item bottom-menu-item" onClick={() => this.logOut()}>
                     Log Out
                 </Link>
             </div>

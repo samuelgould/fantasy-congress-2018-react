@@ -13,11 +13,10 @@
     font-size: 24px;
     color: #537791;
     text-decoration: none;
-    border: 3px outset #537791;
+    border-top: 1px solid #537791;
+    border-left: 1px solid #537791;
 }
 
-.menu-header {
-    text-align: center;
-    font-size: 30px;
-    background-color: #F7F6E7;
+.bottom-menu-item {
+    border-bottom: 1px solid #537791;
 }

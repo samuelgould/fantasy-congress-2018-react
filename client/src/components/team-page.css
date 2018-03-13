@@ -6,6 +6,10 @@
     margin-bottom: 15px;
 }
 
+.team-header {
+    margin: 0px 0px 10px 0px;
+}
+
 .candidate-preview-container {
     display: flex;
     align-items: center;

@@ -1,0 +1,23 @@
+.menu-display {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 300px;
+    background-color: #E7E6E1;
+}
+
+.menu-item {
+    display: block;
+    margin: 0px;
+    padding: 5% 10%;
+    font-size: 24px;
+    color: #537791;
+    text-decoration: none;
+    border: 3px outset #537791;
+}
+
+.menu-header {
+    text-align: center;
+    font-size: 30px;
+    background-color: #F7F6E7;
+}

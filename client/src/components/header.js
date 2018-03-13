@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { clearAuth } from '../actions/auth';
 import { clearAuthToken } from '../local-storage';
-import { toggleMenuVisibility } from '../actions/user';
+import { toggleMenuVisibility, displayCandidateSearchView } from '../actions/user';
 import './header.css';
 
 export class Header extends React.Component {
@@ -40,7 +40,7 @@ export class Header extends React.Component {
         }
         return (
             <div className={header}>
-                <Link to='/dashboard'>
+                <Link to='/dashboard' onClick={() => this.props.dispatch(displayCandidateSearchView())}>
                     <img id={logo} src="https://i.imgur.com/rcKFcKC.png" alt="Fantasy Congress 2018 Logo" />
                 </Link>
                 {logOutButton}

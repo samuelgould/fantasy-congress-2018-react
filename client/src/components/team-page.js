@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { fetchUser } from '../actions/user';
 import SenateTeamMembers from './senate-team-members';
 import HouseTeamMembers from './house-team-members';
+import Menu from './menu';
 import './team-page.css';
 
 export class TeamPage extends React.Component {
@@ -41,9 +42,15 @@ export class TeamPage extends React.Component {
 		if (this.props.teamVisible) {
 			teamPageViewing = 'team-page';
 		}
+		
+		let menu;
+		if (this.props.menuVisible) {
+            menu = <Menu />;
+        }
 
 		return (
 			<div className={teamPageViewing}>
+				{menu}
 				<div className="team-information-container">
 					<h2 className='team-header'>
 						<div className='team-name'>{user.teamName}</div> 
@@ -74,6 +81,7 @@ export class TeamPage extends React.Component {
 const mapStateToProps = state => ({
 	user: state.user.user,
 	teamVisible: state.user.teamVisible,
+	menuVisible: state.user.menuVisible,
 	senate: state.user.user.senate || [],
 	house: state.user.user.house || [],
 	budget: state.user.user.budget || 200

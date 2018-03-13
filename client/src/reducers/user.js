@@ -9,7 +9,8 @@ import {
 	REMOVE_TEAM_MEMBER_REQUEST, 
 	REMOVE_TEAM_MEMBER_SUCCESS,
 	TOGGLE_MENU_VISIBILITY,
-	DISPLAY_TEAM_VIEW
+	DISPLAY_TEAM_VIEW,
+	DISPLAY_CANDIDATE_SEARCH_VIEW
 } from '../actions/user';
 
 const initialState = {
@@ -99,6 +100,14 @@ export const reducer = (state = initialState, action) => {
 			teamVisible: true,
 			menuVisible: false,
 			candidatesVisible: false
+		})
+	}
+
+	else if (action.type === DISPLAY_CANDIDATE_SEARCH_VIEW) {
+		return Object.assign({}, state, {
+			teamVisible: false,
+			menuVisible: false,
+			candidatesVisible: true
 		})
 	}
 

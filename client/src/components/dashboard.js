@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { clearAuth } from '../actions/auth';
 import { clearAuthToken } from '../local-storage';
-import { toggleMenuVisibility } from '../actions/user';
+import { toggleMenuVisibility, displayTeamView, displayCandidateSearchView } from '../actions/user';
 import requiresLogin from './requires-login';
 import FilterOptions from './filter-options';
 import Candidates from './candidates';
@@ -43,10 +43,10 @@ export class Dashboard extends React.Component {
             menu = (
                 <div className="menu-display">
                     <h2 className="menu-item menu-header">MENU</h2>
-                    <Link to="/dashboard" className="menu-item">
+                    <Link to="/dashboard" className="menu-item" onClick={() => this.props.dispatch(displayCandidateSearchView())}>
                         Candidate Search
                     </Link>
-                    <Link to="/team-page" className="menu-item">
+                    <Link to="/team-page" className="menu-item" onClick={() => this.props.dispatch(displayTeamView())}>
                         Team Page
                     </Link>
                     <Link to="/" className="menu-item" onClick={() => this.logOut()}>

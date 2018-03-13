@@ -156,3 +156,8 @@ export const DISPLAY_TEAM_VIEW = 'DISPLAY_TEAM_VIEW';
 export const displayTeamView = () => ({
 	type: DISPLAY_TEAM_VIEW
 })
+
+export const DISPLAY_CANDIDATE_SEARCH_VIEW = 'DISPLAY_CANDIDATE_SEARCH_VIEW';
+export const displayCandidateSearchView = () => ({
+	type: DISPLAY_CANDIDATE_SEARCH_VIEW
+})

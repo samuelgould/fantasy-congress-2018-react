@@ -1,8 +1,8 @@
 import jwtDecode from 'jwt-decode';
-import {SubmissionError} from 'redux-form';
+import { SubmissionError } from 'redux-form';
 
-import {API_BASE_URL} from '../config';
-import {saveAuthToken, clearAuthToken} from '../local-storage';
+import { API_BASE_URL } from '../config';
+import { saveAuthToken, clearAuthToken } from '../local-storage';
 
 export const SET_AUTH_TOKEN = 'SET_AUTH_TOKEN';
 export const setAuthToken = authToken => ({

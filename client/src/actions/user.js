@@ -87,7 +87,7 @@ export const addCandidate = (candidate_id, chamber) => (dispatch, getState) => {
 		{
       method: 'PUT',
       headers: {
-        'Content-Type': 'application/json',
+        		'Content-Type': 'application/json',
 				'Accept': 'application/json',
 				'Authorization': `Bearer ${authToken}`
 			}

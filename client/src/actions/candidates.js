@@ -105,7 +105,7 @@ export const fetchCandidates = () => (dispatch, getState) => {
 		)
 }
 
-export const fetchCandidate = (candidateId) => (dispatch, getState) => {
+export const fetchCandidate = candidateId => (dispatch, getState) => {
 		dispatch(fetchCandidateRequest());
 		const authToken = getState().auth.authToken;
 		return fetch(`${API_BASE_URL}/candidates/${candidateId}`, 

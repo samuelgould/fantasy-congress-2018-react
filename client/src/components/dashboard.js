@@ -1,5 +1,9 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { clearAuth } from '../actions/auth';
+import { clearAuthToken } from '../local-storage';
+import { toggleMenuVisibility } from '../actions/user';
 import requiresLogin from './requires-login';
 import FilterOptions from './filter-options';
 import Candidates from './candidates';
@@ -8,7 +12,11 @@ import TeamPreview from './team-preview';
 import './dashboard.css';
 
 export class Dashboard extends React.Component {
-
+    logOut() {
+        this.props.dispatch(toggleMenuVisibility());
+        this.props.dispatch(clearAuth());
+        clearAuthToken();
+    }
     
     render() {
         let candidatesSearch = 'search desktop';
@@ -34,7 +42,16 @@ export class Dashboard extends React.Component {
         if (this.props.menuVisible) {
             menu = (
                 <div className="menu-display">
-                    MENU
+                    <h2 className="menu-item menu-header">MENU</h2>
+                    <Link to="/dashboard" className="menu-item">
+                        Candidate Search
+                    </Link>
+                    <Link to="/team-page" className="menu-item">
+                        Team Page
+                    </Link>
+                    <Link to="/" className="menu-item" onClick={() => this.logOut()}>
+                        Log Out
+                    </Link>
                 </div>
             );
         }

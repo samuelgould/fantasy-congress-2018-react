@@ -20,6 +20,10 @@
     background: linear-gradient(to right,#dd5349,#E7E6E1);
 }
 
+.I {
+    background: linear-gradient(to right,#5b456f,#E7E6E1)
+}
+
 .icon-credit {
     display: block;
     margin: 15px;

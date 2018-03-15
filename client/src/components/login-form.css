@@ -1,3 +1,13 @@
+.login-form {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .log-in-button-container {
     text-align: center;
 }

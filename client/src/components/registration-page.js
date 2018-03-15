@@ -10,7 +10,7 @@ export function RegistrationPage(props) {
     }
     return (
         <div className="registration-page">
-            <h2 className="registration-page-header">Register for Fantasy Congress 2018</h2>
+            <h2 className="registration-page-header">Register for Fantasy Congress</h2>
             <RegistrationForm />
             <p>
                 Already have an account? <Link to="/">Login here</Link>.

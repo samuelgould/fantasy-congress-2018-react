@@ -1,5 +1,7 @@
 .landing-page-container {
     text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .registration-link-text {
@@ -7,5 +9,6 @@
 }
 
 a {
-    color: #2F5BB7
+    width: 100%;
+    color: #2F5BB7;
 }

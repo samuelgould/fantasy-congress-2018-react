@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import requiresLogin from './requires-login';
+import Menu from './menu';
 import TeamPage from './team-page';
 import TeamPreview from './team-preview';
 import { addCandidate } from '../actions/user';
@@ -104,11 +105,19 @@ export class CandidateView extends React.Component {
                 </div>
         }
 
+        let menu;
+		if (this.props.menuVisible) {
+            menu = <Menu />;
+        }
+
         return (
             <div className="candidate-view">
+                {menu}
                 <TeamPreview />
                 {individualCandidate}
-                <TeamPage />
+                <div className="desktop">
+                    <TeamPage />
+                </div>
             </div>
         );
     }
@@ -120,6 +129,7 @@ const mapStateToProps = state => {
         username: state.auth.currentUser.username,
         name: `${currentUser.firstName} ${currentUser.lastName}`,
         candidate: state.candidates.candidate,
+        menuVisible: state.user.menuVisible,
         senate: state.user.user.senate || [],
         house: state.user.user.house || [],
         budget: state.user.user.budget

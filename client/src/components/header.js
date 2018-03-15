@@ -15,15 +15,15 @@ export class Header extends React.Component {
     render() {
         let logOutButton;
         let hamburgerIcon;
-        let logo = 'fantasy-congress-2018-logo'
-        let header = 'header-box landing-page'
+        let logo = 'fantasy-congress-2018-logo';
+        let header = 'header-box landing-page';
 
         if (this.props.loggedIn) {
             logOutButton = (
                 <button className="desktop" id="logout-button" onClick={() => this.logOut()}>Log out</button>
             );
             logo = 'fantasy-congress-2018-logo-thumbnail';
-            header = 'header-box logged-in';
+            header = 'header-box header-logged-in';
             let hamburgerClass = 'hamburger mobile';
 
             if (this.props.menuVisible) {

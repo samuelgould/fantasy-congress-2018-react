@@ -16,7 +16,9 @@ export function LandingPage(props) {
             <p className="registration-link-text">
                 Don't have an account? <Link to="/register">Register today</Link>.
             </p>
-        <Link to='/about'>About</Link>
+            <h3>
+                First time? Here's more information about <Link to='/about'>Fantasty Congress 2018</Link>.
+            </h3>
         </div>
     );
 }

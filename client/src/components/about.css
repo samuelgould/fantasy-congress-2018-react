@@ -1,17 +1,14 @@
-.landing-page-container {
+.about-page-container {
+    color: #212121;
     text-align: center;
-}
-
-.registration-link-text {
     margin-bottom: 50px;
 }
 
-a {
-    color: #2F5BB7
+.about-header {
+    margin: 30px;
 }
 
 .intro-onboarding-text {
-    color: #212121;
     margin: 10px 10%;
     text-align: left;
     line-height: 1.4;

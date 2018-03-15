@@ -13,9 +13,10 @@ export function LandingPage(props) {
         <div className="landing-page-container">
             <LoginForm />
             
-            <p>
+            <p className="registration-link-text">
                 Don't have an account? <Link to="/register">Register today</Link>.
             </p>
+        <Link to='/about'>About</Link>
         </div>
     );
 }

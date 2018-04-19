@@ -6,7 +6,7 @@ Operating under a similar model to Daily Fantasy Sports, once a user creates a p
 
 As they look to put together their team, users will be able to search for a specific candidate, or filter the candidate list by various constraints (party, chamber, state, incumbent, price, or affordability). With one click the user can add a candidate to their team. If however a team becomes too expensive, a user can also easily drop a candidate from their team as well. Once a user has a full roster of 4 Senate Candidates and 8 House Candidates without going over budget, the user can submit their roster.
 
-Live Site: https://zen-pike-0242a9.netlify.com/
+Live Site: https://fantasycongress2018.netlify.com/
 
 ## Screenshots
 

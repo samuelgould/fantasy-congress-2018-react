@@ -4,8 +4,13 @@
     margin-bottom: 50px;
 }
 
-.registration-link-text {
-    margin-bottom: 50px;
+.log-in-page-link-block {
+    line-height: 2em;
+    margin: 0;
+}
+
+.first-time-link-block {
+    margin-top: 50px;
 }
 
 a {

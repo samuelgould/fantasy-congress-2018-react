@@ -1,4 +1,4 @@
-Fantasy Congress 2018
+# Fantasy Congress 2018
 
 The way the mainstream media covers Elections in this day in age leads to stories that only focus on the loudest and most outspoken members of either party being heard. This makes tracking Congressional Elections boring at best, because you keep hearing about the same races and the crazy thing that particular candidate said or did today. The Fantasy Congress 2018 App is designed to challenge users to dig into the data and narratives of lesser known races around the country and find the candidates destined to outperform expectations on Election Day 2018.
 

@@ -30,7 +30,9 @@ Team Page:
 
 The app's landing page is the traditional log in page with the original Fantasy Congress 2018 Logo. Users can easily create an account through the Registration Page or if they already have one, quickly log in and be taken to the Landing Page.
 
-The Landing Page has three main components, the Header that contains the logo thumbnail and log out button, and then the Candidates and Team Page components that divide the body of the app in half. The Candidates page has all of the candidates running for congress as well as a Search Bar and hidden Filter features that are only revealed if the user chooses. The Team Page has all of the slots a user needs to fill on their roster as well as an active tracker on the amount of their budget they have remaining. Once the team is full and within the budget constraint, a submit button will appear and the user can lock in their team.
+The Landing Page has three main components, the Header that contains the logo thumbnail and log out button, and then the Candidates and Team Page components that divide the body of the app in half. The Candidates page has all of the candidates running for congress as well as a Search Bar and hidden Filter features that are only revealed if the user chooses. The Team Page has all of the slots a user needs to fill on their roster as well as an active tracker on the amount of their budget they have remaining.
+
+Individual candidates can also be selected for a candidate view that gives more information about that candidate.
 
 ## Technology Stack
 
@@ -47,5 +49,7 @@ Database: MongoDB, Mongoose
 This challenge is meant to be played among your friends, so anyone can set up a league and invite their friends to play. Up until election night on the LEAGUE VIEW all you'll be able to see is who is in your league, what their team name is, and whether or not your friend has submitted their roster. Once they're locked in at midnight on November 6th, 2018 (ELECTION DAY!) you can see all everyones' teams by navigating from the LEAGUE VIEW.
 
 The scoring system is simple. One percent of the electorate is equal to 1 point (i.e. a candidate who receives 47.6% of the votes in their district earns the user 47.6 points). The team with the most points once all the votes are tallied wins!
+
+We're also in the process of beefing up the Candidate View. By plugging into the Twitter API we are working on allowing users to hear directly from candidates by viewing their recent tweets, as well as taking advantage of the Google News API to see recent articles about the candidate.
 
 ** NOTE: The current demo is done with 2016 Candidate Data. The database will be updated throughout Primary Season as the 2018 Candidate Field starts to take shape.

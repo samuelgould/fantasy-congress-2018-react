@@ -36,11 +36,11 @@ Individual candidates can also be selected for a candidate view that gives more 
 
 ## Technology Stack
 
-FrontEnd: React
+Front End: React
 
 State Management: Redux
 
-BackEnd: NodeJS, Express, Passport, JWT, Bcrypt
+Back End: NodeJS, Express, Passport, JWT, Bcrypt
 
 Database: MongoDB, Mongoose
 

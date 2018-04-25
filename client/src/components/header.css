@@ -38,6 +38,7 @@
     padding: 10px;
     transition: background-color 1s ease;
     margin: 10px;
+    cursor: pointer;
 }
 
 .hamburger:hover {

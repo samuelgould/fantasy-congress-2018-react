@@ -13,7 +13,7 @@
 
 .menu-content {
     position: relative;
-    top: 25%;
+    top: 15%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
@@ -25,4 +25,10 @@
     font-size: 48px;
     color: #537791;
     text-decoration: none;
+}
+
+@media screen and (min-width: 550px) {
+    .menu-content {
+        top: 25%;
+    }
 }

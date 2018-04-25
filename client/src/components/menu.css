@@ -1,22 +1,28 @@
 .menu-display {
-    position: absolute;
-    right: 0px;
-    top: 78px;
-    width: 300px;
-    background-color: #E7E6E1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F7F6E7;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.menu-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .menu-item {
     display: block;
-    margin: 0px;
-    padding: 5% 10%;
-    font-size: 24px;
+    margin: 40px 0px;
+    font-size: 48px;
     color: #537791;
     text-decoration: none;
-    border-top: 1px solid #537791;
-    border-left: 1px solid #537791;
-}
-
-.bottom-menu-item {
-    border-bottom: 1px solid #537791;
 }

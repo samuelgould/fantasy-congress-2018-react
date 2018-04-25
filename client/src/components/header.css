@@ -30,11 +30,12 @@
 }
 
 .hamburger {
+    z-index: 2;
     width: 24px;
     height: 24px;
     border: 1px solid #C1C0B9;
     border-radius: 2px;
-    box-shadow: 0 0 2px #C1C0B9;
+    box-shadow: 1px 1px 2px #C1C0B9;
     padding: 10px;
     transition: background-color 1s ease;
     margin: 10px;

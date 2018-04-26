@@ -19,6 +19,7 @@
 .team-information-container {
     background: #f4f7f8;
     color: #212121;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     padding: 20px;
     border-radius: 8px;
 }

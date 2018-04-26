@@ -4,6 +4,7 @@ import requiresLogin from './requires-login';
 import Menu from './menu';
 import TeamPage from './team-page';
 import TeamPreview from './team-preview';
+import TwitterTimeline from './twitter-timeline';
 import { addCandidate } from '../actions/user';
 import './candidate-view.css';
 
@@ -86,7 +87,15 @@ export class CandidateView extends React.Component {
                 affordibility = 'price-too-expensive';
             }
             
-            individualCandidate = 
+            let twitterTimeline;
+
+            if (this.props.screenName) {
+                twitterTimeline = (
+                    <TwitterTimeline screenName={this.props.screenName} />
+                )
+            }
+
+            individualCandidate = (
                 <div className="individual-candidate-container">
                     <div className="individual-candidate-information">
                         <div className="candidate-stats">
@@ -97,12 +106,14 @@ export class CandidateView extends React.Component {
                             <div>{candidate.state} {district}</div>
                             <br />
                             <div className={affordibility}>Price: ${candidate.price}</div>
+                            {twitterTimeline}
                         </div>
                         <div className="adding-candidate">
                             {button}
                         </div>
                     </div>
                 </div>
+            );
         }
 
         let menu;
@@ -132,7 +143,8 @@ const mapStateToProps = state => {
         menuVisible: state.user.menuVisible,
         senate: state.user.user.senate || [],
         house: state.user.user.house || [],
-        budget: state.user.user.budget
+        budget: state.user.user.budget,
+        screenName: 'NancyPelosi'
     };
 };
 

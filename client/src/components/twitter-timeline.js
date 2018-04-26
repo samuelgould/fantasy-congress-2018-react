@@ -1,19 +1,16 @@
 import React from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
-function Twitter(props) {
+export default function TwitterTimeline(props) {
     return (
         <div className="twitter">
             <TwitterTimelineEmbed
             sourceType="profile"
             screenName={props.screenName}
             options={{
-                height: 400,
-                width: 400
+                height: 600
             }}
             />
         </div>
     );
 }
-
-export default Twitter;

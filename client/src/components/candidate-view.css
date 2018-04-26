@@ -11,8 +11,7 @@
 .individual-candidate-information {
     width: 90%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     margin: auto;
 }
 

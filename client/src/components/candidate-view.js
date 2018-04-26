@@ -106,10 +106,10 @@ export class CandidateView extends React.Component {
                             <div>{candidate.state} {district}</div>
                             <br />
                             <div className={affordibility}>Price: ${candidate.price}</div>
-                            {twitterTimeline}
-                        </div>
-                        <div className="adding-candidate">
                             {button}
+                        </div>
+                        <div className='twitter-container'>
+                            {twitterTimeline}
                         </div>
                     </div>
                 </div>

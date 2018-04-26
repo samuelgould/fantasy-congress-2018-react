@@ -8,7 +8,8 @@ export default function TwitterTimeline(props) {
             sourceType="profile"
             screenName={props.screenName}
             options={{
-                height: 800
+                height: 800,
+                width: 1000
             }}
             />
         </div>

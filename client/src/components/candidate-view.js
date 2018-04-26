@@ -98,7 +98,7 @@ export class CandidateView extends React.Component {
             individualCandidate = (
                 <div className="individual-candidate-container">
                     <div className="individual-candidate-information">
-                        <div className="candidate-stats">
+                        <div className="candidate-details">
                             <div className="individual-candidate-name">{candidate.name}</div>
                             <div>{party}</div>
                             <br />
@@ -108,7 +108,7 @@ export class CandidateView extends React.Component {
                             <div className={affordibility}>Price: ${candidate.price}</div>
                             {button}
                         </div>
-                        <div className='twitter-container'>
+                        <div className='twitter-timeline-container'>
                             {twitterTimeline}
                         </div>
                     </div>

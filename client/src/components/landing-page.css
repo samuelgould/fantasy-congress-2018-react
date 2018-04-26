@@ -5,12 +5,13 @@
 }
 
 .log-in-page-link-block {
-    line-height: 2em;
-    margin: 0;
+    line-height: 1.5em;
+    margin: 10px 25px;
 }
 
 .first-time-link-block {
-    margin-top: 50px;
+    margin: 50px 25px;
+    line-height: 1.5em;
 }
 
 a {

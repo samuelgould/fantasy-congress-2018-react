@@ -19,6 +19,7 @@
 .candidate-details {
     font-size: 24px;
     width: 500px;
+    min-width: fit-content;
     margin: 10px 10px 30px 10px;
 }
 

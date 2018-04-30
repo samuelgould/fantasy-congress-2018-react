@@ -89,9 +89,9 @@ export class CandidateView extends React.Component {
             
             let twitterTimeline;
 
-            if (this.props.screenName) {
+            if (this.props.candidate.screenName) {
                 twitterTimeline = (
-                    <TwitterTimeline screenName={this.props.screenName} />
+                    <TwitterTimeline screenName={this.props.candidate.screenName} />
                 )
             }
 
@@ -143,8 +143,7 @@ const mapStateToProps = state => {
         menuVisible: state.user.menuVisible,
         senate: state.user.user.senate || [],
         house: state.user.user.house || [],
-        budget: state.user.user.budget,
-        screenName: 'NancyPelosi'
+        budget: state.user.user.budget
     };
 };
 

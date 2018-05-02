@@ -13,7 +13,6 @@ export class SenateTeamMembers extends React.Component {
                     <li key={member.candidate_id._id} className={member.candidate_id.party}>
                             <div className="member-container">
                                 <div className="member-information">
-                                    {/* <img className="member-headshot verbose" src={member.candidate_id.image} alt="member headshot" /> */}
                                     <Link to='/candidate' className="member-name" onClick={() => this.props.dispatch(fetchCandidate(member.candidate_id._id))}>{member.candidate_id.name} ({member.candidate_id.party}-{member.candidate_id.stateAbbr})</Link>
                                     <div className="member-price">${member.candidate_id.price}</div>
                                 </div>

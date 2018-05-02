@@ -26,13 +26,14 @@ const initialState = {
   state: 'all',
   price: 'any',
   incumbent: false,
-  candidate: null
+  candidate: null,
+  candidateSelected: false
 }
 
 export const reducer = (state = initialState, action) => {
   if (action.type === FETCH_CANDIDATES_REQUEST) {
 		return Object.assign({}, state, {
-			loading: true,
+			loading: true
 		})
 	} else if (action.type === FETCH_CANDIDATES_SUCCESS) {
 		return Object.assign({}, state, {
@@ -48,6 +49,7 @@ export const reducer = (state = initialState, action) => {
 	} else if (action.type === FETCH_CANDIDATE_REQUEST) {
 		return Object.assign({}, state, {
 			loading: true,
+			candidateSelected: true
 		})
 	} else if (action.type === FETCH_CANDIDATE_SUCCESS) {
 		return Object.assign({}, state, {

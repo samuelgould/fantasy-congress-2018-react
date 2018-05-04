@@ -13,15 +13,15 @@
 }
 
 .D {
-    background: linear-gradient(to right,#3b5ea0,#E7E6E1)
+    background: linear-gradient(to right,#3b5ea0,#f4f7f8)
 }
 
 .R {
-    background: linear-gradient(to right,#dd5349,#E7E6E1);
+    background: linear-gradient(to right,#dd5349,#f4f7f8);
 }
 
 .I {
-    background: linear-gradient(to right,#5b456f,#E7E6E1)
+    background: linear-gradient(to right,#5b456f,#f4f7f8);
 }
 
 .icon-credit {

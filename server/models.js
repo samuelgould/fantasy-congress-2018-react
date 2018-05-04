@@ -13,6 +13,7 @@ const candidateSchema = new mongoose.Schema({
   party: { type: String, required: true },
   incumbent: { type: Boolean, required: true },
   image: String,
+  twitterHandle: String,
   price: { type: Number, required: true }
 });
 

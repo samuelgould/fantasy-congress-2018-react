@@ -96,9 +96,9 @@ export class CandidateView extends React.Component {
             
         let twitterTimeline;
 
-        if (this.props.candidate.screenName) {
+        if (this.props.candidate.twitterHandle) {
             twitterTimeline = (
-                <TwitterTimeline screenName={this.props.candidate.screenName} />
+                <TwitterTimeline twitterHandle={this.props.candidate.twitterHandle} />
             )
         }
 

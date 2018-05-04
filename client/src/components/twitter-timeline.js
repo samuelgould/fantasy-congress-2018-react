@@ -6,7 +6,7 @@ export default function TwitterTimeline(props) {
         <div className="twitter">
             <TwitterTimelineEmbed
             sourceType="profile"
-            screenName={props.screenName}
+            screenName={props.twitterHandle}
             options={{
                 height: 800,
                 width: 1000

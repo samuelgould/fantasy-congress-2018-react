@@ -1,3 +1,7 @@
+ul {
+    padding: 0px;
+}
+
 .member-container {
     display: flex;
     justify-content: space-between;
@@ -36,7 +40,8 @@
 }
 
 .empty-roster-spot {
-    background-color: lightgray;
+    background-color: #d3d3d3;
+    line-height: 32px;
 }
 
 .removing-member {

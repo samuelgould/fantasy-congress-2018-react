@@ -17,9 +17,15 @@ const app = express();
 
 app.use(morgan('common'));
 
+// app.use(
+//   cors({
+//     origin: CLIENT_ORIGIN
+//   })
+// );
+
 app.use(
   cors({
-    origin: CLIENT_ORIGIN
+    origin: 'http://localhost:3000'
   })
 );
 

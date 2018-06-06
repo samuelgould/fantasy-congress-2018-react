@@ -70,3 +70,26 @@
 p {
     margin: 0px;
 }
+
+.members-submit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.senate-submit-team-preview {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 450px) {
+    .members-submit-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .senate-submit-team-preview {
+        margin-top: 0px;
+    }
+}

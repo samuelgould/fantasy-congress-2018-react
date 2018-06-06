@@ -58,6 +58,11 @@ export class TeamPage extends React.Component {
 			budgetValue = 'underbudget'
 		}
 
+		let button;
+		if (senate.length === 4 && house.length === 8 && budget >= 0) {
+			button = <button className="submit-button" onClick={ event => console.log('Team Submitted') }>Submit Roster</button>
+		}
+
 		return (
 			<div className='team-preview team-information-preview-container mobile-only'>
 				<Link to='/team-page' className='team-page-link'>
@@ -68,26 +73,31 @@ export class TeamPage extends React.Component {
 				<div className='mobile-preview'>
 					Remaining Budget: <span className={budgetValue}>${budget}</span>
 				</div>
-				<div className='team-preview'>
-					<div className='senate candidate-preview-container'>
-						<p>Senate: </p>
-						<p className={senateTeamMembersStyling[0]}></p>
-						<p className={senateTeamMembersStyling[1]}></p>
-						<p className={senateTeamMembersStyling[2]}></p>
-						<p className={senateTeamMembersStyling[3]}></p>
+				<div className='members-submit-container'>
+					<div>
+						<div className='senate candidate-preview-container'>
+							<p>Senate: </p>
+							<p className={senateTeamMembersStyling[0]}></p>
+							<p className={senateTeamMembersStyling[1]}></p>
+							<p className={senateTeamMembersStyling[2]}></p>
+							<p className={senateTeamMembersStyling[3]}></p>
+						</div>
+						<div className='house candidate-preview-container'>
+							<p>House: </p>
+							<p className={houseTeamMembersStyling[0]}></p>
+							<p className={houseTeamMembersStyling[1]}></p>
+							<p className={houseTeamMembersStyling[2]}></p>
+							<p className={houseTeamMembersStyling[3]}></p>
+							<p className={houseTeamMembersStyling[4]}></p>						
+							<p className={houseTeamMembersStyling[5]}></p>
+							<p className={houseTeamMembersStyling[6]}></p>
+							<p className={houseTeamMembersStyling[7]}></p>
+						</div> 
 					</div>
-					<div className='house candidate-preview-container'>
-						<p>House: </p>
-						<p className={houseTeamMembersStyling[0]}></p>
-						<p className={houseTeamMembersStyling[1]}></p>
-						<p className={houseTeamMembersStyling[2]}></p>
-						<p className={houseTeamMembersStyling[3]}></p>
-						<p className={houseTeamMembersStyling[4]}></p>						
-                        <p className={houseTeamMembersStyling[5]}></p>
-						<p className={houseTeamMembersStyling[6]}></p>
-						<p className={houseTeamMembersStyling[7]}></p>
-					</div> 
-                </div>
+					<div className='senate-submit-team-preview'>	
+						{button}
+					</div>
+				</div>
       		</div>
 		)
 	}

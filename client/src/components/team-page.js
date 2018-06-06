@@ -55,13 +55,13 @@ export class TeamPage extends React.Component {
 					<h2 className='team-header'>
 						<div className='team-name'>{user.teamName}</div> 
 						<div className='manager'>Manager: {user.username}</div>
-						{/* <div className="submit-button-container">
-							{button}
-						</div> */}
 					</h2>
 					<div className='budget'>
 						Remaining Budget: <span className={budgetValue}>${budget}</span>
 					</div>
+				</div>
+				<div className="submit-button-container">
+					{button}
 				</div>
 				<div className='team-members'>
 					<h3 className="chamber header">

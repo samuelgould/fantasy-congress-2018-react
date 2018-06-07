@@ -10,7 +10,10 @@ import {
 	REMOVE_TEAM_MEMBER_SUCCESS,
 	TOGGLE_MENU_VISIBILITY,
 	DISPLAY_TEAM_VIEW,
-	DISPLAY_CANDIDATE_SEARCH_VIEW
+	DISPLAY_CANDIDATE_SEARCH_VIEW,
+	SUBMIT_TEAM_ERROR, 
+	SUBMIT_TEAM_REQUEST, 
+	SUBMIT_TEAM_SUCCESS
 } from '../actions/user';
 
 const initialState = {
@@ -87,7 +90,22 @@ export const reducer = (state = initialState, action) => {
 			menuVisible: false,
 			candidatesVisible: true
 		})
-	}
+	} else if (action.type === SUBMIT_TEAM_REQUEST) {
+		return Object.assign({}, state, {
+			loading: true,
+		})
+	} else if (action.type === SUBMIT_TEAM_SUCCESS) {
+		return Object.assign({}, state, {
+			loading: false,
+			error: null,
+			user: action.user
+		})	
+	} else if (action.type === SUBMIT_TEAM_ERROR) {
+		return Object.assign({}, state, {
+			loading: false,
+			error: action.error
+		})
+	} 
 
 	return state;
 }

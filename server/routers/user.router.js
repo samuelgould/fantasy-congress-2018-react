@@ -94,7 +94,7 @@ router.post('/', jsonParser, (req, res) => {
     });
   }
 
-  let { username, password, email, teamName, firstName = '', lastName = '', house = [], senate = [], budget = 200 } = req.body;
+  let { username, password, email, teamName, firstName = '', lastName = '', teamSubmitted = false, house = [], senate = [], budget = 200 } = req.body;
 
   firstName = firstName.trim();
   lastName = lastName.trim();
@@ -122,6 +122,7 @@ router.post('/', jsonParser, (req, res) => {
         firstName,
         lastName,
         teamName,
+        teamSubmitted,
         house,
         senate,
         budget

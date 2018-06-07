@@ -161,3 +161,46 @@ export const DISPLAY_CANDIDATE_SEARCH_VIEW = 'DISPLAY_CANDIDATE_SEARCH_VIEW';
 export const displayCandidateSearchView = () => ({
 	type: DISPLAY_CANDIDATE_SEARCH_VIEW
 })
+
+export const SUBMIT_TEAM_REQUEST = 'SUBMIT_TEAM_REQUEST';
+export const submitTeamRequest = () => ({
+  type: SUBMIT_TEAM_REQUEST
+});
+
+export const SUBMIT_TEAM_SUCCESS = 'SUBMIT_TEAM_SUCCESS';
+export const submitTeamSuccess = (member_id, chamber) => ({
+	type: SUBMIT_TEAM_SUCCESS,
+	member_id,
+	chamber
+});
+
+export const SUBMIT_TEAM_ERROR = 'SUBMIT_TEAM_ERROR';
+export const submitTeamError = error => ({
+  type: SUBMIT_TEAM_ERROR,
+  error
+});
+
+export const submitTeam = () => (dispatch, getState) => {
+	dispatch(submitTeamRequest());
+	const authToken = getState().auth.authToken;
+	return fetch(`${API_BASE_URL}/user/self/submitTeam`, 
+		{
+      method: 'PUT',
+      headers: {
+        		'Content-Type': 'application/json',
+				'Accept': 'application/json',
+				'Authorization': `Bearer ${authToken}`
+			}
+		}).then(res => {
+			if (!res.ok) {
+				return Promise.reject('Something has gone wrong');
+			}
+			return res.json()
+		})
+		.then(user => {
+			dispatch(submitTeamSuccess(user));
+		})
+		.catch(err => 
+			dispatch(submitTeamError(err))
+		)
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchUser, displayTeamView } from '../actions/user';
+import { fetchUser, displayTeamView, submitTeam } from '../actions/user';
 import './team-preview.css';
 
 export class TeamPage extends React.Component {
@@ -60,7 +60,7 @@ export class TeamPage extends React.Component {
 
 		let button;
 		if (senate.length === 4 && house.length === 8 && budget >= 0) {
-			button = <button className="submit-button" onClick={ event => console.log('Team Submitted') }>Submit Roster</button>
+			button = <button className="submit-button" onClick={ event => this.props.dispatch(submitTeam()) }>Submit Roster</button>
 		}
 
 		return (
@@ -105,7 +105,8 @@ export class TeamPage extends React.Component {
 
 const mapStateToProps = state => ({
     user: state.user.user,
-    teamVisible: state.user.teamVisible,
+	teamVisible: state.user.teamVisible,
+	teamSubmitted: state.user.user.teamSubmitted || false,
 	senate: state.user.user.senate || [],
 	house: state.user.user.house || [],
 	budget: state.user.user.budget || 200

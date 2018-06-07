@@ -258,4 +258,27 @@ router.delete('/:user_id/senate/:member_id', jwtAuth, (req, res) => {
     });
 });
 
+router.put('/:user_id/submit-team', jwtAuth, (req, res) => {
+  let id = req.params.user_id;
+  if (req.params.user_id === 'self'){
+    id = req.user._id;
+  }
+  User
+    .findByIdAndUpdate(
+      id,
+      {
+        $set: {
+          teamSubmitted: true
+        }
+      },
+      { new: true }
+    ).populate('house.candidate_id')
+    .populate('senate.candidate_id')
+    .then(user => res.status(201).json(user.serialize()))
+    .catch(err => {
+      console.error(err);
+      res.status(500).json( { message: 'Something went wrong' } );
+    });
+});
+
 module.exports = router;

@@ -168,10 +168,9 @@ export const submitTeamRequest = () => ({
 });
 
 export const SUBMIT_TEAM_SUCCESS = 'SUBMIT_TEAM_SUCCESS';
-export const submitTeamSuccess = (member_id, chamber) => ({
+export const submitTeamSuccess = user => ({
 	type: SUBMIT_TEAM_SUCCESS,
-	member_id,
-	chamber
+	user
 });
 
 export const SUBMIT_TEAM_ERROR = 'SUBMIT_TEAM_ERROR';
@@ -183,11 +182,10 @@ export const submitTeamError = error => ({
 export const submitTeam = () => (dispatch, getState) => {
 	dispatch(submitTeamRequest());
 	const authToken = getState().auth.authToken;
-	return fetch(`${API_BASE_URL}/user/self/submitTeam`, 
+	return fetch(`${API_BASE_URL}/user/self/submit-team`, 
 		{
       method: 'PUT',
       headers: {
-        		'Content-Type': 'application/json',
 				'Accept': 'application/json',
 				'Authorization': `Bearer ${authToken}`
 			}
